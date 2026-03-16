@@ -648,16 +648,25 @@ window._botSymbols = <?= json_encode(array_map(fn($b) => ['name'=>$b['bot_name']
         }
     }
 
-    // Auto-refresh cada 15s — fuerza recarga completa ignorando el hash
-    setTimeout(function() {
-        window.location.href = location.pathname + '?' + Date.now() + location.hash;
-    }, 15000);
+    // Auto-refresh cada 15s — se pausa si hay una operación en curso (AI, optimización, reset)
+    window._pauseRefresh = false;
+    function scheduleRefresh() {
+        setTimeout(function() {
+            if (window._pauseRefresh) {
+                scheduleRefresh();
+            } else {
+                window.location.href = location.pathname + '?' + Date.now() + location.hash;
+            }
+        }, 15000);
+    }
+    scheduleRefresh();
 })();
 
 // AI Analysis
 async function runAiAnalysis() {
     const btn = document.getElementById('ai-run-btn');
     const out = document.getElementById('ai-output');
+    window._pauseRefresh = true;
     btn.disabled=true; btn.textContent='Analizando...';
     out.innerHTML='<span style="color:var(--muted);font-family:var(--mono);font-size:.8rem">Consultando a Claude...</span>';
     const prompt = `Sos un experto en trading algorítmico y grid bots. Analizá el siguiente estado del portfolio y dá un resumen claro y directo en español.
@@ -723,12 +732,14 @@ Sé directo. Usá los números reales. Evitá frases genéricas.`;
         out.innerHTML=`<div style="padding:.5rem 0">${renderMd(text)}</div><div style="margin-top:1rem;font-size:.7rem;color:var(--muted);font-family:var(--mono)">Analizado: ${new Date().toLocaleTimeString()}</div>`;
     } catch(e) { out.innerHTML=`<span style="color:var(--red);font-family:var(--mono)">Error: ${e.message}</span>`; }
     btn.disabled=false; btn.textContent='Analizar ahora';
+    window._pauseRefresh = false;
 }
 
 // Reset bot
 async function resetBot(botName) {
     if (!confirm(`Resetear ${botName}?\n\nEsto va a:\n1. Liquidar todas las posiciones abiertas al precio actual\n2. Recentrar el grid alrededor del precio actual\n\nDespués tenés que reiniciar el bot manualmente.`)) return;
 
+    window._pauseRefresh = true;
     const btn = event.currentTarget;
     btn.disabled = true;
     btn.textContent = 'Procesando...';
@@ -759,6 +770,7 @@ async function resetBot(botName) {
     }
     btn.disabled = false;
     btn.textContent = 'Resetear y recentrar';
+    window._pauseRefresh = false;
 }
 
 // Optimization
@@ -766,6 +778,7 @@ async function runOptimization() {
     const btn=document.getElementById('opt-run-btn');
     const out=document.getElementById('opt-output');
     const days=document.getElementById('opt-days').value;
+    window._pauseRefresh = true;
     btn.disabled=true; btn.textContent='Analizando...';
     out.innerHTML='<span style="color:var(--muted);font-family:var(--mono);font-size:.8rem">Descargando datos de Binance...</span>';
     const bots=window._botSymbols;
@@ -815,6 +828,7 @@ async function runOptimization() {
     html+=`</div><div style="margin-top:1rem;font-size:.7rem;color:var(--muted);font-family:var(--mono)">Analizado: ${new Date().toLocaleTimeString()} | ${days} días</div>`;
     out.innerHTML=html;
     btn.disabled=false; btn.textContent='Analizar';
+    window._pauseRefresh = false;
 }
 
 async function applyOptimization(botName,lower,upper,levels) {
