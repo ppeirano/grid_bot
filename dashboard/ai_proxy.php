@@ -50,8 +50,8 @@ if (!$prompt) {
 }
 
 // Limitar largo del prompt
-if (strlen($prompt) > 10000) {
-    echo json_encode(['error' => 'Prompt demasiado largo (máximo 10000 caracteres)']);
+if (strlen($prompt) > 50000) {
+    echo json_encode(['error' => 'Prompt demasiado largo (máximo 50000 caracteres)']);
     exit;
 }
 
