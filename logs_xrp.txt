@@ -1,0 +1,220 @@
+2026-03-16 09:21:44,717 [XRP] [INFO] Parametros actualizados desde BD: $1.3285-$1.5015 (15 niveles)
+2026-03-16 09:21:44,723 [XRP] [INFO] Estado recuperado | USDT: $192.58 | P&L: $7.2908
+2026-03-16 09:21:44,723 [XRP] [INFO] Grid: $1.3285 - $1.5015 | Niveles: 15 | Step: $0.011533 | Capital/nivel: $13.33
+2026-03-16 09:21:44,979 [XRP] [INFO] Liquidando 1 posiciones previas al recentrar...
+2026-03-16 09:21:45,008 [XRP] [INFO] [VENTA-FORZADA] Nivel 7 | $1.4758 | 9.057971 | Ganancia: $0.6030
+2026-03-16 09:21:45,029 [XRP] [INFO] Grid: $1.3893 - $1.5623 | Niveles: 15 | Step: $0.011533 | Capital/nivel: $13.33
+2026-03-16 09:21:45,030 [XRP] [INFO] Grid recentrado en $1.4758
+2026-03-16 09:21:45,063 [XRP] [INFO] [COMPRA] Nivel 7 | $1.4758 | 9.034648 | Costo: $13.33
+2026-03-16 09:21:45,710 [XRP] [INFO] Posicion inicial abierta en nivel 7 | $1.4758
+2026-03-16 09:21:45,710 [XRP] [INFO] Bot corriendo... Ctrl+C para detener.
+2026-03-16 09:22:37,300 [XRP] [INFO] Precio: $1.4756 | USDT: $192.62 | Asset: 9.034648 | Total: $205.95 | P&L: $5.95 (2.97%) [SL: -15%] | Trades: 121 | Realizado: $7.8937
+2026-03-16 09:23:38,907 [XRP] [INFO] Precio: $1.4747 | USDT: $192.62 | Asset: 9.034648 | Total: $205.94 | P&L: $5.94 (2.97%) [SL: -15%] | Trades: 121 | Realizado: $7.8937
+2026-03-16 09:24:40,555 [XRP] [INFO] Precio: $1.4792 | USDT: $192.62 | Asset: 9.034648 | Total: $205.98 | P&L: $5.98 (2.99%) [SL: -15%] | Trades: 121 | Realizado: $7.8937
+2026-03-16 09:25:42,267 [XRP] [INFO] Precio: $1.4771 | USDT: $192.62 | Asset: 9.034648 | Total: $205.96 | P&L: $5.96 (2.98%) [SL: -15%] | Trades: 121 | Realizado: $7.8937
+2026-03-16 09:26:43,907 [XRP] [INFO] Precio: $1.4791 | USDT: $192.62 | Asset: 9.034648 | Total: $205.98 | P&L: $5.98 (2.99%) [SL: -15%] | Trades: 121 | Realizado: $7.8937
+2026-03-16 09:27:45,599 [XRP] [INFO] Precio: $1.4790 | USDT: $192.62 | Asset: 9.034648 | Total: $205.98 | P&L: $5.98 (2.99%) [SL: -15%] | Trades: 121 | Realizado: $7.8937
+2026-03-16 09:28:47,242 [XRP] [INFO] Precio: $1.4770 | USDT: $192.62 | Asset: 9.034648 | Total: $205.96 | P&L: $5.96 (2.98%) [SL: -15%] | Trades: 121 | Realizado: $7.8937
+2026-03-16 09:29:48,896 [XRP] [INFO] Precio: $1.4792 | USDT: $192.62 | Asset: 9.034648 | Total: $205.98 | P&L: $5.98 (2.99%) [SL: -15%] | Trades: 121 | Realizado: $7.8937
+2026-03-16 09:30:50,516 [XRP] [INFO] Precio: $1.4777 | USDT: $192.62 | Asset: 9.034648 | Total: $205.97 | P&L: $5.97 (2.98%) [SL: -15%] | Trades: 121 | Realizado: $7.8937
+2026-03-16 09:31:52,192 [XRP] [INFO] Precio: $1.4792 | USDT: $192.62 | Asset: 9.034648 | Total: $205.98 | P&L: $5.98 (2.99%) [SL: -15%] | Trades: 121 | Realizado: $7.8937
+2026-03-16 09:32:53,882 [XRP] [INFO] Precio: $1.4805 | USDT: $192.62 | Asset: 9.034648 | Total: $205.99 | P&L: $5.99 (3.00%) [SL: -15%] | Trades: 121 | Realizado: $7.8937
+2026-03-16 09:33:55,580 [XRP] [INFO] Precio: $1.4802 | USDT: $192.62 | Asset: 9.034648 | Total: $205.99 | P&L: $5.99 (2.99%) [SL: -15%] | Trades: 121 | Realizado: $7.8937
+2026-03-16 09:34:57,599 [XRP] [INFO] Precio: $1.4789 | USDT: $192.62 | Asset: 9.034648 | Total: $205.98 | P&L: $5.98 (2.99%) [SL: -15%] | Trades: 121 | Realizado: $7.8937
+2026-03-16 09:35:59,300 [XRP] [INFO] Precio: $1.4766 | USDT: $192.62 | Asset: 9.034648 | Total: $205.96 | P&L: $5.96 (2.98%) [SL: -15%] | Trades: 121 | Realizado: $7.8937
+2026-03-16 09:37:00,939 [XRP] [INFO] Precio: $1.4771 | USDT: $192.62 | Asset: 9.034648 | Total: $205.96 | P&L: $5.96 (2.98%) [SL: -15%] | Trades: 121 | Realizado: $7.8937
+2026-03-16 09:38:02,583 [XRP] [INFO] Precio: $1.4770 | USDT: $192.62 | Asset: 9.034648 | Total: $205.96 | P&L: $5.96 (2.98%) [SL: -15%] | Trades: 121 | Realizado: $7.8937
+2026-03-16 09:39:04,194 [XRP] [INFO] Precio: $1.4771 | USDT: $192.62 | Asset: 9.034648 | Total: $205.96 | P&L: $5.96 (2.98%) [SL: -15%] | Trades: 121 | Realizado: $7.8937
+2026-03-16 09:40:05,853 [XRP] [INFO] Precio: $1.4791 | USDT: $192.62 | Asset: 9.034648 | Total: $205.98 | P&L: $5.98 (2.99%) [SL: -15%] | Trades: 121 | Realizado: $7.8937
+2026-03-16 09:41:07,528 [XRP] [INFO] Precio: $1.4795 | USDT: $192.62 | Asset: 9.034648 | Total: $205.98 | P&L: $5.98 (2.99%) [SL: -15%] | Trades: 121 | Realizado: $7.8937
+2026-03-16 09:42:09,155 [XRP] [INFO] Precio: $1.4787 | USDT: $192.62 | Asset: 9.034648 | Total: $205.98 | P&L: $5.98 (2.99%) [SL: -15%] | Trades: 121 | Realizado: $7.8937
+2026-03-16 09:43:11,168 [XRP] [INFO] Precio: $1.4787 | USDT: $192.62 | Asset: 9.034648 | Total: $205.98 | P&L: $5.98 (2.99%) [SL: -15%] | Trades: 121 | Realizado: $7.8937
+2026-03-16 09:44:12,875 [XRP] [INFO] Precio: $1.4775 | USDT: $192.62 | Asset: 9.034648 | Total: $205.97 | P&L: $5.97 (2.98%) [SL: -15%] | Trades: 121 | Realizado: $7.8937
+2026-03-16 09:45:14,490 [XRP] [INFO] Precio: $1.4778 | USDT: $192.62 | Asset: 9.034648 | Total: $205.97 | P&L: $5.97 (2.98%) [SL: -15%] | Trades: 121 | Realizado: $7.8937
+2026-03-16 09:46:16,117 [XRP] [INFO] Precio: $1.4787 | USDT: $192.62 | Asset: 9.034648 | Total: $205.98 | P&L: $5.98 (2.99%) [SL: -15%] | Trades: 121 | Realizado: $7.8937
+2026-03-16 09:47:17,812 [XRP] [INFO] Precio: $1.4779 | USDT: $192.62 | Asset: 9.034648 | Total: $205.97 | P&L: $5.97 (2.98%) [SL: -15%] | Trades: 121 | Realizado: $7.8937
+2026-03-16 09:48:19,491 [XRP] [INFO] Precio: $1.4762 | USDT: $192.62 | Asset: 9.034648 | Total: $205.95 | P&L: $5.95 (2.98%) [SL: -15%] | Trades: 121 | Realizado: $7.8937
+2026-03-16 09:49:21,105 [XRP] [INFO] Precio: $1.4760 | USDT: $192.62 | Asset: 9.034648 | Total: $205.95 | P&L: $5.95 (2.98%) [SL: -15%] | Trades: 121 | Realizado: $7.8937
+2026-03-16 09:50:22,793 [XRP] [INFO] Precio: $1.4768 | USDT: $192.62 | Asset: 9.034648 | Total: $205.96 | P&L: $5.96 (2.98%) [SL: -15%] | Trades: 121 | Realizado: $7.8937
+2026-03-16 09:51:24,451 [XRP] [INFO] Precio: $1.4766 | USDT: $192.62 | Asset: 9.034648 | Total: $205.96 | P&L: $5.96 (2.98%) [SL: -15%] | Trades: 121 | Realizado: $7.8937
+2026-03-16 09:52:26,086 [XRP] [INFO] Precio: $1.4761 | USDT: $192.62 | Asset: 9.034648 | Total: $205.95 | P&L: $5.95 (2.98%) [SL: -15%] | Trades: 121 | Realizado: $7.8937
+2026-03-16 09:53:27,707 [XRP] [INFO] Precio: $1.4762 | USDT: $192.62 | Asset: 9.034648 | Total: $205.95 | P&L: $5.95 (2.98%) [SL: -15%] | Trades: 121 | Realizado: $7.8937
+2026-03-16 09:54:29,367 [XRP] [INFO] Precio: $1.4754 | USDT: $192.62 | Asset: 9.034648 | Total: $205.95 | P&L: $5.95 (2.97%) [SL: -15%] | Trades: 121 | Realizado: $7.8937
+2026-03-16 09:55:31,022 [XRP] [INFO] Precio: $1.4755 | USDT: $192.62 | Asset: 9.034648 | Total: $205.95 | P&L: $5.95 (2.97%) [SL: -15%] | Trades: 121 | Realizado: $7.8937
+2026-03-16 09:56:32,644 [XRP] [INFO] Precio: $1.4758 | USDT: $192.62 | Asset: 9.034648 | Total: $205.95 | P&L: $5.95 (2.97%) [SL: -15%] | Trades: 121 | Realizado: $7.8937
+2026-03-16 09:57:34,288 [XRP] [INFO] Precio: $1.4761 | USDT: $192.62 | Asset: 9.034648 | Total: $205.95 | P&L: $5.95 (2.98%) [SL: -15%] | Trades: 121 | Realizado: $7.8937
+2026-03-16 09:58:36,194 [XRP] [INFO] Precio: $1.4764 | USDT: $192.62 | Asset: 9.034648 | Total: $205.96 | P&L: $5.96 (2.98%) [SL: -15%] | Trades: 121 | Realizado: $7.8937
+2026-03-16 09:59:38,273 [XRP] [INFO] Precio: $1.4762 | USDT: $192.62 | Asset: 9.034648 | Total: $205.95 | P&L: $5.95 (2.98%) [SL: -15%] | Trades: 121 | Realizado: $7.8937
+2026-03-16 10:00:39,949 [XRP] [INFO] Precio: $1.4765 | USDT: $192.62 | Asset: 9.034648 | Total: $205.96 | P&L: $5.96 (2.98%) [SL: -15%] | Trades: 121 | Realizado: $7.8937
+2026-03-16 10:01:36,545 [XRP] [INFO] Bot detenido por usuario.
+2026-03-16 10:01:36,788 [XRP] [INFO] Precio: $1.4766 | USDT: $192.62 | Asset: 9.034648 | Total: $205.96 | P&L: $5.96 (2.98%) [SL: -15%] | Trades: 121 | Realizado: $7.8937
+2026-03-16 10:05:41,289 [XRP] [INFO] Parametros actualizados desde BD: $1.3285-$1.5015 (15 niveles)
+2026-03-16 10:05:41,295 [XRP] [INFO] Estado recuperado | USDT: $192.62 | P&L: $7.8937
+2026-03-16 10:05:41,295 [XRP] [INFO] Grid: $1.3285 - $1.5015 | Niveles: 15 | Step: $0.011533 | Capital/nivel: $13.33
+2026-03-16 10:05:41,572 [XRP] [INFO] Liquidando 1 posiciones previas al recentrar...
+2026-03-16 10:05:41,601 [XRP] [INFO] [VENTA-FORZADA] Nivel 7 | $1.4772 | Compra: $1.4758 | 9.034648 | Ganancia: $0.0126
+2026-03-16 10:05:42,271 [XRP] [INFO] Grid: $1.3907 - $1.5637 | Niveles: 15 | Step: $0.011533 | Capital/nivel: $13.33
+2026-03-16 10:05:42,272 [XRP] [INFO] Grid recentrado en $1.4772
+2026-03-16 10:05:42,289 [XRP] [INFO] [COMPRA] Nivel 7 | $1.4772 | 9.026085 | Costo: $13.33
+2026-03-16 10:05:42,950 [XRP] [INFO] Posicion inicial abierta en nivel 7 | $1.4772
+2026-03-16 10:05:42,951 [XRP] [INFO] Bot corriendo... Ctrl+C para detener.
+2026-03-16 10:06:17,963 [XRP] [INFO] Bot detenido por usuario.
+2026-03-16 10:06:18,206 [XRP] [INFO] Precio: $1.4774 | USDT: $192.63 | Asset: 9.026085 | Total: $205.96 | P&L: $5.96 (2.98%) [SL: -15%] | Trades: 123 | Realizado: $7.9064
+2026-03-16 10:06:26,205 [XRP] [INFO] Parametros actualizados desde BD: $1.3285-$1.5015 (15 niveles)
+2026-03-16 10:06:26,210 [XRP] [INFO] Estado recuperado | USDT: $192.63 | P&L: $7.9064
+2026-03-16 10:06:26,211 [XRP] [INFO] Grid: $1.3285 - $1.5015 | Niveles: 15 | Step: $0.011533 | Capital/nivel: $13.33
+2026-03-16 10:06:26,451 [XRP] [INFO] Liquidando 1 posiciones previas al recentrar...
+2026-03-16 10:06:26,472 [XRP] [INFO] [VENTA-FORZADA] Nivel 7 | $1.4779 | Compra: $1.4772 | 9.026085 | Ganancia: $0.0063
+2026-03-16 10:06:27,131 [XRP] [INFO] Grid: $1.3914 - $1.5644 | Niveles: 15 | Step: $0.011533 | Capital/nivel: $13.33
+2026-03-16 10:06:27,131 [XRP] [INFO] Grid recentrado en $1.4779
+2026-03-16 10:06:27,151 [XRP] [INFO] [COMPRA] Nivel 7 | $1.4779 | 9.021810 | Costo: $13.33
+2026-03-16 10:06:27,791 [XRP] [INFO] Posicion inicial abierta en nivel 7 | $1.4779
+2026-03-16 10:06:27,792 [XRP] [INFO] Bot corriendo... Ctrl+C para detener.
+2026-03-16 10:07:19,403 [XRP] [INFO] Precio: $1.4778 | USDT: $192.64 | Asset: 9.021810 | Total: $205.97 | P&L: $5.97 (2.98%) [SL: -15%] | Trades: 125 | Realizado: $7.9127
+2026-03-16 10:08:21,022 [XRP] [INFO] Precio: $1.4771 | USDT: $192.64 | Asset: 9.021810 | Total: $205.96 | P&L: $5.96 (2.98%) [SL: -15%] | Trades: 125 | Realizado: $7.9127
+2026-03-16 10:09:22,640 [XRP] [INFO] Precio: $1.4749 | USDT: $192.64 | Asset: 9.021810 | Total: $205.94 | P&L: $5.94 (2.97%) [SL: -15%] | Trades: 125 | Realizado: $7.9127
+2026-03-16 10:10:24,270 [XRP] [INFO] Precio: $1.4750 | USDT: $192.64 | Asset: 9.021810 | Total: $205.94 | P&L: $5.94 (2.97%) [SL: -15%] | Trades: 125 | Realizado: $7.9127
+2026-03-16 10:11:25,884 [XRP] [INFO] Precio: $1.4767 | USDT: $192.64 | Asset: 9.021810 | Total: $205.96 | P&L: $5.96 (2.98%) [SL: -15%] | Trades: 125 | Realizado: $7.9127
+2026-03-16 10:12:27,606 [XRP] [INFO] Precio: $1.4776 | USDT: $192.64 | Asset: 9.021810 | Total: $205.97 | P&L: $5.97 (2.98%) [SL: -15%] | Trades: 125 | Realizado: $7.9127
+2026-03-16 10:13:29,220 [XRP] [INFO] Precio: $1.4782 | USDT: $192.64 | Asset: 9.021810 | Total: $205.97 | P&L: $5.97 (2.99%) [SL: -15%] | Trades: 125 | Realizado: $7.9127
+2026-03-16 10:14:31,171 [XRP] [INFO] Precio: $1.4795 | USDT: $192.64 | Asset: 9.021810 | Total: $205.98 | P&L: $5.98 (2.99%) [SL: -15%] | Trades: 125 | Realizado: $7.9127
+2026-03-16 10:15:32,799 [XRP] [INFO] Precio: $1.4794 | USDT: $192.64 | Asset: 9.021810 | Total: $205.98 | P&L: $5.98 (2.99%) [SL: -15%] | Trades: 125 | Realizado: $7.9127
+2026-03-16 10:16:34,431 [XRP] [INFO] Precio: $1.4790 | USDT: $192.64 | Asset: 9.021810 | Total: $205.98 | P&L: $5.98 (2.99%) [SL: -15%] | Trades: 125 | Realizado: $7.9127
+2026-03-16 10:17:36,057 [XRP] [INFO] Precio: $1.4785 | USDT: $192.64 | Asset: 9.021810 | Total: $205.97 | P&L: $5.97 (2.99%) [SL: -15%] | Trades: 125 | Realizado: $7.9127
+2026-03-16 10:18:37,733 [XRP] [INFO] Precio: $1.4785 | USDT: $192.64 | Asset: 9.021810 | Total: $205.97 | P&L: $5.97 (2.99%) [SL: -15%] | Trades: 125 | Realizado: $7.9127
+2026-03-16 10:19:39,436 [XRP] [INFO] Precio: $1.4768 | USDT: $192.64 | Asset: 9.021810 | Total: $205.96 | P&L: $5.96 (2.98%) [SL: -15%] | Trades: 125 | Realizado: $7.9127
+2026-03-16 10:20:41,113 [XRP] [INFO] Precio: $1.4780 | USDT: $192.64 | Asset: 9.021810 | Total: $205.97 | P&L: $5.97 (2.98%) [SL: -15%] | Trades: 125 | Realizado: $7.9127
+2026-03-16 10:21:42,871 [XRP] [INFO] Precio: $1.4791 | USDT: $192.64 | Asset: 9.021810 | Total: $205.98 | P&L: $5.98 (2.99%) [SL: -15%] | Trades: 125 | Realizado: $7.9127
+2026-03-16 10:22:44,514 [XRP] [INFO] Precio: $1.4792 | USDT: $192.64 | Asset: 9.021810 | Total: $205.98 | P&L: $5.98 (2.99%) [SL: -15%] | Trades: 125 | Realizado: $7.9127
+2026-03-16 10:23:46,334 [XRP] [INFO] Precio: $1.4793 | USDT: $192.64 | Asset: 9.021810 | Total: $205.98 | P&L: $5.98 (2.99%) [SL: -15%] | Trades: 125 | Realizado: $7.9127
+2026-03-16 10:24:48,033 [XRP] [INFO] Precio: $1.4793 | USDT: $192.64 | Asset: 9.021810 | Total: $205.98 | P&L: $5.98 (2.99%) [SL: -15%] | Trades: 125 | Realizado: $7.9127
+2026-03-16 10:25:49,662 [XRP] [INFO] Precio: $1.4776 | USDT: $192.64 | Asset: 9.021810 | Total: $205.97 | P&L: $5.97 (2.98%) [SL: -15%] | Trades: 125 | Realizado: $7.9127
+2026-03-16 10:26:51,269 [XRP] [INFO] Precio: $1.4780 | USDT: $192.64 | Asset: 9.021810 | Total: $205.97 | P&L: $5.97 (2.98%) [SL: -15%] | Trades: 125 | Realizado: $7.9127
+2026-03-16 10:27:52,931 [XRP] [INFO] Precio: $1.4797 | USDT: $192.64 | Asset: 9.021810 | Total: $205.99 | P&L: $5.99 (2.99%) [SL: -15%] | Trades: 125 | Realizado: $7.9127
+2026-03-16 10:28:54,603 [XRP] [INFO] Precio: $1.4790 | USDT: $192.64 | Asset: 9.021810 | Total: $205.98 | P&L: $5.98 (2.99%) [SL: -15%] | Trades: 125 | Realizado: $7.9127
+2026-03-16 10:29:56,284 [XRP] [INFO] Precio: $1.4790 | USDT: $192.64 | Asset: 9.021810 | Total: $205.98 | P&L: $5.98 (2.99%) [SL: -15%] | Trades: 125 | Realizado: $7.9127
+2026-03-16 10:30:57,961 [XRP] [INFO] Precio: $1.4785 | USDT: $192.64 | Asset: 9.021810 | Total: $205.97 | P&L: $5.97 (2.99%) [SL: -15%] | Trades: 125 | Realizado: $7.9127
+2026-03-16 10:31:59,909 [XRP] [INFO] Precio: $1.4805 | USDT: $192.64 | Asset: 9.021810 | Total: $205.99 | P&L: $5.99 (3.00%) [SL: -15%] | Trades: 125 | Realizado: $7.9127
+2026-03-16 10:33:01,592 [XRP] [INFO] Precio: $1.4822 | USDT: $192.64 | Asset: 9.021810 | Total: $206.01 | P&L: $6.01 (3.00%) [SL: -15%] | Trades: 125 | Realizado: $7.9127
+2026-03-16 10:33:52,929 [XRP] [INFO] [VENTA] Nivel 7 | $1.4837 | Compra: $1.4779 | 9.021810 | Ganancia: $0.0520
+2026-03-16 10:34:03,904 [XRP] [INFO] Precio: $1.4842 | USDT: $206.02 | Asset: 0.000000 | Total: $206.02 | P&L: $6.02 (3.01%) [SL: -15%] | Trades: 126 | Realizado: $7.9647
+2026-03-16 10:35:05,531 [XRP] [INFO] Precio: $1.4883 | USDT: $206.02 | Asset: 0.000000 | Total: $206.02 | P&L: $6.02 (3.01%) [SL: -15%] | Trades: 126 | Realizado: $7.9647
+2026-03-16 10:36:07,230 [XRP] [INFO] Precio: $1.4889 | USDT: $206.02 | Asset: 0.000000 | Total: $206.02 | P&L: $6.02 (3.01%) [SL: -15%] | Trades: 126 | Realizado: $7.9647
+2026-03-16 10:37:08,924 [XRP] [INFO] Precio: $1.4875 | USDT: $206.02 | Asset: 0.000000 | Total: $206.02 | P&L: $6.02 (3.01%) [SL: -15%] | Trades: 126 | Realizado: $7.9647
+2026-03-16 10:38:10,575 [XRP] [INFO] Precio: $1.4863 | USDT: $206.02 | Asset: 0.000000 | Total: $206.02 | P&L: $6.02 (3.01%) [SL: -15%] | Trades: 126 | Realizado: $7.9647
+2026-03-16 10:39:12,228 [XRP] [INFO] Precio: $1.4879 | USDT: $206.02 | Asset: 0.000000 | Total: $206.02 | P&L: $6.02 (3.01%) [SL: -15%] | Trades: 126 | Realizado: $7.9647
+2026-03-16 10:40:13,895 [XRP] [INFO] Precio: $1.4881 | USDT: $206.02 | Asset: 0.000000 | Total: $206.02 | P&L: $6.02 (3.01%) [SL: -15%] | Trades: 126 | Realizado: $7.9647
+2026-03-16 10:41:15,583 [XRP] [INFO] Precio: $1.4884 | USDT: $206.02 | Asset: 0.000000 | Total: $206.02 | P&L: $6.02 (3.01%) [SL: -15%] | Trades: 126 | Realizado: $7.9647
+2026-03-16 10:42:17,279 [XRP] [INFO] Precio: $1.4901 | USDT: $206.02 | Asset: 0.000000 | Total: $206.02 | P&L: $6.02 (3.01%) [SL: -15%] | Trades: 126 | Realizado: $7.9647
+2026-03-16 10:43:18,900 [XRP] [INFO] Precio: $1.4868 | USDT: $206.02 | Asset: 0.000000 | Total: $206.02 | P&L: $6.02 (3.01%) [SL: -15%] | Trades: 126 | Realizado: $7.9647
+2026-03-16 10:44:20,570 [XRP] [INFO] [COMPRA] Nivel 7 | $1.4721 | 9.057151 | Costo: $13.33
+2026-03-16 10:44:21,230 [XRP] [INFO] Precio: $1.4829 | USDT: $192.69 | Asset: 9.057151 | Total: $206.12 | P&L: $6.12 (3.06%) [SL: -15%] | Trades: 127 | Realizado: $7.9647
+2026-03-16 10:45:02,619 [XRP] [INFO] [VENTA] Nivel 7 | $1.4837 | Compra: $1.4721 | 9.057151 | Ganancia: $0.1045
+2026-03-16 10:45:23,899 [XRP] [INFO] Precio: $1.4848 | USDT: $206.13 | Asset: 0.000000 | Total: $206.13 | P&L: $6.13 (3.06%) [SL: -15%] | Trades: 128 | Realizado: $8.0692
+2026-03-16 10:46:25,488 [XRP] [INFO] Precio: $1.4879 | USDT: $206.13 | Asset: 0.000000 | Total: $206.13 | P&L: $6.13 (3.06%) [SL: -15%] | Trades: 128 | Realizado: $8.0692
+2026-03-16 10:47:27,230 [XRP] [INFO] Precio: $1.4874 | USDT: $206.13 | Asset: 0.000000 | Total: $206.13 | P&L: $6.13 (3.06%) [SL: -15%] | Trades: 128 | Realizado: $8.0692
+2026-03-16 11:09:51,866 [XRP] [INFO] Precio: $1.4877 | USDT: $206.13 | Asset: 0.000000 | Total: $206.13 | P&L: $6.13 (3.06%) [SL: -15%] | Trades: 128 | Realizado: $8.0692
+2026-03-16 11:10:53,900 [XRP] [INFO] Precio: $1.4875 | USDT: $206.13 | Asset: 0.000000 | Total: $206.13 | P&L: $6.13 (3.06%) [SL: -15%] | Trades: 128 | Realizado: $8.0692
+2026-03-16 11:11:56,297 [XRP] [INFO] Precio: $1.4895 | USDT: $206.13 | Asset: 0.000000 | Total: $206.13 | P&L: $6.13 (3.06%) [SL: -15%] | Trades: 128 | Realizado: $8.0692
+2026-03-16 11:12:58,359 [XRP] [INFO] Precio: $1.4860 | USDT: $206.13 | Asset: 0.000000 | Total: $206.13 | P&L: $6.13 (3.06%) [SL: -15%] | Trades: 128 | Realizado: $8.0692
+2026-03-16 11:14:00,525 [XRP] [INFO] Precio: $1.4883 | USDT: $206.13 | Asset: 0.000000 | Total: $206.13 | P&L: $6.13 (3.06%) [SL: -15%] | Trades: 128 | Realizado: $8.0692
+2026-03-16 11:15:02,555 [XRP] [INFO] Precio: $1.4888 | USDT: $206.13 | Asset: 0.000000 | Total: $206.13 | P&L: $6.13 (3.06%) [SL: -15%] | Trades: 128 | Realizado: $8.0692
+2026-03-16 11:16:05,047 [XRP] [INFO] Precio: $1.4871 | USDT: $206.13 | Asset: 0.000000 | Total: $206.13 | P&L: $6.13 (3.06%) [SL: -15%] | Trades: 128 | Realizado: $8.0692
+2026-03-16 11:17:07,147 [XRP] [INFO] Precio: $1.4879 | USDT: $206.13 | Asset: 0.000000 | Total: $206.13 | P&L: $6.13 (3.06%) [SL: -15%] | Trades: 128 | Realizado: $8.0692
+2026-03-16 11:18:09,466 [XRP] [INFO] Precio: $1.4870 | USDT: $206.13 | Asset: 0.000000 | Total: $206.13 | P&L: $6.13 (3.06%) [SL: -15%] | Trades: 128 | Realizado: $8.0692
+2026-03-16 11:19:11,766 [XRP] [INFO] Precio: $1.4888 | USDT: $206.13 | Asset: 0.000000 | Total: $206.13 | P&L: $6.13 (3.06%) [SL: -15%] | Trades: 128 | Realizado: $8.0692
+2026-03-16 11:20:13,749 [XRP] [INFO] Precio: $1.4863 | USDT: $206.13 | Asset: 0.000000 | Total: $206.13 | P&L: $6.13 (3.06%) [SL: -15%] | Trades: 128 | Realizado: $8.0692
+2026-03-16 11:21:16,632 [XRP] [INFO] Precio: $1.4871 | USDT: $206.13 | Asset: 0.000000 | Total: $206.13 | P&L: $6.13 (3.06%) [SL: -15%] | Trades: 128 | Realizado: $8.0692
+2026-03-16 11:22:19,198 [XRP] [INFO] Precio: $1.4904 | USDT: $206.13 | Asset: 0.000000 | Total: $206.13 | P&L: $6.13 (3.06%) [SL: -15%] | Trades: 128 | Realizado: $8.0692
+2026-03-16 11:23:21,552 [XRP] [INFO] Precio: $1.4897 | USDT: $206.13 | Asset: 0.000000 | Total: $206.13 | P&L: $6.13 (3.06%) [SL: -15%] | Trades: 128 | Realizado: $8.0692
+2026-03-16 11:24:23,941 [XRP] [INFO] Precio: $1.4891 | USDT: $206.13 | Asset: 0.000000 | Total: $206.13 | P&L: $6.13 (3.06%) [SL: -15%] | Trades: 128 | Realizado: $8.0692
+2026-03-16 11:25:26,043 [XRP] [INFO] Precio: $1.4894 | USDT: $206.13 | Asset: 0.000000 | Total: $206.13 | P&L: $6.13 (3.06%) [SL: -15%] | Trades: 128 | Realizado: $8.0692
+2026-03-16 11:26:28,248 [XRP] [INFO] Precio: $1.4885 | USDT: $206.13 | Asset: 0.000000 | Total: $206.13 | P&L: $6.13 (3.06%) [SL: -15%] | Trades: 128 | Realizado: $8.0692
+2026-03-16 11:27:30,266 [XRP] [INFO] Precio: $1.4884 | USDT: $206.13 | Asset: 0.000000 | Total: $206.13 | P&L: $6.13 (3.06%) [SL: -15%] | Trades: 128 | Realizado: $8.0692
+2026-03-16 11:28:32,603 [XRP] [INFO] Precio: $1.4880 | USDT: $206.13 | Asset: 0.000000 | Total: $206.13 | P&L: $6.13 (3.06%) [SL: -15%] | Trades: 128 | Realizado: $8.0692
+2026-03-16 11:29:34,834 [XRP] [INFO] Precio: $1.4853 | USDT: $206.13 | Asset: 0.000000 | Total: $206.13 | P&L: $6.13 (3.06%) [SL: -15%] | Trades: 128 | Realizado: $8.0692
+2026-03-16 11:29:55,605 [XRP] [INFO] [COMPRA] Nivel 7 | $1.4721 | 9.057151 | Costo: $13.33
+2026-03-16 11:43:23,766 [XRP] [INFO] Precio: $1.4737 | USDT: $192.79 | Asset: 9.057151 | Total: $206.14 | P&L: $6.14 (3.07%) [SL: -15%] | Trades: 129 | Realizado: $8.0692
+2026-03-16 11:44:25,874 [XRP] [INFO] Precio: $1.4758 | USDT: $192.79 | Asset: 9.057151 | Total: $206.16 | P&L: $6.16 (3.08%) [SL: -15%] | Trades: 129 | Realizado: $8.0692
+2026-03-16 11:45:27,912 [XRP] [INFO] Precio: $1.4772 | USDT: $192.79 | Asset: 9.057151 | Total: $206.17 | P&L: $6.17 (3.09%) [SL: -15%] | Trades: 129 | Realizado: $8.0692
+2026-03-16 11:46:30,192 [XRP] [INFO] Precio: $1.4786 | USDT: $192.79 | Asset: 9.057151 | Total: $206.18 | P&L: $6.18 (3.09%) [SL: -15%] | Trades: 129 | Realizado: $8.0692
+2026-03-16 11:47:32,400 [XRP] [INFO] Precio: $1.4777 | USDT: $192.79 | Asset: 9.057151 | Total: $206.18 | P&L: $6.18 (3.09%) [SL: -15%] | Trades: 129 | Realizado: $8.0692
+2026-03-16 11:48:34,844 [XRP] [INFO] Precio: $1.4772 | USDT: $192.79 | Asset: 9.057151 | Total: $206.17 | P&L: $6.17 (3.09%) [SL: -15%] | Trades: 129 | Realizado: $8.0692
+2026-03-16 11:49:36,957 [XRP] [INFO] Precio: $1.4799 | USDT: $192.79 | Asset: 9.057151 | Total: $206.20 | P&L: $6.20 (3.10%) [SL: -15%] | Trades: 129 | Realizado: $8.0692
+2026-03-16 11:50:39,743 [XRP] [INFO] Precio: $1.4767 | USDT: $192.79 | Asset: 9.057151 | Total: $206.17 | P&L: $6.17 (3.08%) [SL: -15%] | Trades: 129 | Realizado: $8.0692
+2026-03-16 11:51:42,515 [XRP] [INFO] Precio: $1.4793 | USDT: $192.79 | Asset: 9.057151 | Total: $206.19 | P&L: $6.19 (3.10%) [SL: -15%] | Trades: 129 | Realizado: $8.0692
+2026-03-16 11:52:44,901 [XRP] [INFO] Precio: $1.4828 | USDT: $192.79 | Asset: 9.057151 | Total: $206.22 | P&L: $6.22 (3.11%) [SL: -15%] | Trades: 129 | Realizado: $8.0692
+2026-03-16 11:53:26,439 [XRP] [INFO] [VENTA] Nivel 7 | $1.4837 | Compra: $1.4721 | 9.057151 | Ganancia: $0.1045
+2026-03-16 11:53:47,792 [XRP] [INFO] Precio: $1.4839 | USDT: $206.23 | Asset: 0.000000 | Total: $206.23 | P&L: $6.23 (3.11%) [SL: -15%] | Trades: 130 | Realizado: $8.1737
+2026-03-16 12:00:05,582 [XRP] [INFO] Precio: $1.5059 | USDT: $206.23 | Asset: 0.000000 | Total: $206.23 | P&L: $6.23 (3.11%) [SL: -15%] | Trades: 130 | Realizado: $8.1737
+2026-03-16 12:01:07,468 [XRP] [INFO] Precio: $1.5093 | USDT: $206.23 | Asset: 0.000000 | Total: $206.23 | P&L: $6.23 (3.11%) [SL: -15%] | Trades: 130 | Realizado: $8.1737
+2026-03-16 12:02:09,481 [XRP] [INFO] Precio: $1.5113 | USDT: $206.23 | Asset: 0.000000 | Total: $206.23 | P&L: $6.23 (3.11%) [SL: -15%] | Trades: 130 | Realizado: $8.1737
+2026-03-16 12:02:30,193 [XRP] [INFO] [COMPRA] Nivel 9 | $1.4952 | 8.917425 | Costo: $13.33
+2026-03-16 12:03:12,359 [XRP] [INFO] Precio: $1.5006 | USDT: $192.90 | Asset: 8.917425 | Total: $206.28 | P&L: $6.28 (3.14%) [SL: -15%] | Trades: 131 | Realizado: $8.1737
+2026-03-16 12:04:14,396 [XRP] [INFO] Precio: $1.5006 | USDT: $192.90 | Asset: 8.917425 | Total: $206.28 | P&L: $6.28 (3.14%) [SL: -15%] | Trades: 131 | Realizado: $8.1737
+2026-03-16 12:05:16,466 [XRP] [INFO] Precio: $1.5017 | USDT: $192.90 | Asset: 8.917425 | Total: $206.29 | P&L: $6.29 (3.14%) [SL: -15%] | Trades: 131 | Realizado: $8.1737
+2026-03-16 12:06:18,565 [XRP] [INFO] Precio: $1.4964 | USDT: $192.90 | Asset: 8.917425 | Total: $206.24 | P&L: $6.24 (3.12%) [SL: -15%] | Trades: 131 | Realizado: $8.1737
+2026-03-16 12:07:20,927 [XRP] [INFO] Precio: $1.4996 | USDT: $192.90 | Asset: 8.917425 | Total: $206.27 | P&L: $6.27 (3.13%) [SL: -15%] | Trades: 131 | Realizado: $8.1737
+2026-03-16 12:08:22,852 [XRP] [INFO] Precio: $1.4979 | USDT: $192.90 | Asset: 8.917425 | Total: $206.25 | P&L: $6.25 (3.13%) [SL: -15%] | Trades: 131 | Realizado: $8.1737
+2026-03-16 12:08:43,590 [XRP] [INFO] [VENTA] Nivel 9 | $1.5067 | Compra: $1.4952 | 8.917425 | Ganancia: $0.1028
+2026-03-16 12:09:25,623 [XRP] [INFO] Precio: $1.5108 | USDT: $206.33 | Asset: 0.000000 | Total: $206.33 | P&L: $6.33 (3.17%) [SL: -15%] | Trades: 132 | Realizado: $8.2765
+2026-03-16 12:10:27,717 [XRP] [INFO] Precio: $1.5086 | USDT: $206.33 | Asset: 0.000000 | Total: $206.33 | P&L: $6.33 (3.17%) [SL: -15%] | Trades: 132 | Realizado: $8.2765
+2026-03-16 12:13:53,989 [XRP] [INFO] Precio: $1.5072 | USDT: $206.33 | Asset: 0.000000 | Total: $206.33 | P&L: $6.33 (3.17%) [SL: -15%] | Trades: 132 | Realizado: $8.2765
+2026-03-16 12:14:56,220 [XRP] [INFO] Precio: $1.5105 | USDT: $206.33 | Asset: 0.000000 | Total: $206.33 | P&L: $6.33 (3.17%) [SL: -15%] | Trades: 132 | Realizado: $8.2765
+2026-03-16 12:15:37,591 [XRP] [INFO] [COMPRA] Nivel 9 | $1.4952 | 8.917425 | Costo: $13.33
+2026-03-16 12:15:59,162 [XRP] [INFO] Precio: $1.5055 | USDT: $193.00 | Asset: 8.917425 | Total: $206.42 | P&L: $6.42 (3.21%) [SL: -15%] | Trades: 133 | Realizado: $8.2765
+2026-03-16 12:17:01,355 [XRP] [INFO] Precio: $1.5058 | USDT: $193.00 | Asset: 8.917425 | Total: $206.43 | P&L: $6.43 (3.21%) [SL: -15%] | Trades: 133 | Realizado: $8.2765
+2026-03-16 12:17:32,399 [XRP] [INFO] [VENTA] Nivel 9 | $1.5067 | Compra: $1.4952 | 8.917425 | Ganancia: $0.1028
+2026-03-16 12:18:04,573 [XRP] [INFO] Precio: $1.5075 | USDT: $206.44 | Asset: 0.000000 | Total: $206.44 | P&L: $6.44 (3.22%) [SL: -15%] | Trades: 134 | Realizado: $8.3794
+2026-03-16 12:19:06,577 [XRP] [INFO] Precio: $1.5113 | USDT: $206.44 | Asset: 0.000000 | Total: $206.44 | P&L: $6.44 (3.22%) [SL: -15%] | Trades: 134 | Realizado: $8.3794
+2026-03-16 12:20:08,619 [XRP] [INFO] Precio: $1.5124 | USDT: $206.44 | Asset: 0.000000 | Total: $206.44 | P&L: $6.44 (3.22%) [SL: -15%] | Trades: 134 | Realizado: $8.3794
+2026-03-16 12:21:10,752 [XRP] [INFO] Precio: $1.5130 | USDT: $206.44 | Asset: 0.000000 | Total: $206.44 | P&L: $6.44 (3.22%) [SL: -15%] | Trades: 134 | Realizado: $8.3794
+2026-03-16 12:22:12,866 [XRP] [INFO] Precio: $1.5115 | USDT: $206.44 | Asset: 0.000000 | Total: $206.44 | P&L: $6.44 (3.22%) [SL: -15%] | Trades: 134 | Realizado: $8.3794
+2026-03-16 12:23:15,130 [XRP] [INFO] Precio: $1.5122 | USDT: $206.44 | Asset: 0.000000 | Total: $206.44 | P&L: $6.44 (3.22%) [SL: -15%] | Trades: 134 | Realizado: $8.3794
+2026-03-16 12:24:17,348 [XRP] [INFO] Precio: $1.5110 | USDT: $206.44 | Asset: 0.000000 | Total: $206.44 | P&L: $6.44 (3.22%) [SL: -15%] | Trades: 134 | Realizado: $8.3794
+2026-03-16 12:25:19,561 [XRP] [INFO] Precio: $1.5110 | USDT: $206.44 | Asset: 0.000000 | Total: $206.44 | P&L: $6.44 (3.22%) [SL: -15%] | Trades: 134 | Realizado: $8.3794
+2026-03-16 12:26:21,527 [XRP] [INFO] Precio: $1.5094 | USDT: $206.44 | Asset: 0.000000 | Total: $206.44 | P&L: $6.44 (3.22%) [SL: -15%] | Trades: 134 | Realizado: $8.3794
+2026-03-16 12:27:23,736 [XRP] [INFO] Precio: $1.5099 | USDT: $206.44 | Asset: 0.000000 | Total: $206.44 | P&L: $6.44 (3.22%) [SL: -15%] | Trades: 134 | Realizado: $8.3794
+2026-03-16 12:28:25,795 [XRP] [INFO] Precio: $1.5096 | USDT: $206.44 | Asset: 0.000000 | Total: $206.44 | P&L: $6.44 (3.22%) [SL: -15%] | Trades: 134 | Realizado: $8.3794
+2026-03-16 12:29:27,798 [XRP] [INFO] Precio: $1.5091 | USDT: $206.44 | Asset: 0.000000 | Total: $206.44 | P&L: $6.44 (3.22%) [SL: -15%] | Trades: 134 | Realizado: $8.3794
+2026-03-16 12:30:30,951 [XRP] [INFO] Precio: $1.5113 | USDT: $206.44 | Asset: 0.000000 | Total: $206.44 | P&L: $6.44 (3.22%) [SL: -15%] | Trades: 134 | Realizado: $8.3794
+2026-03-16 12:48:38,691 [XRP] [INFO] [COMPRA] Nivel 9 | $1.4952 | 8.917425 | Costo: $13.33
+2026-03-16 12:49:20,839 [XRP] [INFO] Precio: $1.5016 | USDT: $193.10 | Asset: 8.917425 | Total: $206.49 | P&L: $6.49 (3.25%) [SL: -15%] | Trades: 135 | Realizado: $8.3794
+2026-03-16 12:50:22,952 [XRP] [INFO] Precio: $1.5007 | USDT: $193.10 | Asset: 8.917425 | Total: $206.48 | P&L: $6.48 (3.24%) [SL: -15%] | Trades: 135 | Realizado: $8.3794
+2026-03-16 12:51:25,300 [XRP] [INFO] Precio: $1.4971 | USDT: $193.10 | Asset: 8.917425 | Total: $206.45 | P&L: $6.45 (3.23%) [SL: -15%] | Trades: 135 | Realizado: $8.3794
+2026-03-16 12:52:27,490 [XRP] [INFO] Precio: $1.4972 | USDT: $193.10 | Asset: 8.917425 | Total: $206.45 | P&L: $6.45 (3.23%) [SL: -15%] | Trades: 135 | Realizado: $8.3794
+2026-03-16 12:53:29,685 [XRP] [INFO] Precio: $1.4957 | USDT: $193.10 | Asset: 8.917425 | Total: $206.44 | P&L: $6.44 (3.22%) [SL: -15%] | Trades: 135 | Realizado: $8.3794
+2026-03-16 12:53:40,428 [XRP] [INFO] [COMPRA] Nivel 8 | $1.4837 | 8.986745 | Costo: $13.33
+2026-03-16 12:54:33,260 [XRP] [INFO] [VENTA] Nivel 8 | $1.4952 | Compra: $1.4837 | 8.986745 | Ganancia: $0.1036
+2026-03-16 12:54:34,054 [XRP] [INFO] Precio: $1.4955 | USDT: $193.21 | Asset: 8.917425 | Total: $206.54 | P&L: $6.54 (3.27%) [SL: -15%] | Trades: 137 | Realizado: $8.4830
+2026-03-16 12:55:15,597 [XRP] [INFO] [COMPRA] Nivel 8 | $1.4837 | 8.986745 | Costo: $13.33
+2026-03-16 12:55:37,199 [XRP] [INFO] Precio: $1.4943 | USDT: $179.87 | Asset: 17.904169 | Total: $206.63 | P&L: $6.63 (3.31%) [SL: -15%] | Trades: 138 | Realizado: $8.4830
+2026-03-16 12:56:39,457 [XRP] [INFO] Precio: $1.4951 | USDT: $179.87 | Asset: 17.904169 | Total: $206.64 | P&L: $6.64 (3.32%) [SL: -15%] | Trades: 138 | Realizado: $8.4830
+2026-03-16 12:56:49,836 [XRP] [INFO] [VENTA] Nivel 8 | $1.4952 | Compra: $1.4837 | 8.986745 | Ganancia: $0.1036
+2026-03-16 12:57:32,349 [XRP] [INFO] [COMPRA] Nivel 8 | $1.4837 | 8.986745 | Costo: $13.33
+2026-03-16 12:57:43,650 [XRP] [INFO] Precio: $1.4945 | USDT: $179.98 | Asset: 17.904169 | Total: $206.73 | P&L: $6.73 (3.37%) [SL: -15%] | Trades: 140 | Realizado: $8.5866
+2026-03-16 12:58:45,883 [XRP] [INFO] Precio: $1.4934 | USDT: $179.98 | Asset: 17.904169 | Total: $206.71 | P&L: $6.71 (3.36%) [SL: -15%] | Trades: 140 | Realizado: $8.5866
+2026-03-16 13:07:34,791 [XRP] [INFO] [VENTA] Nivel 8 | $1.4952 | Compra: $1.4837 | 8.986745 | Ganancia: $0.1036
+2026-03-16 13:16:30,446 [XRP] [INFO] [COMPRA] Nivel 8 | $1.4837 | 8.986745 | Costo: $13.33
+2026-03-16 13:16:31,616 [XRP] [INFO] Precio: $1.4931 | USDT: $180.08 | Asset: 17.904169 | Total: $206.81 | P&L: $6.81 (3.41%) [SL: -15%] | Trades: 142 | Realizado: $8.6903
+2026-03-16 13:17:34,087 [XRP] [INFO] Precio: $1.4949 | USDT: $180.08 | Asset: 17.904169 | Total: $206.84 | P&L: $6.84 (3.42%) [SL: -15%] | Trades: 142 | Realizado: $8.6903
+2026-03-16 13:17:44,507 [XRP] [INFO] [VENTA] Nivel 8 | $1.4952 | Compra: $1.4837 | 8.986745 | Ganancia: $0.1036
+2026-03-16 13:18:37,074 [XRP] [INFO] Precio: $1.4958 | USDT: $193.52 | Asset: 8.917425 | Total: $206.86 | P&L: $6.86 (3.43%) [SL: -15%] | Trades: 143 | Realizado: $8.7939
+2026-03-16 13:19:08,281 [XRP] [INFO] [COMPRA] Nivel 8 | $1.4837 | 8.986745 | Costo: $13.33
+2026-03-16 13:19:19,665 [XRP] [INFO] [VENTA] Nivel 8 | $1.4952 | Compra: $1.4837 | 8.986745 | Ganancia: $0.1036
+2026-03-16 13:19:41,126 [XRP] [INFO] Precio: $1.4960 | USDT: $193.62 | Asset: 8.917425 | Total: $206.96 | P&L: $6.96 (3.48%) [SL: -15%] | Trades: 145 | Realizado: $8.8976
+2026-03-16 13:20:44,035 [XRP] [INFO] Precio: $1.4974 | USDT: $193.62 | Asset: 8.917425 | Total: $206.97 | P&L: $6.97 (3.49%) [SL: -15%] | Trades: 145 | Realizado: $8.8976
+2026-03-16 13:21:46,359 [XRP] [INFO] Precio: $1.4997 | USDT: $193.62 | Asset: 8.917425 | Total: $206.99 | P&L: $6.99 (3.50%) [SL: -15%] | Trades: 145 | Realizado: $8.8976
+2026-03-16 13:22:48,423 [XRP] [INFO] Precio: $1.4980 | USDT: $193.62 | Asset: 8.917425 | Total: $206.98 | P&L: $6.98 (3.49%) [SL: -15%] | Trades: 145 | Realizado: $8.8976
+2026-03-16 13:23:50,647 [XRP] [INFO] Precio: $1.4979 | USDT: $193.62 | Asset: 8.917425 | Total: $206.98 | P&L: $6.98 (3.49%) [SL: -15%] | Trades: 145 | Realizado: $8.8976
+2026-03-16 13:24:53,019 [XRP] [INFO] Precio: $1.4968 | USDT: $193.62 | Asset: 8.917425 | Total: $206.97 | P&L: $6.97 (3.48%) [SL: -15%] | Trades: 145 | Realizado: $8.8976
+2026-03-16 13:25:24,035 [XRP] [INFO] [COMPRA] Nivel 8 | $1.4837 | 8.986745 | Costo: $13.33
+2026-03-16 13:25:35,227 [XRP] [INFO] [VENTA] Nivel 8 | $1.4952 | Compra: $1.4837 | 8.986745 | Ganancia: $0.1036
+2026-03-16 13:25:56,865 [XRP] [INFO] Precio: $1.4972 | USDT: $193.72 | Asset: 8.917425 | Total: $207.08 | P&L: $7.08 (3.54%) [SL: -15%] | Trades: 147 | Realizado: $9.0012
+2026-03-16 13:26:59,144 [XRP] [INFO] Precio: $1.4972 | USDT: $193.72 | Asset: 8.917425 | Total: $207.08 | P&L: $7.08 (3.54%) [SL: -15%] | Trades: 147 | Realizado: $9.0012
+2026-03-16 13:28:01,824 [XRP] [INFO] Precio: $1.4974 | USDT: $193.72 | Asset: 8.917425 | Total: $207.08 | P&L: $7.08 (3.54%) [SL: -15%] | Trades: 147 | Realizado: $9.0012
+2026-03-16 13:29:03,783 [XRP] [INFO] Precio: $1.4977 | USDT: $193.72 | Asset: 8.917425 | Total: $207.08 | P&L: $7.08 (3.54%) [SL: -15%] | Trades: 147 | Realizado: $9.0012
+2026-03-16 13:30:06,111 [XRP] [INFO] Precio: $1.5007 | USDT: $193.72 | Asset: 8.917425 | Total: $207.11 | P&L: $7.11 (3.55%) [SL: -15%] | Trades: 147 | Realizado: $9.0012
+2026-03-16 13:31:37,378 [XRP] [INFO] Precio: $1.5003 | USDT: $193.72 | Asset: 8.917425 | Total: $207.10 | P&L: $7.10 (3.55%) [SL: -15%] | Trades: 147 | Realizado: $9.0012
+2026-03-16 13:32:33,475 [XRP] [INFO] Bot detenido por usuario.
+2026-03-16 13:32:33,727 [XRP] [INFO] Precio: $1.5041 | USDT: $193.72 | Asset: 8.917425 | Total: $207.14 | P&L: $7.14 (3.57%) [SL: -15%] | Trades: 147 | Realizado: $9.0012
