@@ -244,7 +244,13 @@ class GridBot:
         db.insert_trade(self.bot_name, "BUY", level_idx, price, qty, cost)
         self._save()
         self.log.info(f"[COMPRA] Nivel {level_idx} | ${price:.4f} | {qty:.6f} | Costo: ${cost:.2f}")
-        tg.send(f"🛒 <b>[{self.bot_name}] COMPRA</b>\nNivel {level_idx} | ${price:.4f}\nCantidad: {qty:.6f} | Costo: ${cost:.2f}", silent=True)
+        tg.send(
+            f"🛒 <b>[{self.bot_name}] COMPRA</b>\n"
+            f"Nivel {level_idx} | Precio: ${price:.4f}\n"
+            f"Cantidad: {qty:.6f} | Costo: ${cost:.2f}\n"
+            f"USDT restante: ${self.usdt_balance:.2f}",
+            silent=True
+        )
 
     def sell(self, level_idx: int, price: float, forced: bool = False):
         if level_idx not in self.positions or self.positions[level_idx]["qty"] <= 0:
@@ -261,9 +267,25 @@ class GridBot:
         tag = "VENTA-FORZADA" if forced else "VENTA"
         db.insert_trade(self.bot_name, "SELL", level_idx, price, qty, revenue, profit)
         self._save()
-        self.log.info(f"[{tag}] Nivel {level_idx} | ${price:.4f} | {qty:.6f} | Ganancia: ${profit:.4f}")
-        if not forced and profit > 0:
-            tg.send(f"💰 <b>[{self.bot_name}] VENTA</b>\nNivel {level_idx} | ${price:.4f}\nGanancia: +${profit:.4f}", silent=True)
+        self.log.info(f"[{tag}] Nivel {level_idx} | ${price:.4f} | Compra: ${buy_price:.4f} | {qty:.6f} | Ganancia: ${profit:.4f}")
+        if forced:
+            tg.send(
+                f"⚡ <b>[{self.bot_name}] VENTA FORZADA</b>\n"
+                f"Nivel {level_idx} | Precio: ${price:.4f}\n"
+                f"Compra fue: ${buy_price:.4f}\n"
+                f"Cantidad: {qty:.6f} | Revenue: ${revenue:.2f}\n"
+                f"P&L: {'+' if profit >= 0 else ''}${profit:.4f}",
+                silent=True
+            )
+        elif profit > 0:
+            tg.send(
+                f"💰 <b>[{self.bot_name}] VENTA</b>\n"
+                f"Nivel {level_idx} | Precio: ${price:.4f}\n"
+                f"Compra fue: ${buy_price:.4f}\n"
+                f"Cantidad: {qty:.6f} | Revenue: ${revenue:.2f}\n"
+                f"Ganancia: +${profit:.4f}",
+                silent=True
+            )
 
     # ---- TICK PRINCIPAL ----
     def tick(self, price: float):
