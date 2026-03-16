@@ -97,6 +97,10 @@ class GridBot:
             self.grid_upper    = cfg_upper
 
         self.grid = build_grid(self.grid_lower, self.grid_upper, self.grid_levels)
+        # Migrar formato viejo de posiciones {idx: qty} -> {idx: {"qty": qty, "price": price}}
+        for k, v in list(self.positions.items()):
+            if not isinstance(v, dict):
+                self.positions[k] = {"qty": float(v), "price": self.grid[k] if k < len(self.grid) else 0}
         self._log_grid_info()
 
         # Al arrancar: recentrar siempre + comprar en nivel actual
@@ -226,18 +230,27 @@ class GridBot:
         qty = cost / price
         self.usdt_balance  -= cost
         self.asset_balance += qty
-        self.positions[level_idx] = self.positions.get(level_idx, 0) + qty
+        existing = self.positions.get(level_idx)
+        if existing:
+            old_qty = existing["qty"]
+            new_qty = old_qty + qty
+            avg_price = (old_qty * existing["price"] + qty * price) / new_qty
+            self.positions[level_idx] = {"qty": new_qty, "price": avg_price}
+        else:
+            self.positions[level_idx] = {"qty": qty, "price": price}
         db.insert_trade(self.bot_name, "BUY", level_idx, price, qty, cost)
         self._save()
         self.log.info(f"[COMPRA] Nivel {level_idx} | ${price:.4f} | {qty:.6f} | Costo: ${cost:.2f}")
         tg.send(f"🛒 <b>[{self.bot_name}] COMPRA</b>\nNivel {level_idx} | ${price:.4f}\nCantidad: {qty:.6f} | Costo: ${cost:.2f}", silent=True)
 
     def sell(self, level_idx: int, price: float, forced: bool = False):
-        if level_idx not in self.positions or self.positions[level_idx] <= 0:
+        if level_idx not in self.positions or self.positions[level_idx]["qty"] <= 0:
             return
-        qty     = self.positions[level_idx]
-        revenue = qty * price
-        profit  = revenue - (qty * self.grid[level_idx])
+        pos       = self.positions[level_idx]
+        qty       = pos["qty"]
+        buy_price = pos["price"]
+        revenue   = qty * price
+        profit    = revenue - (qty * buy_price)
         self.usdt_balance  += revenue
         self.asset_balance -= qty
         self.realized_pnl  += profit

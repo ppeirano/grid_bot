@@ -149,7 +149,13 @@ def load_state(bot_name):
     conn.close()
     if row and row["positions"]:
         row["positions"] = json.loads(row["positions"])
-        row["positions"] = {int(k): float(v) for k, v in row["positions"].items()}
+        converted = {}
+        for k, v in row["positions"].items():
+            if isinstance(v, dict):
+                converted[int(k)] = {"qty": float(v["qty"]), "price": float(v["price"])}
+            else:
+                converted[int(k)] = float(v)  # formato viejo, se migra en bot.py
+        row["positions"] = converted
     return row
 
 

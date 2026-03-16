@@ -231,7 +231,14 @@ function setTimeframe(botName, tf, btn) {
     $stmt_p = $pdo->prepare("SELECT positions FROM bot_state WHERE bot_name = ?");
     $stmt_p->execute([$name]);
     $pr = $stmt_p->fetch(PDO::FETCH_ASSOC);
-    if($pr && $pr['positions']) $positions_raw = json_decode($pr['positions'], true) ?? [];
+    if($pr && $pr['positions']) {
+        $decoded = json_decode($pr['positions'], true) ?? [];
+        // Normalizar: formato nuevo {"qty":x,"price":y} o viejo (solo qty)
+        $positions_raw = [];
+        foreach($decoded as $idx => $val) {
+            $positions_raw[$idx] = is_array($val) ? $val : ['qty' => (float)$val, 'price' => 0];
+        }
+    }
     $stock_pct = $total > 0 ? ($unrealized / $total * 100) : 0;
     $stock_color = $stock_pct > 60 ? 'negative' : ($stock_pct > 40 ? 'accent' : 'positive');
 ?>
@@ -295,7 +302,8 @@ function setTimeframe(botName, tf, btn) {
                 </div>
                 <div class="grid-levels">
                 <?php for($i=0; $i<$levels; $i++):
-                    $has_pos  = isset($positions_raw[$i]) && $positions_raw[$i] > 0;
+                    $pos_qty  = isset($positions_raw[$i]) ? (float)$positions_raw[$i]['qty'] : 0;
+                    $has_pos  = $pos_qty > 0;
                     $is_cur   = ($i === $current_level);
                     $bc       = $is_cur ? 'is-current' : ($has_pos ? 'has-position' : '');
                     $sell_price = isset($grid[$i+1]) ? $grid[$i+1] : null;
@@ -307,7 +315,7 @@ function setTimeframe(botName, tf, btn) {
                         <?php if($is_cur): ?><div style="position:absolute;top:50%;left:4px;transform:translateY(-50%);width:6px;height:6px;border-radius:50%;background:var(--yellow);box-shadow:0 0 6px var(--yellow)"></div><?php endif; ?>
                     </div>
                     <?php if($has_pos): ?>
-                    <div class="grid-level-qty"><?= fmt_num($positions_raw[$i],4) ?></div>
+                    <div class="grid-level-qty"><?= fmt_num($pos_qty,4) ?></div>
                     <div class="grid-level-sell"><?= $sell_fmt ?></div>
                     <?php else: ?>
                     <div class="grid-level-qty" style="color:var(--muted)">—</div>
@@ -537,7 +545,7 @@ window._botSymbols = <?= json_encode(array_map(fn($b) => ['name'=>$b['bot_name']
     $sp = $pdo->prepare("SELECT positions FROM bot_state WHERE bot_name=?");
     $sp->execute([$name]);
     $pr2 = $sp->fetch(PDO::FETCH_ASSOC);
-    if($pr2 && $pr2['positions']) { $dec2=json_decode($pr2['positions'],true); if($dec2) foreach($dec2 as $lvl=>$qty) if($qty>0) $g_pos[]=(int)$lvl; }
+    if($pr2 && $pr2['positions']) { $dec2=json_decode($pr2['positions'],true); if($dec2) foreach($dec2 as $lvl=>$val) { $q=is_array($val)?$val['qty']:$val; if($q>0) $g_pos[]=(int)$lvl; } }
     $g_last = (float)($bot['last_price'] ?? 0);
     $chart_labels=[]; $chart_prices=[];
     if(isset($prices_data[$name])) foreach($prices_data[$name] as $p) { $chart_labels[]=date('H:i:s',strtotime($p['recorded_at'])); $chart_prices[]=(float)$p['price']; }

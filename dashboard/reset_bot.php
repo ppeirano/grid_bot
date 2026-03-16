@@ -78,12 +78,18 @@ try {
         $grid[] = round($grid_lower + $i * $step, 8);
     }
 
-    foreach ($positions as $level_idx => $qty) {
+    foreach ($positions as $level_idx => $val) {
+        // Soportar formato nuevo {"qty":x,"price":y} y viejo (solo qty)
+        if (is_array($val)) {
+            $qty       = (float)$val['qty'];
+            $buy_price = (float)$val['price'];
+        } else {
+            $qty       = (float)$val;
+            $buy_price = isset($grid[$level_idx]) ? $grid[$level_idx] : $current_price;
+        }
         if ($qty <= 0) continue;
         $level_idx = (int)$level_idx;
-        $qty       = (float)$qty;
         $revenue   = $qty * $current_price;
-        $buy_price = isset($grid[$level_idx]) ? $grid[$level_idx] : $current_price;
         $profit    = $revenue - ($qty * $buy_price);
 
         // Registrar venta en trades
