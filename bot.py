@@ -185,10 +185,11 @@ class GridBot:
         return False
 
     # ---- RANGO DINAMICO ----
-    def check_recenter(self, price: float):
+    def check_recenter(self, price: float) -> bool:
+        """Retorna True si se recentró el grid (el tick debe abortar)."""
         now = datetime.now()
         if (now - self.last_recenter_check).total_seconds() < GRID_RECENTER_INTERVAL * 60:
-            return
+            return False
         self.last_recenter_check = now
 
         rng   = self.grid_upper - self.grid_lower
@@ -220,6 +221,8 @@ class GridBot:
             self.last_price = None   # reinicia inicialización del grid
             self._save()
             self._log_grid_info()
+            return True
+        return False
 
     # ---- OPERACIONES ----
     def buy(self, level_idx: int, price: float):
@@ -252,7 +255,7 @@ class GridBot:
         revenue   = qty * price
         profit    = revenue - (qty * buy_price)
         self.usdt_balance  += revenue
-        self.asset_balance -= qty
+        self.asset_balance = max(0, self.asset_balance - qty)
         self.realized_pnl  += profit
         del self.positions[level_idx]
         tag = "VENTA-FORZADA" if forced else "VENTA"
@@ -273,8 +276,9 @@ class GridBot:
         if self.check_stop_loss(price):
             return
 
-        # 2. Chequeo recentrado
-        self.check_recenter(price)
+        # 2. Chequeo recentrado — si recentró, abortar este tick
+        if self.check_recenter(price):
+            return
 
         # 3. Lógica grid normal
         if price < self.grid_lower or price > self.grid_upper:

@@ -22,8 +22,12 @@ $lower    = (float)($input['lower']  ?? 0);
 $upper    = (float)($input['upper']  ?? 0);
 $levels   = (int)($input['levels']  ?? 0);
 
-if (!$bot_name || !$lower || !$upper || !$levels) {
-    echo json_encode(['ok' => false, 'error' => 'Parámetros incompletos']);
+if (!$bot_name || !preg_match('/^[A-Za-z0-9_]{1,20}$/', $bot_name)) {
+    echo json_encode(['ok' => false, 'error' => 'Nombre de bot inválido']);
+    exit;
+}
+if (!$lower || !$upper || !$levels || $lower >= $upper || $levels < 2 || $levels > 100) {
+    echo json_encode(['ok' => false, 'error' => 'Parámetros incompletos o inválidos']);
     exit;
 }
 

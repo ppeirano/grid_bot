@@ -18,8 +18,8 @@ $env   = load_env(__DIR__ . '/../credentials.env');
 $input = json_decode(file_get_contents('php://input'), true);
 
 $bot_name = $input['bot'] ?? '';
-if (!$bot_name) {
-    echo json_encode(['ok' => false, 'error' => 'Bot no especificado']);
+if (!$bot_name || !preg_match('/^[A-Za-z0-9_]{1,20}$/', $bot_name)) {
+    echo json_encode(['ok' => false, 'error' => 'Bot no especificado o nombre inválido']);
     exit;
 }
 

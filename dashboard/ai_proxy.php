@@ -1,7 +1,16 @@
 <?php
 // ai_proxy.php - Proxy para llamadas a la API de Anthropic
 header('Content-Type: application/json');
-header('Access-Control-Allow-Origin: *');
+
+// Solo aceptar requests desde el mismo servidor
+if (!empty($_SERVER['HTTP_ORIGIN'])) {
+    $allowed = 'http://' . $_SERVER['HTTP_HOST'];
+    if (rtrim($_SERVER['HTTP_ORIGIN'], '/') !== rtrim($allowed, '/')) {
+        http_response_code(403);
+        echo json_encode(['error' => 'Origen no autorizado']);
+        exit;
+    }
+}
 
 function load_env($path) {
     if (!file_exists($path)) return [];
@@ -23,11 +32,26 @@ if (!$api_key) {
     exit;
 }
 
+// Rate limiting simple: máximo 1 request cada 30 segundos por IP
+$rate_file = sys_get_temp_dir() . '/grid_bot_ai_' . md5($_SERVER['REMOTE_ADDR'] ?? 'local');
+if (file_exists($rate_file) && (time() - filemtime($rate_file)) < 30) {
+    http_response_code(429);
+    echo json_encode(['error' => 'Demasiadas solicitudes. Esperá 30 segundos.']);
+    exit;
+}
+touch($rate_file);
+
 $input = json_decode(file_get_contents('php://input'), true);
 $prompt = $input['prompt'] ?? '';
 
 if (!$prompt) {
     echo json_encode(['error' => 'Sin prompt']);
+    exit;
+}
+
+// Limitar largo del prompt
+if (strlen($prompt) > 10000) {
+    echo json_encode(['error' => 'Prompt demasiado largo (máximo 10000 caracteres)']);
     exit;
 }
 
