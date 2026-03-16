@@ -1,0 +1,17 @@
+# Credentials
+credentials.env
+*.env
+
+# Logs
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Zip files
+*.zip
+
+# Database
+*.db
+*.sqlite3
