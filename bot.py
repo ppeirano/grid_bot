@@ -383,9 +383,46 @@ class GridBot:
     def _record_trade_time(self, level_idx: int):
         self.level_last_trade[level_idx] = datetime.now()
 
+    # ---- DETECCION DE RESET EXTERNO (dashboard) ----
+    def _check_external_reset(self):
+        """Detecta si el dashboard reseteo el estado en la BD y recarga."""
+        saved = db.load_state(self.bot_name)
+        if not saved:
+            return False
+        # El dashboard setea last_price=NULL y positions='{}' al resetear
+        if saved["last_price"] is None and not saved["positions"]:
+            db_lower = float(saved["grid_lower"]) if saved["grid_lower"] else self.grid_lower
+            db_upper = float(saved["grid_upper"]) if saved["grid_upper"] else self.grid_upper
+            grid_changed = (abs(db_lower - self.grid_lower) > 0.01 or
+                            abs(db_upper - self.grid_upper) > 0.01)
+            if grid_changed or self.positions:
+                self.log.info(
+                    f"[RESET EXTERNO] Detectado reset desde dashboard. "
+                    f"Recargando estado: grid ${db_lower}-${db_upper}"
+                )
+                self.usdt_balance  = float(saved["usdt_balance"])
+                self.asset_balance = float(saved["xrp_btc_balance"])
+                self.realized_pnl  = float(saved["realized_pnl"])
+                self.last_price    = None
+                self.positions     = {}
+                self.grid_lower    = db_lower
+                self.grid_upper    = db_upper
+                self.grid = build_grid(self.grid_lower, self.grid_upper, self.grid_levels)
+                self.level_last_trade = {}
+                self._log_grid_info()
+                return True
+        return False
+
     # ---- TICK PRINCIPAL ----
     def tick(self, price: float):
         if self.stopped:
+            return
+
+        # 0. Detectar reset externo del dashboard
+        if self._check_external_reset():
+            self.last_price = price
+            self._save()
+            self.log.info(f"Grid reinicializado tras reset externo. Precio: ${price:.4f}")
             return
 
         db.insert_price(self.bot_name, price)
