@@ -247,4 +247,660 @@
 2026-03-16 13:31:47,650 [BTC] [INFO] Precio: $73435.3700 | USDT: $184.69 | Asset: 0.000363 | Total: $211.35 | P&L: $11.35 (5.68%) [SL: -15%] | Trades: 234 | Realizado: $12.6117
 2026-03-16 13:32:36,224 [BTC] [INFO] Bot detenido por usuario.
 2026-03-16 13:32:36,462 [BTC] [INFO] Precio: $73508.5700 | USDT: $184.69 | Asset: 0.000363 | Total: $211.38 | P&L: $11.38 (5.69%) [SL: -15%] | Trades: 234 | Realizado: $12.6117
-2026-03-17 10:00:00 [BTC] [INFO] Test de upload_logs.py
+2026-03-16 15:03:53,700 [BTC] [INFO] Parametros actualizados desde BD: $66500.0-$74883.0 (15 niveles)
+2026-03-16 15:03:53,711 [BTC] [INFO] Estado recuperado | USDT: $184.69 | P&L: $12.6117
+2026-03-16 15:03:53,712 [BTC] [INFO] Grid: $66500.0 - $74883.0 | Niveles: 15 | Step: $558.866667 | Capital/nivel: $13.33
+2026-03-16 15:03:53,994 [BTC] [INFO] Liquidando 2 posiciones previas al recentrar...
+2026-03-16 15:03:54,091 [BTC] [INFO] [VENTA-FORZADA] Nivel 6 | $73945.5500 | Compra: $73161.7000 | 0.000182 | Ganancia: $0.1429
+2026-03-16 15:03:54,869 [BTC] [INFO] [VENTA-FORZADA] Nivel 7 | $73945.5500 | Compra: $73720.5667 | 0.000181 | Ganancia: $0.0407
+2026-03-16 15:03:55,676 [BTC] [INFO] Grid: $69754.05 - $78137.05 | Niveles: 15 | Step: $558.866667 | Capital/nivel: $13.33
+2026-03-16 15:03:55,676 [BTC] [INFO] Grid recentrado en $73945.5500
+2026-03-16 15:03:55,702 [BTC] [INFO] [COMPRA] Nivel 7 | $73945.5500 | 0.000180 | Costo: $13.33
+2026-03-16 15:03:56,908 [BTC] [INFO] Posicion inicial abierta en nivel 7 | $73945.5500
+2026-03-16 15:03:56,908 [BTC] [INFO] Bot corriendo... Ctrl+C para detener.
+2026-03-16 15:04:49,700 [BTC] [INFO] Precio: $73969.1900 | USDT: $198.20 | Asset: 0.000180 | Total: $211.54 | P&L: $11.54 (5.77%) [SL: -15%] | Trades: 237 | Realizado: $12.7952
+2026-03-16 15:05:52,429 [BTC] [INFO] Precio: $73971.9300 | USDT: $198.20 | Asset: 0.000180 | Total: $211.54 | P&L: $11.54 (5.77%) [SL: -15%] | Trades: 237 | Realizado: $12.7952
+2026-03-16 15:06:56,180 [BTC] [INFO] Precio: $73975.2400 | USDT: $198.20 | Asset: 0.000180 | Total: $211.54 | P&L: $11.54 (5.77%) [SL: -15%] | Trades: 237 | Realizado: $12.7952
+2026-03-16 15:07:58,184 [BTC] [INFO] Precio: $74053.9900 | USDT: $198.20 | Asset: 0.000180 | Total: $211.56 | P&L: $11.56 (5.78%) [SL: -15%] | Trades: 237 | Realizado: $12.7952
+2026-03-16 15:09:00,473 [BTC] [INFO] Precio: $74219.2900 | USDT: $198.20 | Asset: 0.000180 | Total: $211.58 | P&L: $11.58 (5.79%) [SL: -15%] | Trades: 237 | Realizado: $12.7952
+2026-03-16 15:09:10,922 [BTC] [INFO] [VENTA] Nivel 7 | $74224.9833 | Compra: $73945.5500 | 0.000180 | Ganancia: $0.0504
+2026-03-16 15:10:03,698 [BTC] [INFO] Precio: $74318.6200 | USDT: $211.59 | Asset: 0.000000 | Total: $211.59 | P&L: $11.59 (5.79%) [SL: -15%] | Trades: 238 | Realizado: $12.8456
+2026-03-16 15:11:06,135 [BTC] [INFO] Precio: $74236.3100 | USDT: $211.59 | Asset: 0.000000 | Total: $211.59 | P&L: $11.59 (5.79%) [SL: -15%] | Trades: 238 | Realizado: $12.8456
+2026-03-16 15:11:16,587 [BTC] [INFO] [COMPRA] Nivel 7 | $73666.1167 | 0.000181 | Costo: $13.33
+2026-03-16 15:11:59,082 [BTC] [INFO] [VENTA] Nivel 7 | $74224.9833 | Compra: $73666.1167 | 0.000181 | Ganancia: $0.1012
+2026-03-16 15:12:10,106 [BTC] [INFO] [COMPRA] Nivel 7 | $73666.1167 | 0.000181 | Costo: $13.33
+2026-03-16 15:12:10,927 [BTC] [INFO] Precio: $74217.6000 | USDT: $198.35 | Asset: 0.000181 | Total: $211.79 | P&L: $11.79 (5.89%) [SL: -15%] | Trades: 241 | Realizado: $12.9468
+2026-03-16 15:12:31,681 [BTC] [INFO] [VENTA] Nivel 7 | $74224.9833 | Compra: $73666.1167 | 0.000181 | Ganancia: $0.1012
+2026-03-16 15:12:42,961 [BTC] [INFO] [COMPRA] Nivel 7 | $73666.1167 | 0.000181 | Costo: $13.33
+2026-03-16 15:13:04,655 [BTC] [INFO] [VENTA] Nivel 7 | $74224.9833 | Compra: $73666.1167 | 0.000181 | Ganancia: $0.1012
+2026-03-16 15:13:15,646 [BTC] [INFO] [COMPRA] Nivel 7 | $73666.1167 | 0.000181 | Costo: $13.33
+2026-03-16 15:13:16,356 [BTC] [INFO] Precio: $74206.5400 | USDT: $198.56 | Asset: 0.000181 | Total: $211.99 | P&L: $11.99 (5.99%) [SL: -15%] | Trades: 245 | Realizado: $13.1491
+2026-03-16 15:13:26,770 [BTC] [INFO] [VENTA] Nivel 7 | $74224.9833 | Compra: $73666.1167 | 0.000181 | Ganancia: $0.1012
+2026-03-16 15:13:37,829 [BTC] [INFO] [COMPRA] Nivel 7 | $73666.1167 | 0.000181 | Costo: $13.33
+2026-03-16 15:13:59,206 [BTC] [INFO] [VENTA] Nivel 7 | $74224.9833 | Compra: $73666.1167 | 0.000181 | Ganancia: $0.1012
+2026-03-16 15:14:10,178 [BTC] [INFO] [COMPRA] Nivel 7 | $73666.1167 | 0.000181 | Costo: $13.33
+2026-03-16 15:14:21,388 [BTC] [INFO] Precio: $74222.8500 | USDT: $198.76 | Asset: 0.000181 | Total: $212.19 | P&L: $12.19 (6.10%) [SL: -15%] | Trades: 249 | Realizado: $13.3514
+2026-03-16 15:14:31,763 [BTC] [INFO] [VENTA] Nivel 7 | $74224.9833 | Compra: $73666.1167 | 0.000181 | Ganancia: $0.1012
+2026-03-16 15:14:53,386 [BTC] [INFO] [COMPRA] Nivel 7 | $73666.1167 | 0.000181 | Costo: $13.33
+2026-03-16 15:15:25,329 [BTC] [INFO] Precio: $74214.6600 | USDT: $198.86 | Asset: 0.000181 | Total: $212.29 | P&L: $12.29 (6.15%) [SL: -15%] | Trades: 251 | Realizado: $13.4525
+2026-03-16 15:16:06,769 [BTC] [INFO] [VENTA] Nivel 7 | $74224.9833 | Compra: $73666.1167 | 0.000181 | Ganancia: $0.1012
+2026-03-16 15:16:28,180 [BTC] [INFO] [COMPRA] Nivel 7 | $73666.1167 | 0.000181 | Costo: $13.33
+2026-03-16 15:16:28,939 [BTC] [INFO] Precio: $74217.1500 | USDT: $198.96 | Asset: 0.000181 | Total: $212.39 | P&L: $12.39 (6.20%) [SL: -15%] | Trades: 253 | Realizado: $13.5537
+2026-03-16 15:17:21,719 [BTC] [INFO] [VENTA] Nivel 7 | $74224.9833 | Compra: $73666.1167 | 0.000181 | Ganancia: $0.1012
+2026-03-16 15:17:32,930 [BTC] [INFO] Precio: $74272.7900 | USDT: $212.39 | Asset: 0.000000 | Total: $212.40 | P&L: $12.40 (6.20%) [SL: -15%] | Trades: 254 | Realizado: $13.6548
+2026-03-16 15:18:35,040 [BTC] [INFO] Precio: $74278.9800 | USDT: $212.39 | Asset: 0.000000 | Total: $212.40 | P&L: $12.40 (6.20%) [SL: -15%] | Trades: 254 | Realizado: $13.6548
+2026-03-16 15:19:36,983 [BTC] [INFO] Precio: $74272.3200 | USDT: $212.39 | Asset: 0.000000 | Total: $212.40 | P&L: $12.40 (6.20%) [SL: -15%] | Trades: 254 | Realizado: $13.6548
+2026-03-16 15:20:07,994 [BTC] [INFO] [COMPRA] Nivel 7 | $73666.1167 | 0.000181 | Costo: $13.33
+2026-03-16 15:20:39,679 [BTC] [INFO] Precio: $74117.4800 | USDT: $199.06 | Asset: 0.000181 | Total: $212.48 | P&L: $12.48 (6.24%) [SL: -15%] | Trades: 255 | Realizado: $13.6548
+2026-03-16 15:21:41,735 [BTC] [INFO] Precio: $74153.4600 | USDT: $199.06 | Asset: 0.000181 | Total: $212.48 | P&L: $12.48 (6.24%) [SL: -15%] | Trades: 255 | Realizado: $13.6548
+2026-03-16 15:22:43,859 [BTC] [INFO] Precio: $74169.9900 | USDT: $199.06 | Asset: 0.000181 | Total: $212.49 | P&L: $12.49 (6.24%) [SL: -15%] | Trades: 255 | Realizado: $13.6548
+2026-03-16 15:23:45,901 [BTC] [INFO] Precio: $74176.6600 | USDT: $199.06 | Asset: 0.000181 | Total: $212.49 | P&L: $12.49 (6.24%) [SL: -15%] | Trades: 255 | Realizado: $13.6548
+2026-03-16 15:24:48,200 [BTC] [INFO] [VENTA] Nivel 7 | $74224.9833 | Compra: $73666.1167 | 0.000181 | Ganancia: $0.1012
+2026-03-16 15:24:48,931 [BTC] [INFO] Precio: $74233.7200 | USDT: $212.50 | Asset: 0.000000 | Total: $212.50 | P&L: $12.50 (6.25%) [SL: -15%] | Trades: 256 | Realizado: $13.7560
+2026-03-16 15:25:20,010 [BTC] [INFO] [COMPRA] Nivel 7 | $73666.1167 | 0.000181 | Costo: $13.33
+2026-03-16 15:25:51,925 [BTC] [INFO] Precio: $74207.9900 | USDT: $199.16 | Asset: 0.000181 | Total: $212.59 | P&L: $12.59 (6.30%) [SL: -15%] | Trades: 257 | Realizado: $13.7560
+2026-03-16 15:26:22,969 [BTC] [INFO] [VENTA] Nivel 7 | $74224.9833 | Compra: $73666.1167 | 0.000181 | Ganancia: $0.1012
+2026-03-16 15:26:54,929 [BTC] [INFO] [COMPRA] Nivel 7 | $73666.1167 | 0.000181 | Costo: $13.33
+2026-03-16 15:26:55,755 [BTC] [INFO] Precio: $74220.5400 | USDT: $199.26 | Asset: 0.000181 | Total: $212.70 | P&L: $12.70 (6.35%) [SL: -15%] | Trades: 259 | Realizado: $13.8572
+2026-03-16 15:27:06,187 [BTC] [INFO] [VENTA] Nivel 7 | $74224.9833 | Compra: $73666.1167 | 0.000181 | Ganancia: $0.1012
+2026-03-16 15:27:17,226 [BTC] [INFO] [COMPRA] Nivel 7 | $73666.1167 | 0.000181 | Costo: $13.33
+2026-03-16 15:27:28,485 [BTC] [INFO] [VENTA] Nivel 7 | $74224.9833 | Compra: $73666.1167 | 0.000181 | Ganancia: $0.1012
+2026-03-16 15:28:00,613 [BTC] [INFO] [COMPRA] Nivel 7 | $73666.1167 | 0.000181 | Costo: $13.33
+2026-03-16 15:28:01,491 [BTC] [INFO] Precio: $74220.2200 | USDT: $199.47 | Asset: 0.000181 | Total: $212.90 | P&L: $12.90 (6.45%) [SL: -15%] | Trades: 263 | Realizado: $14.0595
+2026-03-16 15:28:22,270 [BTC] [INFO] [VENTA] Nivel 7 | $74224.9833 | Compra: $73666.1167 | 0.000181 | Ganancia: $0.1012
+2026-03-16 15:28:33,669 [BTC] [INFO] [COMPRA] Nivel 7 | $73666.1167 | 0.000181 | Costo: $13.33
+2026-03-16 15:29:05,525 [BTC] [INFO] Precio: $74202.0800 | USDT: $199.57 | Asset: 0.000181 | Total: $213.00 | P&L: $13.00 (6.50%) [SL: -15%] | Trades: 265 | Realizado: $14.1606
+2026-03-16 15:29:26,522 [BTC] [INFO] [VENTA] Nivel 7 | $74224.9833 | Compra: $73666.1167 | 0.000181 | Ganancia: $0.1012
+2026-03-16 15:30:10,200 [BTC] [INFO] Precio: $74269.3600 | USDT: $213.00 | Asset: 0.000000 | Total: $213.00 | P&L: $13.00 (6.50%) [SL: -15%] | Trades: 266 | Realizado: $14.2618
+2026-03-16 15:31:12,444 [BTC] [INFO] Precio: $74247.4400 | USDT: $213.00 | Asset: 0.000000 | Total: $213.00 | P&L: $13.00 (6.50%) [SL: -15%] | Trades: 266 | Realizado: $14.2618
+2026-03-16 15:31:54,261 [BTC] [INFO] [COMPRA] Nivel 7 | $73666.1167 | 0.000181 | Costo: $13.33
+2026-03-16 15:32:05,821 [BTC] [INFO] [VENTA] Nivel 7 | $74224.9833 | Compra: $73666.1167 | 0.000181 | Ganancia: $0.1012
+2026-03-16 15:32:16,952 [BTC] [INFO] [COMPRA] Nivel 7 | $73666.1167 | 0.000181 | Costo: $13.33
+2026-03-16 15:32:18,042 [BTC] [INFO] Precio: $74204.3700 | USDT: $199.77 | Asset: 0.000181 | Total: $213.20 | P&L: $13.20 (6.60%) [SL: -15%] | Trades: 269 | Realizado: $14.3629
+2026-03-16 15:32:29,738 [BTC] [INFO] Bot detenido por usuario.
+2026-03-16 15:32:30,209 [BTC] [INFO] Precio: $74187.0900 | USDT: $199.77 | Asset: 0.000181 | Total: $213.20 | P&L: $13.20 (6.60%) [SL: -15%] | Trades: 269 | Realizado: $14.3629
+2026-03-17 00:53:37,443 [BTC] [INFO] Parametros actualizados desde BD: $66500.0-$74883.0 (15 niveles)
+2026-03-17 00:53:37,449 [BTC] [INFO] Estado recuperado | USDT: $199.77 | P&L: $14.3629
+2026-03-17 00:53:37,450 [BTC] [INFO] Grid: $66500.0 - $74883.0 | Niveles: 15 | Step: $558.866667 | Capital/nivel: $13.33
+2026-03-17 00:53:37,688 [BTC] [INFO] Liquidando 1 posiciones previas al recentrar...
+2026-03-17 00:53:37,714 [BTC] [INFO] [VENTA-FORZADA] Nivel 7 | $74397.0900 | Compra: $73666.1167 | 0.000181 | Ganancia: $0.1323
+2026-03-17 00:53:38,359 [BTC] [INFO] Grid: $70205.59 - $78588.59 | Niveles: 15 | Step: $558.866667 | Capital/nivel: $13.33
+2026-03-17 00:53:38,359 [BTC] [INFO] Grid recentrado en $74397.0900
+2026-03-17 00:53:38,383 [BTC] [INFO] [COMPRA] Nivel 7 | $74397.0900 | 0.000179 | Costo: $13.33
+2026-03-17 00:53:39,018 [BTC] [INFO] Posicion inicial abierta en nivel 7 | $74397.0900
+2026-03-17 00:53:39,018 [BTC] [INFO] Bot corriendo... Ctrl+C para detener.
+2026-03-17 00:54:30,885 [BTC] [INFO] Precio: $74345.2600 | USDT: $199.90 | Asset: 0.000179 | Total: $213.23 | P&L: $13.23 (6.61%) [SL: -15%] | Trades: 271 | Realizado: $14.4952
+2026-03-17 00:55:32,588 [BTC] [INFO] Precio: $74373.8900 | USDT: $199.90 | Asset: 0.000179 | Total: $213.23 | P&L: $13.23 (6.62%) [SL: -15%] | Trades: 271 | Realizado: $14.4952
+2026-03-17 00:56:34,280 [BTC] [INFO] Precio: $74399.5000 | USDT: $199.90 | Asset: 0.000179 | Total: $213.24 | P&L: $13.24 (6.62%) [SL: -15%] | Trades: 271 | Realizado: $14.4952
+2026-03-17 00:57:36,087 [BTC] [INFO] Precio: $74418.0100 | USDT: $199.90 | Asset: 0.000179 | Total: $213.24 | P&L: $13.24 (6.62%) [SL: -15%] | Trades: 271 | Realizado: $14.4952
+2026-03-17 00:58:37,748 [BTC] [INFO] Precio: $74429.0700 | USDT: $199.90 | Asset: 0.000179 | Total: $213.24 | P&L: $13.24 (6.62%) [SL: -15%] | Trades: 271 | Realizado: $14.4952
+2026-03-17 00:59:39,594 [BTC] [INFO] Precio: $74489.4000 | USDT: $199.90 | Asset: 0.000179 | Total: $213.25 | P&L: $13.25 (6.63%) [SL: -15%] | Trades: 271 | Realizado: $14.4952
+2026-03-17 01:00:41,792 [BTC] [INFO] Precio: $74569.9900 | USDT: $199.90 | Asset: 0.000179 | Total: $213.27 | P&L: $13.27 (6.63%) [SL: -15%] | Trades: 271 | Realizado: $14.4952
+2026-03-17 01:01:43,627 [BTC] [INFO] Precio: $74551.0900 | USDT: $199.90 | Asset: 0.000179 | Total: $213.26 | P&L: $13.26 (6.63%) [SL: -15%] | Trades: 271 | Realizado: $14.4952
+2026-03-17 01:02:45,596 [BTC] [INFO] Precio: $74588.7500 | USDT: $199.90 | Asset: 0.000179 | Total: $213.27 | P&L: $13.27 (6.63%) [SL: -15%] | Trades: 271 | Realizado: $14.4952
+2026-03-17 01:03:47,229 [BTC] [INFO] Precio: $74456.8300 | USDT: $199.90 | Asset: 0.000179 | Total: $213.25 | P&L: $13.25 (6.62%) [SL: -15%] | Trades: 271 | Realizado: $14.4952
+2026-03-17 01:04:48,937 [BTC] [INFO] Precio: $74487.1900 | USDT: $199.90 | Asset: 0.000179 | Total: $213.25 | P&L: $13.25 (6.63%) [SL: -15%] | Trades: 271 | Realizado: $14.4952
+2026-03-17 01:05:50,616 [BTC] [INFO] Precio: $74480.9100 | USDT: $199.90 | Asset: 0.000179 | Total: $213.25 | P&L: $13.25 (6.63%) [SL: -15%] | Trades: 271 | Realizado: $14.4952
+2026-03-17 01:06:52,281 [BTC] [INFO] Precio: $74559.4200 | USDT: $199.90 | Asset: 0.000179 | Total: $213.26 | P&L: $13.26 (6.63%) [SL: -15%] | Trades: 271 | Realizado: $14.4952
+2026-03-17 01:07:54,139 [BTC] [INFO] Precio: $74591.2100 | USDT: $199.90 | Asset: 0.000179 | Total: $213.27 | P&L: $13.27 (6.64%) [SL: -15%] | Trades: 271 | Realizado: $14.4952
+2026-03-17 01:08:55,752 [BTC] [INFO] Precio: $74543.1600 | USDT: $199.90 | Asset: 0.000179 | Total: $213.26 | P&L: $13.26 (6.63%) [SL: -15%] | Trades: 271 | Realizado: $14.4952
+2026-03-17 01:09:57,881 [BTC] [INFO] Precio: $74629.4300 | USDT: $199.90 | Asset: 0.000179 | Total: $213.28 | P&L: $13.28 (6.64%) [SL: -15%] | Trades: 271 | Realizado: $14.4952
+2026-03-17 01:10:59,623 [BTC] [INFO] Precio: $74655.7200 | USDT: $199.90 | Asset: 0.000179 | Total: $213.28 | P&L: $13.28 (6.64%) [SL: -15%] | Trades: 271 | Realizado: $14.4952
+2026-03-17 01:12:01,738 [BTC] [INFO] Precio: $74667.4300 | USDT: $199.90 | Asset: 0.000179 | Total: $213.28 | P&L: $13.28 (6.64%) [SL: -15%] | Trades: 271 | Realizado: $14.4952
+2026-03-17 01:13:03,438 [BTC] [INFO] Precio: $74639.9900 | USDT: $199.90 | Asset: 0.000179 | Total: $213.28 | P&L: $13.28 (6.64%) [SL: -15%] | Trades: 271 | Realizado: $14.4952
+2026-03-17 01:14:05,200 [BTC] [INFO] Precio: $74583.2300 | USDT: $199.90 | Asset: 0.000179 | Total: $213.27 | P&L: $13.27 (6.63%) [SL: -15%] | Trades: 271 | Realizado: $14.4952
+2026-03-17 01:15:07,613 [BTC] [INFO] Precio: $74631.2500 | USDT: $199.90 | Asset: 0.000179 | Total: $213.28 | P&L: $13.28 (6.64%) [SL: -15%] | Trades: 271 | Realizado: $14.4952
+2026-03-17 01:15:38,546 [BTC] [INFO] [VENTA] Nivel 7 | $74676.5233 | Compra: $74397.0900 | 0.000179 | Ganancia: $0.0501
+2026-03-17 01:15:49,505 [BTC] [INFO] [COMPRA] Nivel 7 | $74117.6567 | 0.000180 | Costo: $13.33
+2026-03-17 01:16:10,744 [BTC] [INFO] Precio: $74660.0900 | USDT: $199.95 | Asset: 0.000180 | Total: $213.38 | P&L: $13.38 (6.69%) [SL: -15%] | Trades: 273 | Realizado: $14.5453
+2026-03-17 01:17:12,602 [BTC] [INFO] Precio: $74580.8800 | USDT: $199.95 | Asset: 0.000180 | Total: $213.37 | P&L: $13.37 (6.68%) [SL: -15%] | Trades: 273 | Realizado: $14.5453
+2026-03-17 01:18:14,418 [BTC] [INFO] Precio: $74476.4500 | USDT: $199.95 | Asset: 0.000180 | Total: $213.35 | P&L: $13.35 (6.68%) [SL: -15%] | Trades: 273 | Realizado: $14.5453
+2026-03-17 01:19:16,130 [BTC] [INFO] Precio: $74516.0300 | USDT: $199.95 | Asset: 0.000180 | Total: $213.36 | P&L: $13.36 (6.68%) [SL: -15%] | Trades: 273 | Realizado: $14.5453
+2026-03-17 01:20:18,430 [BTC] [INFO] Precio: $74472.0000 | USDT: $199.95 | Asset: 0.000180 | Total: $213.35 | P&L: $13.35 (6.67%) [SL: -15%] | Trades: 273 | Realizado: $14.5453
+2026-03-17 01:21:20,546 [BTC] [INFO] Precio: $74451.3000 | USDT: $199.95 | Asset: 0.000180 | Total: $213.35 | P&L: $13.35 (6.67%) [SL: -15%] | Trades: 273 | Realizado: $14.5453
+2026-03-17 01:22:22,577 [BTC] [INFO] Precio: $74357.8800 | USDT: $199.95 | Asset: 0.000180 | Total: $213.33 | P&L: $13.33 (6.66%) [SL: -15%] | Trades: 273 | Realizado: $14.5453
+2026-03-17 01:23:24,386 [BTC] [INFO] Precio: $74322.3300 | USDT: $199.95 | Asset: 0.000180 | Total: $213.32 | P&L: $13.32 (6.66%) [SL: -15%] | Trades: 273 | Realizado: $14.5453
+2026-03-17 01:24:26,455 [BTC] [INFO] Precio: $74428.4000 | USDT: $199.95 | Asset: 0.000180 | Total: $213.34 | P&L: $13.34 (6.67%) [SL: -15%] | Trades: 273 | Realizado: $14.5453
+2026-03-17 01:25:28,392 [BTC] [INFO] Precio: $74384.8900 | USDT: $199.95 | Asset: 0.000180 | Total: $213.33 | P&L: $13.33 (6.67%) [SL: -15%] | Trades: 273 | Realizado: $14.5453
+2026-03-17 01:26:30,198 [BTC] [INFO] Precio: $74399.4400 | USDT: $199.95 | Asset: 0.000180 | Total: $213.34 | P&L: $13.34 (6.67%) [SL: -15%] | Trades: 273 | Realizado: $14.5453
+2026-03-17 01:27:32,139 [BTC] [INFO] Precio: $74404.0000 | USDT: $199.95 | Asset: 0.000180 | Total: $213.34 | P&L: $13.34 (6.67%) [SL: -15%] | Trades: 273 | Realizado: $14.5453
+2026-03-17 01:28:34,229 [BTC] [INFO] Precio: $74421.7400 | USDT: $199.95 | Asset: 0.000180 | Total: $213.34 | P&L: $13.34 (6.67%) [SL: -15%] | Trades: 273 | Realizado: $14.5453
+2026-03-17 01:29:36,185 [BTC] [INFO] Precio: $74381.1900 | USDT: $199.95 | Asset: 0.000180 | Total: $213.33 | P&L: $13.33 (6.67%) [SL: -15%] | Trades: 273 | Realizado: $14.5453
+2026-03-17 01:30:38,157 [BTC] [INFO] Precio: $74431.9800 | USDT: $199.95 | Asset: 0.000180 | Total: $213.34 | P&L: $13.34 (6.67%) [SL: -15%] | Trades: 273 | Realizado: $14.5453
+2026-03-17 01:31:39,917 [BTC] [INFO] Precio: $74435.4500 | USDT: $199.95 | Asset: 0.000180 | Total: $213.34 | P&L: $13.34 (6.67%) [SL: -15%] | Trades: 273 | Realizado: $14.5453
+2026-03-17 01:32:41,784 [BTC] [INFO] Precio: $74222.0000 | USDT: $199.95 | Asset: 0.000180 | Total: $213.30 | P&L: $13.30 (6.65%) [SL: -15%] | Trades: 273 | Realizado: $14.5453
+2026-03-17 01:33:43,586 [BTC] [INFO] Precio: $74144.0000 | USDT: $199.95 | Asset: 0.000180 | Total: $213.29 | P&L: $13.29 (6.65%) [SL: -15%] | Trades: 273 | Realizado: $14.5453
+2026-03-17 01:34:45,387 [BTC] [INFO] Precio: $74149.8800 | USDT: $199.95 | Asset: 0.000180 | Total: $213.29 | P&L: $13.29 (6.65%) [SL: -15%] | Trades: 273 | Realizado: $14.5453
+2026-03-17 01:35:47,111 [BTC] [INFO] Precio: $74155.2100 | USDT: $199.95 | Asset: 0.000180 | Total: $213.29 | P&L: $13.29 (6.65%) [SL: -15%] | Trades: 273 | Realizado: $14.5453
+2026-03-17 01:36:48,943 [BTC] [INFO] Precio: $74139.4100 | USDT: $199.95 | Asset: 0.000180 | Total: $213.29 | P&L: $13.29 (6.64%) [SL: -15%] | Trades: 273 | Realizado: $14.5453
+2026-03-17 01:37:50,768 [BTC] [INFO] Precio: $74145.5000 | USDT: $199.95 | Asset: 0.000180 | Total: $213.29 | P&L: $13.29 (6.65%) [SL: -15%] | Trades: 273 | Realizado: $14.5453
+2026-03-17 01:38:52,783 [BTC] [INFO] Precio: $74126.6100 | USDT: $199.95 | Asset: 0.000180 | Total: $213.29 | P&L: $13.29 (6.64%) [SL: -15%] | Trades: 273 | Realizado: $14.5453
+2026-03-17 01:39:34,538 [BTC] [INFO] [COMPRA] Nivel 6 | $73558.7900 | 0.000181 | Costo: $13.33
+2026-03-17 01:39:55,834 [BTC] [INFO] Precio: $74084.4500 | USDT: $186.62 | Asset: 0.000361 | Total: $213.37 | P&L: $13.37 (6.69%) [SL: -15%] | Trades: 274 | Realizado: $14.5453
+2026-03-17 01:40:57,819 [BTC] [INFO] Precio: $74008.4200 | USDT: $186.62 | Asset: 0.000361 | Total: $213.35 | P&L: $13.35 (6.67%) [SL: -15%] | Trades: 274 | Realizado: $14.5453
+2026-03-17 01:41:59,672 [BTC] [INFO] Precio: $74103.1500 | USDT: $186.62 | Asset: 0.000361 | Total: $213.38 | P&L: $13.38 (6.69%) [SL: -15%] | Trades: 274 | Realizado: $14.5453
+2026-03-17 01:42:40,764 [BTC] [INFO] [VENTA] Nivel 6 | $74117.6567 | Compra: $73558.7900 | 0.000181 | Ganancia: $0.1013
+2026-03-17 01:43:02,049 [BTC] [INFO] Precio: $74160.0400 | USDT: $200.05 | Asset: 0.000180 | Total: $213.39 | P&L: $13.39 (6.70%) [SL: -15%] | Trades: 275 | Realizado: $14.6466
+2026-03-17 01:44:03,770 [BTC] [INFO] Precio: $74179.1500 | USDT: $200.05 | Asset: 0.000180 | Total: $213.40 | P&L: $13.40 (6.70%) [SL: -15%] | Trades: 275 | Realizado: $14.6466
+2026-03-17 01:45:05,523 [BTC] [INFO] [COMPRA] Nivel 6 | $73558.7900 | 0.000181 | Costo: $13.33
+2026-03-17 01:45:06,216 [BTC] [INFO] Precio: $74110.1900 | USDT: $186.72 | Asset: 0.000361 | Total: $213.49 | P&L: $13.49 (6.74%) [SL: -15%] | Trades: 276 | Realizado: $14.6466
+2026-03-17 01:46:07,895 [BTC] [INFO] Precio: $74063.3400 | USDT: $186.72 | Asset: 0.000361 | Total: $213.47 | P&L: $13.47 (6.73%) [SL: -15%] | Trades: 276 | Realizado: $14.6466
+2026-03-17 01:46:38,831 [BTC] [INFO] [VENTA] Nivel 6 | $74117.6567 | Compra: $73558.7900 | 0.000181 | Ganancia: $0.1013
+2026-03-17 01:47:10,417 [BTC] [INFO] Precio: $74149.5300 | USDT: $200.15 | Asset: 0.000180 | Total: $213.49 | P&L: $13.49 (6.75%) [SL: -15%] | Trades: 277 | Realizado: $14.7479
+2026-03-17 01:48:12,151 [BTC] [INFO] Precio: $74165.4800 | USDT: $200.15 | Asset: 0.000180 | Total: $213.50 | P&L: $13.50 (6.75%) [SL: -15%] | Trades: 277 | Realizado: $14.7479
+2026-03-17 01:49:13,896 [BTC] [INFO] Precio: $74141.7100 | USDT: $200.15 | Asset: 0.000180 | Total: $213.49 | P&L: $13.49 (6.75%) [SL: -15%] | Trades: 277 | Realizado: $14.7479
+2026-03-17 01:50:15,607 [BTC] [INFO] Precio: $74200.5000 | USDT: $200.15 | Asset: 0.000180 | Total: $213.50 | P&L: $13.50 (6.75%) [SL: -15%] | Trades: 277 | Realizado: $14.7479
+2026-03-17 01:51:17,480 [BTC] [INFO] Precio: $74195.1700 | USDT: $200.15 | Asset: 0.000180 | Total: $213.50 | P&L: $13.50 (6.75%) [SL: -15%] | Trades: 277 | Realizado: $14.7479
+2026-03-17 01:52:19,258 [BTC] [INFO] Precio: $74246.6500 | USDT: $200.15 | Asset: 0.000180 | Total: $213.51 | P&L: $13.51 (6.76%) [SL: -15%] | Trades: 277 | Realizado: $14.7479
+2026-03-17 01:53:20,900 [BTC] [INFO] Precio: $74266.2400 | USDT: $200.15 | Asset: 0.000180 | Total: $213.51 | P&L: $13.51 (6.76%) [SL: -15%] | Trades: 277 | Realizado: $14.7479
+2026-03-17 01:54:22,661 [BTC] [INFO] Precio: $74276.8300 | USDT: $200.15 | Asset: 0.000180 | Total: $213.52 | P&L: $13.52 (6.76%) [SL: -15%] | Trades: 277 | Realizado: $14.7479
+2026-03-17 01:55:24,448 [BTC] [INFO] Precio: $74254.7700 | USDT: $200.15 | Asset: 0.000180 | Total: $213.51 | P&L: $13.51 (6.76%) [SL: -15%] | Trades: 277 | Realizado: $14.7479
+2026-03-17 01:56:26,144 [BTC] [INFO] Precio: $74240.4900 | USDT: $200.15 | Asset: 0.000180 | Total: $213.51 | P&L: $13.51 (6.76%) [SL: -15%] | Trades: 277 | Realizado: $14.7479
+2026-03-17 01:57:27,881 [BTC] [INFO] Precio: $74258.9400 | USDT: $200.15 | Asset: 0.000180 | Total: $213.51 | P&L: $13.51 (6.76%) [SL: -15%] | Trades: 277 | Realizado: $14.7479
+2026-03-17 01:58:29,565 [BTC] [INFO] Precio: $74278.2400 | USDT: $200.15 | Asset: 0.000180 | Total: $213.52 | P&L: $13.52 (6.76%) [SL: -15%] | Trades: 277 | Realizado: $14.7479
+2026-03-17 01:59:31,325 [BTC] [INFO] Precio: $74277.4700 | USDT: $200.15 | Asset: 0.000180 | Total: $213.52 | P&L: $13.52 (6.76%) [SL: -15%] | Trades: 277 | Realizado: $14.7479
+2026-03-17 02:00:33,258 [BTC] [INFO] Precio: $74225.2200 | USDT: $200.15 | Asset: 0.000180 | Total: $213.51 | P&L: $13.51 (6.75%) [SL: -15%] | Trades: 277 | Realizado: $14.7479
+2026-03-17 02:01:34,968 [BTC] [INFO] Precio: $74134.2900 | USDT: $200.15 | Asset: 0.000180 | Total: $213.49 | P&L: $13.49 (6.75%) [SL: -15%] | Trades: 277 | Realizado: $14.7479
+2026-03-17 02:02:36,693 [BTC] [INFO] [COMPRA] Nivel 6 | $73558.7900 | 0.000181 | Costo: $13.33
+2026-03-17 02:02:37,378 [BTC] [INFO] Precio: $74103.0800 | USDT: $186.82 | Asset: 0.000361 | Total: $213.58 | P&L: $13.58 (6.79%) [SL: -15%] | Trades: 278 | Realizado: $14.7479
+2026-03-17 02:03:18,532 [BTC] [INFO] [VENTA] Nivel 6 | $74117.6567 | Compra: $73558.7900 | 0.000181 | Ganancia: $0.1013
+2026-03-17 02:03:39,806 [BTC] [INFO] Precio: $74147.4900 | USDT: $200.26 | Asset: 0.000180 | Total: $213.59 | P&L: $13.59 (6.80%) [SL: -15%] | Trades: 279 | Realizado: $14.8492
+2026-03-17 02:04:42,828 [BTC] [INFO] Precio: $74159.3400 | USDT: $200.26 | Asset: 0.000180 | Total: $213.60 | P&L: $13.60 (6.80%) [SL: -15%] | Trades: 279 | Realizado: $14.8492
+2026-03-17 02:05:44,831 [BTC] [INFO] Precio: $74297.6800 | USDT: $200.26 | Asset: 0.000180 | Total: $213.62 | P&L: $13.62 (6.81%) [SL: -15%] | Trades: 279 | Realizado: $14.8492
+2026-03-17 02:06:46,525 [BTC] [INFO] Precio: $74264.0400 | USDT: $200.26 | Asset: 0.000180 | Total: $213.62 | P&L: $13.62 (6.81%) [SL: -15%] | Trades: 279 | Realizado: $14.8492
+2026-03-17 02:07:48,216 [BTC] [INFO] Precio: $74299.9900 | USDT: $200.26 | Asset: 0.000180 | Total: $213.62 | P&L: $13.62 (6.81%) [SL: -15%] | Trades: 279 | Realizado: $14.8492
+2026-03-17 02:08:49,865 [BTC] [INFO] Precio: $74292.8800 | USDT: $200.26 | Asset: 0.000180 | Total: $213.62 | P&L: $13.62 (6.81%) [SL: -15%] | Trades: 279 | Realizado: $14.8492
+2026-03-17 02:09:51,559 [BTC] [INFO] Precio: $74318.0000 | USDT: $200.26 | Asset: 0.000180 | Total: $213.63 | P&L: $13.63 (6.81%) [SL: -15%] | Trades: 279 | Realizado: $14.8492
+2026-03-17 02:10:53,266 [BTC] [INFO] Precio: $74306.9500 | USDT: $200.26 | Asset: 0.000180 | Total: $213.62 | P&L: $13.62 (6.81%) [SL: -15%] | Trades: 279 | Realizado: $14.8492
+2026-03-17 02:11:54,985 [BTC] [INFO] Precio: $74324.0600 | USDT: $200.26 | Asset: 0.000180 | Total: $213.63 | P&L: $13.63 (6.81%) [SL: -15%] | Trades: 279 | Realizado: $14.8492
+2026-03-17 02:12:56,787 [BTC] [INFO] Precio: $74350.4300 | USDT: $200.26 | Asset: 0.000180 | Total: $213.63 | P&L: $13.63 (6.82%) [SL: -15%] | Trades: 279 | Realizado: $14.8492
+2026-03-17 02:13:58,490 [BTC] [INFO] Precio: $74366.5200 | USDT: $200.26 | Asset: 0.000180 | Total: $213.63 | P&L: $13.63 (6.82%) [SL: -15%] | Trades: 279 | Realizado: $14.8492
+2026-03-17 02:15:00,134 [BTC] [INFO] Precio: $74317.0200 | USDT: $200.26 | Asset: 0.000180 | Total: $213.63 | P&L: $13.63 (6.81%) [SL: -15%] | Trades: 279 | Realizado: $14.8492
+2026-03-17 02:16:01,826 [BTC] [INFO] Precio: $74288.8500 | USDT: $200.26 | Asset: 0.000180 | Total: $213.62 | P&L: $13.62 (6.81%) [SL: -15%] | Trades: 279 | Realizado: $14.8492
+2026-03-17 02:17:03,554 [BTC] [INFO] Precio: $74334.1300 | USDT: $200.26 | Asset: 0.000180 | Total: $213.63 | P&L: $13.63 (6.81%) [SL: -15%] | Trades: 279 | Realizado: $14.8492
+2026-03-17 02:18:05,273 [BTC] [INFO] Precio: $74362.1400 | USDT: $200.26 | Asset: 0.000180 | Total: $213.63 | P&L: $13.63 (6.82%) [SL: -15%] | Trades: 279 | Realizado: $14.8492
+2026-03-17 02:19:07,050 [BTC] [INFO] Precio: $74404.4600 | USDT: $200.26 | Asset: 0.000180 | Total: $213.64 | P&L: $13.64 (6.82%) [SL: -15%] | Trades: 279 | Realizado: $14.8492
+2026-03-17 02:20:08,688 [BTC] [INFO] Precio: $74347.4000 | USDT: $200.26 | Asset: 0.000180 | Total: $213.63 | P&L: $13.63 (6.82%) [SL: -15%] | Trades: 279 | Realizado: $14.8492
+2026-03-17 02:21:10,353 [BTC] [INFO] Precio: $74279.0500 | USDT: $200.26 | Asset: 0.000180 | Total: $213.62 | P&L: $13.62 (6.81%) [SL: -15%] | Trades: 279 | Realizado: $14.8492
+2026-03-17 02:22:12,054 [BTC] [INFO] Precio: $74243.1900 | USDT: $200.26 | Asset: 0.000180 | Total: $213.61 | P&L: $13.61 (6.81%) [SL: -15%] | Trades: 279 | Realizado: $14.8492
+2026-03-17 02:23:13,845 [BTC] [INFO] Precio: $74238.8400 | USDT: $200.26 | Asset: 0.000180 | Total: $213.61 | P&L: $13.61 (6.81%) [SL: -15%] | Trades: 279 | Realizado: $14.8492
+2026-03-17 02:24:15,615 [BTC] [INFO] Precio: $74290.5600 | USDT: $200.26 | Asset: 0.000180 | Total: $213.62 | P&L: $13.62 (6.81%) [SL: -15%] | Trades: 279 | Realizado: $14.8492
+2026-03-17 02:25:17,326 [BTC] [INFO] Precio: $74320.0300 | USDT: $200.26 | Asset: 0.000180 | Total: $213.63 | P&L: $13.63 (6.81%) [SL: -15%] | Trades: 279 | Realizado: $14.8492
+2026-03-17 02:26:19,395 [BTC] [INFO] Precio: $74395.8900 | USDT: $200.26 | Asset: 0.000180 | Total: $213.64 | P&L: $13.64 (6.82%) [SL: -15%] | Trades: 279 | Realizado: $14.8492
+2026-03-17 02:27:21,149 [BTC] [INFO] Precio: $74416.5800 | USDT: $200.26 | Asset: 0.000180 | Total: $213.64 | P&L: $13.64 (6.82%) [SL: -15%] | Trades: 279 | Realizado: $14.8492
+2026-03-17 02:28:22,869 [BTC] [INFO] Precio: $74398.1500 | USDT: $200.26 | Asset: 0.000180 | Total: $213.64 | P&L: $13.64 (6.82%) [SL: -15%] | Trades: 279 | Realizado: $14.8492
+2026-03-17 02:29:24,538 [BTC] [INFO] Precio: $74415.8700 | USDT: $200.26 | Asset: 0.000180 | Total: $213.64 | P&L: $13.64 (6.82%) [SL: -15%] | Trades: 279 | Realizado: $14.8492
+2026-03-17 02:30:26,146 [BTC] [INFO] Precio: $74410.5000 | USDT: $200.26 | Asset: 0.000180 | Total: $213.64 | P&L: $13.64 (6.82%) [SL: -15%] | Trades: 279 | Realizado: $14.8492
+2026-03-17 02:31:27,867 [BTC] [INFO] Precio: $74419.8900 | USDT: $200.26 | Asset: 0.000180 | Total: $213.64 | P&L: $13.64 (6.82%) [SL: -15%] | Trades: 279 | Realizado: $14.8492
+2026-03-17 02:32:29,913 [BTC] [INFO] Precio: $74444.2900 | USDT: $200.26 | Asset: 0.000180 | Total: $213.65 | P&L: $13.65 (6.82%) [SL: -15%] | Trades: 279 | Realizado: $14.8492
+2026-03-17 02:33:31,597 [BTC] [INFO] Precio: $74438.0600 | USDT: $200.26 | Asset: 0.000180 | Total: $213.65 | P&L: $13.65 (6.82%) [SL: -15%] | Trades: 279 | Realizado: $14.8492
+2026-03-17 02:34:33,283 [BTC] [INFO] Precio: $74435.2600 | USDT: $200.26 | Asset: 0.000180 | Total: $213.65 | P&L: $13.65 (6.82%) [SL: -15%] | Trades: 279 | Realizado: $14.8492
+2026-03-17 02:35:35,029 [BTC] [INFO] Precio: $74318.8600 | USDT: $200.26 | Asset: 0.000180 | Total: $213.63 | P&L: $13.63 (6.81%) [SL: -15%] | Trades: 279 | Realizado: $14.8492
+2026-03-17 02:36:36,634 [BTC] [INFO] Precio: $74141.7700 | USDT: $200.26 | Asset: 0.000180 | Total: $213.59 | P&L: $13.59 (6.80%) [SL: -15%] | Trades: 279 | Realizado: $14.8492
+2026-03-17 02:37:38,403 [BTC] [INFO] Precio: $74173.5900 | USDT: $200.26 | Asset: 0.000180 | Total: $213.60 | P&L: $13.60 (6.80%) [SL: -15%] | Trades: 279 | Realizado: $14.8492
+2026-03-17 02:38:40,065 [BTC] [INFO] Precio: $74144.3300 | USDT: $200.26 | Asset: 0.000180 | Total: $213.59 | P&L: $13.59 (6.80%) [SL: -15%] | Trades: 279 | Realizado: $14.8492
+2026-03-17 02:39:41,796 [BTC] [INFO] Precio: $74133.5300 | USDT: $200.26 | Asset: 0.000180 | Total: $213.59 | P&L: $13.59 (6.80%) [SL: -15%] | Trades: 279 | Realizado: $14.8492
+2026-03-17 02:40:43,590 [BTC] [INFO] Precio: $74148.9000 | USDT: $200.26 | Asset: 0.000180 | Total: $213.60 | P&L: $13.60 (6.80%) [SL: -15%] | Trades: 279 | Realizado: $14.8492
+2026-03-17 02:41:45,441 [BTC] [INFO] Precio: $74143.6500 | USDT: $200.26 | Asset: 0.000180 | Total: $213.59 | P&L: $13.59 (6.80%) [SL: -15%] | Trades: 279 | Realizado: $14.8492
+2026-03-17 02:42:47,161 [BTC] [INFO] Precio: $74121.9000 | USDT: $200.26 | Asset: 0.000180 | Total: $213.59 | P&L: $13.59 (6.80%) [SL: -15%] | Trades: 279 | Realizado: $14.8492
+2026-03-17 02:42:57,459 [BTC] [INFO] [COMPRA] Nivel 6 | $73558.7900 | 0.000181 | Costo: $13.33
+2026-03-17 02:43:49,557 [BTC] [INFO] Precio: $74055.0000 | USDT: $186.92 | Asset: 0.000361 | Total: $213.67 | P&L: $13.67 (6.83%) [SL: -15%] | Trades: 280 | Realizado: $14.8492
+2026-03-17 02:44:51,310 [BTC] [INFO] Precio: $73945.2200 | USDT: $186.92 | Asset: 0.000361 | Total: $213.63 | P&L: $13.63 (6.81%) [SL: -15%] | Trades: 280 | Realizado: $14.8492
+2026-03-17 02:45:52,990 [BTC] [INFO] Precio: $73985.4700 | USDT: $186.92 | Asset: 0.000361 | Total: $213.64 | P&L: $13.64 (6.82%) [SL: -15%] | Trades: 280 | Realizado: $14.8492
+2026-03-17 02:46:54,663 [BTC] [INFO] Precio: $73900.0100 | USDT: $186.92 | Asset: 0.000361 | Total: $213.61 | P&L: $13.61 (6.81%) [SL: -15%] | Trades: 280 | Realizado: $14.8492
+2026-03-17 02:47:56,469 [BTC] [INFO] Precio: $73881.8400 | USDT: $186.92 | Asset: 0.000361 | Total: $213.61 | P&L: $13.61 (6.80%) [SL: -15%] | Trades: 280 | Realizado: $14.8492
+2026-03-17 02:48:58,124 [BTC] [INFO] Precio: $73825.1700 | USDT: $186.92 | Asset: 0.000361 | Total: $213.59 | P&L: $13.59 (6.79%) [SL: -15%] | Trades: 280 | Realizado: $14.8492
+2026-03-17 02:49:59,852 [BTC] [INFO] Precio: $73866.1600 | USDT: $186.92 | Asset: 0.000361 | Total: $213.60 | P&L: $13.60 (6.80%) [SL: -15%] | Trades: 280 | Realizado: $14.8492
+2026-03-17 02:51:01,721 [BTC] [INFO] Precio: $73914.9100 | USDT: $186.92 | Asset: 0.000361 | Total: $213.62 | P&L: $13.62 (6.81%) [SL: -15%] | Trades: 280 | Realizado: $14.8492
+2026-03-17 02:52:03,369 [BTC] [INFO] Precio: $73958.0600 | USDT: $186.92 | Asset: 0.000361 | Total: $213.63 | P&L: $13.63 (6.82%) [SL: -15%] | Trades: 280 | Realizado: $14.8492
+2026-03-17 02:53:05,440 [BTC] [INFO] Precio: $74025.6800 | USDT: $186.92 | Asset: 0.000361 | Total: $213.66 | P&L: $13.66 (6.83%) [SL: -15%] | Trades: 280 | Realizado: $14.8492
+2026-03-17 02:54:07,266 [BTC] [INFO] Precio: $74049.9800 | USDT: $186.92 | Asset: 0.000361 | Total: $213.67 | P&L: $13.67 (6.83%) [SL: -15%] | Trades: 280 | Realizado: $14.8492
+2026-03-17 02:55:09,105 [BTC] [INFO] Precio: $74057.9400 | USDT: $186.92 | Asset: 0.000361 | Total: $213.67 | P&L: $13.67 (6.83%) [SL: -15%] | Trades: 280 | Realizado: $14.8492
+2026-03-17 02:56:10,859 [BTC] [INFO] Precio: $74080.8600 | USDT: $186.92 | Asset: 0.000361 | Total: $213.68 | P&L: $13.68 (6.84%) [SL: -15%] | Trades: 280 | Realizado: $14.8492
+2026-03-17 02:57:12,551 [BTC] [INFO] Precio: $74064.1200 | USDT: $186.92 | Asset: 0.000361 | Total: $213.67 | P&L: $13.67 (6.84%) [SL: -15%] | Trades: 280 | Realizado: $14.8492
+2026-03-17 02:58:14,280 [BTC] [INFO] Precio: $74029.2600 | USDT: $186.92 | Asset: 0.000361 | Total: $213.66 | P&L: $13.66 (6.83%) [SL: -15%] | Trades: 280 | Realizado: $14.8492
+2026-03-17 02:59:16,078 [BTC] [INFO] Precio: $73988.6300 | USDT: $186.92 | Asset: 0.000361 | Total: $213.64 | P&L: $13.64 (6.82%) [SL: -15%] | Trades: 280 | Realizado: $14.8492
+2026-03-17 03:00:17,832 [BTC] [INFO] Precio: $74033.0500 | USDT: $186.92 | Asset: 0.000361 | Total: $213.66 | P&L: $13.66 (6.83%) [SL: -15%] | Trades: 280 | Realizado: $14.8492
+2026-03-17 03:01:19,521 [BTC] [INFO] Precio: $74063.1700 | USDT: $186.92 | Asset: 0.000361 | Total: $213.67 | P&L: $13.67 (6.84%) [SL: -15%] | Trades: 280 | Realizado: $14.8492
+2026-03-17 03:02:21,318 [BTC] [INFO] Precio: $73969.9900 | USDT: $186.92 | Asset: 0.000361 | Total: $213.64 | P&L: $13.64 (6.82%) [SL: -15%] | Trades: 280 | Realizado: $14.8492
+2026-03-17 03:03:23,067 [BTC] [INFO] Precio: $73936.6000 | USDT: $186.92 | Asset: 0.000361 | Total: $213.63 | P&L: $13.63 (6.81%) [SL: -15%] | Trades: 280 | Realizado: $14.8492
+2026-03-17 03:04:24,767 [BTC] [INFO] Precio: $73915.9300 | USDT: $186.92 | Asset: 0.000361 | Total: $213.62 | P&L: $13.62 (6.81%) [SL: -15%] | Trades: 280 | Realizado: $14.8492
+2026-03-17 03:05:26,593 [BTC] [INFO] Precio: $73947.4000 | USDT: $186.92 | Asset: 0.000361 | Total: $213.63 | P&L: $13.63 (6.81%) [SL: -15%] | Trades: 280 | Realizado: $14.8492
+2026-03-17 03:06:28,672 [BTC] [INFO] Precio: $73921.0600 | USDT: $186.92 | Asset: 0.000361 | Total: $213.62 | P&L: $13.62 (6.81%) [SL: -15%] | Trades: 280 | Realizado: $14.8492
+2026-03-17 03:07:30,496 [BTC] [INFO] Precio: $73907.5400 | USDT: $186.92 | Asset: 0.000361 | Total: $213.61 | P&L: $13.61 (6.81%) [SL: -15%] | Trades: 280 | Realizado: $14.8492
+2026-03-17 03:08:32,186 [BTC] [INFO] Precio: $73967.2300 | USDT: $186.92 | Asset: 0.000361 | Total: $213.64 | P&L: $13.64 (6.82%) [SL: -15%] | Trades: 280 | Realizado: $14.8492
+2026-03-17 03:09:33,936 [BTC] [INFO] Precio: $73942.4300 | USDT: $186.92 | Asset: 0.000361 | Total: $213.63 | P&L: $13.63 (6.81%) [SL: -15%] | Trades: 280 | Realizado: $14.8492
+2026-03-17 03:10:35,748 [BTC] [INFO] Precio: $73979.2600 | USDT: $186.92 | Asset: 0.000361 | Total: $213.64 | P&L: $13.64 (6.82%) [SL: -15%] | Trades: 280 | Realizado: $14.8492
+2026-03-17 03:11:37,492 [BTC] [INFO] Precio: $73899.0100 | USDT: $186.92 | Asset: 0.000361 | Total: $213.61 | P&L: $13.61 (6.81%) [SL: -15%] | Trades: 280 | Realizado: $14.8492
+2026-03-17 03:12:39,254 [BTC] [INFO] Precio: $74099.9900 | USDT: $186.92 | Asset: 0.000361 | Total: $213.68 | P&L: $13.68 (6.84%) [SL: -15%] | Trades: 280 | Realizado: $14.8492
+2026-03-17 03:13:30,627 [BTC] [INFO] [VENTA] Nivel 6 | $74117.6567 | Compra: $73558.7900 | 0.000181 | Ganancia: $0.1013
+2026-03-17 03:13:41,668 [BTC] [INFO] Precio: $74146.4100 | USDT: $200.36 | Asset: 0.000180 | Total: $213.70 | P&L: $13.70 (6.85%) [SL: -15%] | Trades: 281 | Realizado: $14.9505
+2026-03-17 03:14:43,369 [BTC] [INFO] Precio: $74148.9000 | USDT: $200.36 | Asset: 0.000180 | Total: $213.70 | P&L: $13.70 (6.85%) [SL: -15%] | Trades: 281 | Realizado: $14.9505
+2026-03-17 03:15:45,448 [BTC] [INFO] Precio: $74159.6100 | USDT: $200.36 | Asset: 0.000180 | Total: $213.70 | P&L: $13.70 (6.85%) [SL: -15%] | Trades: 281 | Realizado: $14.9505
+2026-03-17 03:16:47,122 [BTC] [INFO] Precio: $74169.2700 | USDT: $200.36 | Asset: 0.000180 | Total: $213.70 | P&L: $13.70 (6.85%) [SL: -15%] | Trades: 281 | Realizado: $14.9505
+2026-03-17 03:17:48,918 [BTC] [INFO] Precio: $74141.8700 | USDT: $200.36 | Asset: 0.000180 | Total: $213.70 | P&L: $13.70 (6.85%) [SL: -15%] | Trades: 281 | Realizado: $14.9505
+2026-03-17 03:18:50,701 [BTC] [INFO] Precio: $74120.8500 | USDT: $200.36 | Asset: 0.000180 | Total: $213.69 | P&L: $13.69 (6.85%) [SL: -15%] | Trades: 281 | Realizado: $14.9505
+2026-03-17 03:19:01,012 [BTC] [INFO] [COMPRA] Nivel 6 | $73558.7900 | 0.000181 | Costo: $13.33
+2026-03-17 03:19:53,129 [BTC] [INFO] Precio: $74105.1800 | USDT: $187.02 | Asset: 0.000361 | Total: $213.79 | P&L: $13.79 (6.89%) [SL: -15%] | Trades: 282 | Realizado: $14.9505
+2026-03-17 03:20:54,834 [BTC] [INFO] [VENTA] Nivel 6 | $74117.6567 | Compra: $73558.7900 | 0.000181 | Ganancia: $0.1013
+2026-03-17 03:20:55,598 [BTC] [INFO] Precio: $74146.0000 | USDT: $200.46 | Asset: 0.000180 | Total: $213.80 | P&L: $13.80 (6.90%) [SL: -15%] | Trades: 283 | Realizado: $15.0518
+2026-03-17 03:21:57,637 [BTC] [INFO] Precio: $74245.2100 | USDT: $200.46 | Asset: 0.000180 | Total: $213.82 | P&L: $13.82 (6.91%) [SL: -15%] | Trades: 283 | Realizado: $15.0518
+2026-03-17 03:22:59,403 [BTC] [INFO] Precio: $74236.3400 | USDT: $200.46 | Asset: 0.000180 | Total: $213.81 | P&L: $13.81 (6.91%) [SL: -15%] | Trades: 283 | Realizado: $15.0518
+2026-03-17 03:24:01,020 [BTC] [INFO] Precio: $74198.2100 | USDT: $200.46 | Asset: 0.000180 | Total: $213.81 | P&L: $13.81 (6.90%) [SL: -15%] | Trades: 283 | Realizado: $15.0518
+2026-03-17 03:25:02,986 [BTC] [INFO] Precio: $74185.1600 | USDT: $200.46 | Asset: 0.000180 | Total: $213.80 | P&L: $13.80 (6.90%) [SL: -15%] | Trades: 283 | Realizado: $15.0518
+2026-03-17 03:26:04,781 [BTC] [INFO] Precio: $74219.9900 | USDT: $200.46 | Asset: 0.000180 | Total: $213.81 | P&L: $13.81 (6.91%) [SL: -15%] | Trades: 283 | Realizado: $15.0518
+2026-03-17 03:27:06,445 [BTC] [INFO] Precio: $74192.3200 | USDT: $200.46 | Asset: 0.000180 | Total: $213.81 | P&L: $13.81 (6.90%) [SL: -15%] | Trades: 283 | Realizado: $15.0518
+2026-03-17 03:28:08,136 [BTC] [INFO] Precio: $74174.9700 | USDT: $200.46 | Asset: 0.000180 | Total: $213.80 | P&L: $13.80 (6.90%) [SL: -15%] | Trades: 283 | Realizado: $15.0518
+2026-03-17 03:29:09,825 [BTC] [INFO] Precio: $74202.4400 | USDT: $200.46 | Asset: 0.000180 | Total: $213.81 | P&L: $13.81 (6.90%) [SL: -15%] | Trades: 283 | Realizado: $15.0518
+2026-03-17 03:30:11,470 [BTC] [INFO] Precio: $74214.7700 | USDT: $200.46 | Asset: 0.000180 | Total: $213.81 | P&L: $13.81 (6.90%) [SL: -15%] | Trades: 283 | Realizado: $15.0518
+2026-03-17 03:31:13,183 [BTC] [INFO] Precio: $74187.6800 | USDT: $200.46 | Asset: 0.000180 | Total: $213.80 | P&L: $13.80 (6.90%) [SL: -15%] | Trades: 283 | Realizado: $15.0518
+2026-03-17 03:32:14,958 [BTC] [INFO] Precio: $74245.5800 | USDT: $200.46 | Asset: 0.000180 | Total: $213.82 | P&L: $13.82 (6.91%) [SL: -15%] | Trades: 283 | Realizado: $15.0518
+2026-03-17 03:33:16,700 [BTC] [INFO] Precio: $74181.3600 | USDT: $200.46 | Asset: 0.000180 | Total: $213.80 | P&L: $13.80 (6.90%) [SL: -15%] | Trades: 283 | Realizado: $15.0518
+2026-03-17 03:34:18,458 [BTC] [INFO] Precio: $74149.1300 | USDT: $200.46 | Asset: 0.000180 | Total: $213.80 | P&L: $13.80 (6.90%) [SL: -15%] | Trades: 283 | Realizado: $15.0518
+2026-03-17 03:35:20,134 [BTC] [INFO] Precio: $74222.3100 | USDT: $200.46 | Asset: 0.000180 | Total: $213.81 | P&L: $13.81 (6.91%) [SL: -15%] | Trades: 283 | Realizado: $15.0518
+2026-03-17 03:36:21,893 [BTC] [INFO] Precio: $74229.8900 | USDT: $200.46 | Asset: 0.000180 | Total: $213.81 | P&L: $13.81 (6.91%) [SL: -15%] | Trades: 283 | Realizado: $15.0518
+2026-03-17 03:37:23,502 [BTC] [INFO] Precio: $74226.7800 | USDT: $200.46 | Asset: 0.000180 | Total: $213.81 | P&L: $13.81 (6.91%) [SL: -15%] | Trades: 283 | Realizado: $15.0518
+2026-03-17 03:38:25,169 [BTC] [INFO] Precio: $74224.1100 | USDT: $200.46 | Asset: 0.000180 | Total: $213.81 | P&L: $13.81 (6.91%) [SL: -15%] | Trades: 283 | Realizado: $15.0518
+2026-03-17 03:39:26,898 [BTC] [INFO] Precio: $74266.6600 | USDT: $200.46 | Asset: 0.000180 | Total: $213.82 | P&L: $13.82 (6.91%) [SL: -15%] | Trades: 283 | Realizado: $15.0518
+2026-03-17 03:40:28,646 [BTC] [INFO] Precio: $74260.5100 | USDT: $200.46 | Asset: 0.000180 | Total: $213.82 | P&L: $13.82 (6.91%) [SL: -15%] | Trades: 283 | Realizado: $15.0518
+2026-03-17 03:41:30,320 [BTC] [INFO] Precio: $74264.5600 | USDT: $200.46 | Asset: 0.000180 | Total: $213.82 | P&L: $13.82 (6.91%) [SL: -15%] | Trades: 283 | Realizado: $15.0518
+2026-03-17 03:42:32,024 [BTC] [INFO] Precio: $74264.0200 | USDT: $200.46 | Asset: 0.000180 | Total: $213.82 | P&L: $13.82 (6.91%) [SL: -15%] | Trades: 283 | Realizado: $15.0518
+2026-03-17 03:43:33,740 [BTC] [INFO] Precio: $74165.3000 | USDT: $200.46 | Asset: 0.000180 | Total: $213.80 | P&L: $13.80 (6.90%) [SL: -15%] | Trades: 283 | Realizado: $15.0518
+2026-03-17 03:44:04,606 [BTC] [INFO] [COMPRA] Nivel 6 | $73558.7900 | 0.000181 | Costo: $13.33
+2026-03-17 03:44:36,065 [BTC] [INFO] Precio: $74012.3000 | USDT: $187.13 | Asset: 0.000361 | Total: $213.86 | P&L: $13.86 (6.93%) [SL: -15%] | Trades: 284 | Realizado: $15.0518
+2026-03-17 03:45:37,659 [BTC] [INFO] Precio: $73988.2500 | USDT: $187.13 | Asset: 0.000361 | Total: $213.85 | P&L: $13.85 (6.92%) [SL: -15%] | Trades: 284 | Realizado: $15.0518
+2026-03-17 03:46:39,393 [BTC] [INFO] Precio: $74029.7500 | USDT: $187.13 | Asset: 0.000361 | Total: $213.86 | P&L: $13.86 (6.93%) [SL: -15%] | Trades: 284 | Realizado: $15.0518
+2026-03-17 03:47:41,087 [BTC] [INFO] Precio: $73976.3900 | USDT: $187.13 | Asset: 0.000361 | Total: $213.84 | P&L: $13.84 (6.92%) [SL: -15%] | Trades: 284 | Realizado: $15.0518
+2026-03-17 03:48:42,801 [BTC] [INFO] Precio: $74018.9900 | USDT: $187.13 | Asset: 0.000361 | Total: $213.86 | P&L: $13.86 (6.93%) [SL: -15%] | Trades: 284 | Realizado: $15.0518
+2026-03-17 03:49:44,500 [BTC] [INFO] Precio: $74002.1500 | USDT: $187.13 | Asset: 0.000361 | Total: $213.85 | P&L: $13.85 (6.93%) [SL: -15%] | Trades: 284 | Realizado: $15.0518
+2026-03-17 03:50:36,151 [BTC] [WARNING] Error de red (1): HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/ticker/price?symbol=BTCUSDT (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000186B6C55450>: Failed to resolve 'api.binance.com' ([Errno 11001] getaddrinfo failed)")). Reintentando en 10s...
+2026-03-17 03:50:46,371 [BTC] [INFO] Conexion restaurada despues de 1 errores.
+2026-03-17 03:50:56,628 [BTC] [INFO] Precio: $73990.6500 | USDT: $187.13 | Asset: 0.000361 | Total: $213.85 | P&L: $13.85 (6.92%) [SL: -15%] | Trades: 284 | Realizado: $15.0518
+2026-03-17 03:51:58,535 [BTC] [INFO] Precio: $74041.6400 | USDT: $187.13 | Asset: 0.000361 | Total: $213.87 | P&L: $13.87 (6.93%) [SL: -15%] | Trades: 284 | Realizado: $15.0518
+2026-03-17 03:53:00,186 [BTC] [INFO] Precio: $74006.2300 | USDT: $187.13 | Asset: 0.000361 | Total: $213.85 | P&L: $13.85 (6.93%) [SL: -15%] | Trades: 284 | Realizado: $15.0518
+2026-03-17 03:54:01,885 [BTC] [INFO] Precio: $74035.9500 | USDT: $187.13 | Asset: 0.000361 | Total: $213.86 | P&L: $13.86 (6.93%) [SL: -15%] | Trades: 284 | Realizado: $15.0518
+2026-03-17 03:55:03,890 [BTC] [INFO] Precio: $74032.5500 | USDT: $187.13 | Asset: 0.000361 | Total: $213.86 | P&L: $13.86 (6.93%) [SL: -15%] | Trades: 284 | Realizado: $15.0518
+2026-03-17 03:56:05,548 [BTC] [INFO] Precio: $74048.4700 | USDT: $187.13 | Asset: 0.000361 | Total: $213.87 | P&L: $13.87 (6.93%) [SL: -15%] | Trades: 284 | Realizado: $15.0518
+2026-03-17 03:57:07,185 [BTC] [INFO] Precio: $74057.4500 | USDT: $187.13 | Asset: 0.000361 | Total: $213.87 | P&L: $13.87 (6.94%) [SL: -15%] | Trades: 284 | Realizado: $15.0518
+2026-03-17 03:58:08,957 [BTC] [INFO] Precio: $74070.8100 | USDT: $187.13 | Asset: 0.000361 | Total: $213.88 | P&L: $13.88 (6.94%) [SL: -15%] | Trades: 284 | Realizado: $15.0518
+2026-03-17 03:59:10,688 [BTC] [INFO] Precio: $74085.5500 | USDT: $187.13 | Asset: 0.000361 | Total: $213.88 | P&L: $13.88 (6.94%) [SL: -15%] | Trades: 284 | Realizado: $15.0518
+2026-03-17 04:00:12,327 [BTC] [INFO] Precio: $74086.6000 | USDT: $187.13 | Asset: 0.000361 | Total: $213.88 | P&L: $13.88 (6.94%) [SL: -15%] | Trades: 284 | Realizado: $15.0518
+2026-03-17 04:01:13,950 [BTC] [INFO] [VENTA] Nivel 6 | $74117.6567 | Compra: $73558.7900 | 0.000181 | Ganancia: $0.1013
+2026-03-17 04:01:14,618 [BTC] [INFO] Precio: $74149.9900 | USDT: $200.56 | Asset: 0.000180 | Total: $213.90 | P&L: $13.90 (6.95%) [SL: -15%] | Trades: 285 | Realizado: $15.1531
+2026-03-17 04:01:24,908 [BTC] [INFO] [COMPRA] Nivel 6 | $73558.7900 | 0.000181 | Costo: $13.33
+2026-03-17 04:01:46,106 [BTC] [INFO] [VENTA] Nivel 6 | $74117.6567 | Compra: $73558.7900 | 0.000181 | Ganancia: $0.1013
+2026-03-17 04:01:57,044 [BTC] [INFO] [COMPRA] Nivel 6 | $73558.7900 | 0.000181 | Costo: $13.33
+2026-03-17 04:02:08,000 [BTC] [INFO] [VENTA] Nivel 6 | $74117.6567 | Compra: $73558.7900 | 0.000181 | Ganancia: $0.1013
+2026-03-17 04:02:19,156 [BTC] [INFO] Precio: $74120.3300 | USDT: $200.76 | Asset: 0.000180 | Total: $214.10 | P&L: $14.10 (7.05%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:03:20,809 [BTC] [INFO] Precio: $74181.4300 | USDT: $200.76 | Asset: 0.000180 | Total: $214.11 | P&L: $14.11 (7.05%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:04:22,511 [BTC] [INFO] Precio: $74175.5500 | USDT: $200.76 | Asset: 0.000180 | Total: $214.11 | P&L: $14.11 (7.05%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:05:24,137 [BTC] [INFO] Precio: $74184.7500 | USDT: $200.76 | Asset: 0.000180 | Total: $214.11 | P&L: $14.11 (7.05%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:06:25,804 [BTC] [INFO] Precio: $74196.8000 | USDT: $200.76 | Asset: 0.000180 | Total: $214.11 | P&L: $14.11 (7.06%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:07:27,633 [BTC] [INFO] Precio: $74198.8800 | USDT: $200.76 | Asset: 0.000180 | Total: $214.11 | P&L: $14.11 (7.06%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:08:29,363 [BTC] [INFO] Precio: $74176.6500 | USDT: $200.76 | Asset: 0.000180 | Total: $214.11 | P&L: $14.11 (7.05%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:09:30,979 [BTC] [INFO] Precio: $74194.1200 | USDT: $200.76 | Asset: 0.000180 | Total: $214.11 | P&L: $14.11 (7.05%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:10:32,742 [BTC] [INFO] Precio: $74216.9800 | USDT: $200.76 | Asset: 0.000180 | Total: $214.11 | P&L: $14.11 (7.06%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:11:34,427 [BTC] [INFO] Precio: $74287.2500 | USDT: $200.76 | Asset: 0.000180 | Total: $214.13 | P&L: $14.13 (7.06%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:12:36,131 [BTC] [INFO] Precio: $74301.7100 | USDT: $200.76 | Asset: 0.000180 | Total: $214.13 | P&L: $14.13 (7.06%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:13:37,813 [BTC] [INFO] Precio: $74307.4200 | USDT: $200.76 | Asset: 0.000180 | Total: $214.13 | P&L: $14.13 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:14:39,505 [BTC] [INFO] Precio: $74337.4600 | USDT: $200.76 | Asset: 0.000180 | Total: $214.14 | P&L: $14.14 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:15:41,160 [BTC] [INFO] Precio: $74350.0700 | USDT: $200.76 | Asset: 0.000180 | Total: $214.14 | P&L: $14.14 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:16:42,819 [BTC] [INFO] Precio: $74366.0000 | USDT: $200.76 | Asset: 0.000180 | Total: $214.14 | P&L: $14.14 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:17:44,583 [BTC] [INFO] Precio: $74389.2000 | USDT: $200.76 | Asset: 0.000180 | Total: $214.14 | P&L: $14.14 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:18:46,194 [BTC] [INFO] Precio: $74336.4500 | USDT: $200.76 | Asset: 0.000180 | Total: $214.14 | P&L: $14.14 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:19:47,806 [BTC] [INFO] Precio: $74421.1600 | USDT: $200.76 | Asset: 0.000180 | Total: $214.15 | P&L: $14.15 (7.08%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:20:49,556 [BTC] [INFO] Precio: $74371.0300 | USDT: $200.76 | Asset: 0.000180 | Total: $214.14 | P&L: $14.14 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:21:51,258 [BTC] [INFO] Precio: $74359.0400 | USDT: $200.76 | Asset: 0.000180 | Total: $214.14 | P&L: $14.14 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:22:52,962 [BTC] [INFO] Precio: $74378.8600 | USDT: $200.76 | Asset: 0.000180 | Total: $214.14 | P&L: $14.14 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:23:54,619 [BTC] [INFO] Precio: $74431.0700 | USDT: $200.76 | Asset: 0.000180 | Total: $214.15 | P&L: $14.15 (7.08%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:24:56,267 [BTC] [INFO] Precio: $74413.9800 | USDT: $200.76 | Asset: 0.000180 | Total: $214.15 | P&L: $14.15 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:25:57,998 [BTC] [INFO] Precio: $74389.1300 | USDT: $200.76 | Asset: 0.000180 | Total: $214.14 | P&L: $14.14 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:26:59,598 [BTC] [INFO] Precio: $74397.1500 | USDT: $200.76 | Asset: 0.000180 | Total: $214.15 | P&L: $14.15 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:28:01,233 [BTC] [INFO] Precio: $74387.2300 | USDT: $200.76 | Asset: 0.000180 | Total: $214.14 | P&L: $14.14 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:29:02,885 [BTC] [INFO] Precio: $74421.9700 | USDT: $200.76 | Asset: 0.000180 | Total: $214.15 | P&L: $14.15 (7.08%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:30:04,565 [BTC] [INFO] Precio: $74403.6200 | USDT: $200.76 | Asset: 0.000180 | Total: $214.15 | P&L: $14.15 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:31:06,233 [BTC] [INFO] Precio: $74397.9800 | USDT: $200.76 | Asset: 0.000180 | Total: $214.15 | P&L: $14.15 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:32:07,920 [BTC] [INFO] Precio: $74364.4600 | USDT: $200.76 | Asset: 0.000180 | Total: $214.14 | P&L: $14.14 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:33:09,658 [BTC] [INFO] Precio: $74355.0700 | USDT: $200.76 | Asset: 0.000180 | Total: $214.14 | P&L: $14.14 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:34:11,275 [BTC] [INFO] Precio: $74338.2600 | USDT: $200.76 | Asset: 0.000180 | Total: $214.14 | P&L: $14.14 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:35:12,964 [BTC] [INFO] Precio: $74344.1500 | USDT: $200.76 | Asset: 0.000180 | Total: $214.14 | P&L: $14.14 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:36:15,030 [BTC] [INFO] Precio: $74341.6700 | USDT: $200.76 | Asset: 0.000180 | Total: $214.14 | P&L: $14.14 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:37:16,726 [BTC] [INFO] Precio: $74335.8800 | USDT: $200.76 | Asset: 0.000180 | Total: $214.14 | P&L: $14.14 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:38:18,431 [BTC] [INFO] Precio: $74320.0200 | USDT: $200.76 | Asset: 0.000180 | Total: $214.13 | P&L: $14.13 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:39:20,091 [BTC] [INFO] Precio: $74320.0000 | USDT: $200.76 | Asset: 0.000180 | Total: $214.13 | P&L: $14.13 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:40:21,748 [BTC] [INFO] Precio: $74334.5300 | USDT: $200.76 | Asset: 0.000180 | Total: $214.14 | P&L: $14.14 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:41:23,477 [BTC] [INFO] Precio: $74345.5600 | USDT: $200.76 | Asset: 0.000180 | Total: $214.14 | P&L: $14.14 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:42:25,144 [BTC] [INFO] Precio: $74375.5400 | USDT: $200.76 | Asset: 0.000180 | Total: $214.14 | P&L: $14.14 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:43:26,904 [BTC] [INFO] Precio: $74326.0500 | USDT: $200.76 | Asset: 0.000180 | Total: $214.13 | P&L: $14.13 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:44:28,626 [BTC] [INFO] Precio: $74334.4300 | USDT: $200.76 | Asset: 0.000180 | Total: $214.14 | P&L: $14.14 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:45:30,413 [BTC] [INFO] Precio: $74387.2200 | USDT: $200.76 | Asset: 0.000180 | Total: $214.14 | P&L: $14.14 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:46:32,182 [BTC] [INFO] Precio: $74364.6400 | USDT: $200.76 | Asset: 0.000180 | Total: $214.14 | P&L: $14.14 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:47:33,912 [BTC] [INFO] Precio: $74343.2700 | USDT: $200.76 | Asset: 0.000180 | Total: $214.14 | P&L: $14.14 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:48:35,757 [BTC] [INFO] Precio: $74345.3800 | USDT: $200.76 | Asset: 0.000180 | Total: $214.14 | P&L: $14.14 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:49:37,412 [BTC] [INFO] Precio: $74378.5100 | USDT: $200.76 | Asset: 0.000180 | Total: $214.14 | P&L: $14.14 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:50:39,076 [BTC] [INFO] Precio: $74294.4600 | USDT: $200.76 | Asset: 0.000180 | Total: $214.13 | P&L: $14.13 (7.06%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:51:40,745 [BTC] [INFO] Precio: $74279.8800 | USDT: $200.76 | Asset: 0.000180 | Total: $214.13 | P&L: $14.13 (7.06%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:52:42,432 [BTC] [INFO] Precio: $74275.3900 | USDT: $200.76 | Asset: 0.000180 | Total: $214.12 | P&L: $14.12 (7.06%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:53:44,154 [BTC] [INFO] Precio: $74276.7600 | USDT: $200.76 | Asset: 0.000180 | Total: $214.12 | P&L: $14.12 (7.06%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:54:45,816 [BTC] [INFO] Precio: $74241.3300 | USDT: $200.76 | Asset: 0.000180 | Total: $214.12 | P&L: $14.12 (7.06%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:55:47,727 [BTC] [INFO] Precio: $74232.2400 | USDT: $200.76 | Asset: 0.000180 | Total: $214.12 | P&L: $14.12 (7.06%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:56:49,453 [BTC] [INFO] Precio: $74252.1700 | USDT: $200.76 | Asset: 0.000180 | Total: $214.12 | P&L: $14.12 (7.06%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:57:51,244 [BTC] [INFO] Precio: $74236.8400 | USDT: $200.76 | Asset: 0.000180 | Total: $214.12 | P&L: $14.12 (7.06%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:58:52,920 [BTC] [INFO] Precio: $74247.0300 | USDT: $200.76 | Asset: 0.000180 | Total: $214.12 | P&L: $14.12 (7.06%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 04:59:54,776 [BTC] [INFO] Precio: $74247.9200 | USDT: $200.76 | Asset: 0.000180 | Total: $214.12 | P&L: $14.12 (7.06%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:00:56,451 [BTC] [INFO] Precio: $74307.2300 | USDT: $200.76 | Asset: 0.000180 | Total: $214.13 | P&L: $14.13 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:01:58,112 [BTC] [INFO] Precio: $74358.0000 | USDT: $200.76 | Asset: 0.000180 | Total: $214.14 | P&L: $14.14 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:02:59,869 [BTC] [INFO] Precio: $74348.0100 | USDT: $200.76 | Asset: 0.000180 | Total: $214.14 | P&L: $14.14 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:04:01,595 [BTC] [INFO] Precio: $74452.9600 | USDT: $200.76 | Asset: 0.000180 | Total: $214.16 | P&L: $14.16 (7.08%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:05:03,266 [BTC] [INFO] Precio: $74431.5000 | USDT: $200.76 | Asset: 0.000180 | Total: $214.15 | P&L: $14.15 (7.08%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:06:04,961 [BTC] [INFO] Precio: $74409.8500 | USDT: $200.76 | Asset: 0.000180 | Total: $214.15 | P&L: $14.15 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:07:06,528 [BTC] [INFO] Precio: $74365.3300 | USDT: $200.76 | Asset: 0.000180 | Total: $214.14 | P&L: $14.14 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:08:08,330 [BTC] [INFO] Precio: $74404.1100 | USDT: $200.76 | Asset: 0.000180 | Total: $214.15 | P&L: $14.15 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:09:10,301 [BTC] [INFO] Precio: $74385.4100 | USDT: $200.76 | Asset: 0.000180 | Total: $214.14 | P&L: $14.14 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:10:11,959 [BTC] [INFO] Precio: $74312.4000 | USDT: $200.76 | Asset: 0.000180 | Total: $214.13 | P&L: $14.13 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:11:13,627 [BTC] [INFO] Precio: $74270.0300 | USDT: $200.76 | Asset: 0.000180 | Total: $214.12 | P&L: $14.12 (7.06%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:12:15,274 [BTC] [INFO] Precio: $74211.2500 | USDT: $200.76 | Asset: 0.000180 | Total: $214.11 | P&L: $14.11 (7.06%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:13:17,067 [BTC] [INFO] Precio: $74222.3900 | USDT: $200.76 | Asset: 0.000180 | Total: $214.11 | P&L: $14.11 (7.06%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:14:18,823 [BTC] [INFO] Precio: $74259.6700 | USDT: $200.76 | Asset: 0.000180 | Total: $214.12 | P&L: $14.12 (7.06%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:15:20,575 [BTC] [INFO] Precio: $74230.0000 | USDT: $200.76 | Asset: 0.000180 | Total: $214.12 | P&L: $14.12 (7.06%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:16:22,169 [BTC] [INFO] Precio: $74155.8900 | USDT: $200.76 | Asset: 0.000180 | Total: $214.10 | P&L: $14.10 (7.05%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:17:23,732 [BTC] [INFO] Precio: $74185.9900 | USDT: $200.76 | Asset: 0.000180 | Total: $214.11 | P&L: $14.11 (7.05%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:18:25,371 [BTC] [INFO] Precio: $74207.9100 | USDT: $200.76 | Asset: 0.000180 | Total: $214.11 | P&L: $14.11 (7.06%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:19:26,950 [BTC] [INFO] Precio: $74250.1500 | USDT: $200.76 | Asset: 0.000180 | Total: $214.12 | P&L: $14.12 (7.06%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:20:28,639 [BTC] [INFO] Precio: $74370.1500 | USDT: $200.76 | Asset: 0.000180 | Total: $214.14 | P&L: $14.14 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:21:30,381 [BTC] [INFO] Precio: $74350.2400 | USDT: $200.76 | Asset: 0.000180 | Total: $214.14 | P&L: $14.14 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:22:32,040 [BTC] [INFO] Precio: $74333.9100 | USDT: $200.76 | Asset: 0.000180 | Total: $214.13 | P&L: $14.13 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:23:33,640 [BTC] [INFO] Precio: $74330.3000 | USDT: $200.76 | Asset: 0.000180 | Total: $214.13 | P&L: $14.13 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:24:35,701 [BTC] [INFO] Precio: $74294.9800 | USDT: $200.76 | Asset: 0.000180 | Total: $214.13 | P&L: $14.13 (7.06%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:25:37,330 [BTC] [INFO] Precio: $74281.6500 | USDT: $200.76 | Asset: 0.000180 | Total: $214.13 | P&L: $14.13 (7.06%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:26:39,042 [BTC] [INFO] Precio: $74266.0400 | USDT: $200.76 | Asset: 0.000180 | Total: $214.12 | P&L: $14.12 (7.06%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:27:40,706 [BTC] [INFO] Precio: $74302.7500 | USDT: $200.76 | Asset: 0.000180 | Total: $214.13 | P&L: $14.13 (7.06%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:28:42,406 [BTC] [INFO] Precio: $74295.9700 | USDT: $200.76 | Asset: 0.000180 | Total: $214.13 | P&L: $14.13 (7.06%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:29:44,007 [BTC] [INFO] Precio: $74301.3600 | USDT: $200.76 | Asset: 0.000180 | Total: $214.13 | P&L: $14.13 (7.06%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:30:45,646 [BTC] [INFO] Precio: $74367.2300 | USDT: $200.76 | Asset: 0.000180 | Total: $214.14 | P&L: $14.14 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:31:47,231 [BTC] [INFO] Precio: $74310.5500 | USDT: $200.76 | Asset: 0.000180 | Total: $214.13 | P&L: $14.13 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:32:48,929 [BTC] [INFO] Precio: $74323.1200 | USDT: $200.76 | Asset: 0.000180 | Total: $214.13 | P&L: $14.13 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:33:50,609 [BTC] [INFO] Precio: $74309.5500 | USDT: $200.76 | Asset: 0.000180 | Total: $214.13 | P&L: $14.13 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:34:52,406 [BTC] [INFO] Precio: $74301.0300 | USDT: $200.76 | Asset: 0.000180 | Total: $214.13 | P&L: $14.13 (7.06%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:35:54,088 [BTC] [INFO] Precio: $74231.8700 | USDT: $200.76 | Asset: 0.000180 | Total: $214.12 | P&L: $14.12 (7.06%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:36:55,763 [BTC] [INFO] Precio: $74246.3800 | USDT: $200.76 | Asset: 0.000180 | Total: $214.12 | P&L: $14.12 (7.06%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:37:57,443 [BTC] [INFO] Precio: $74242.5300 | USDT: $200.76 | Asset: 0.000180 | Total: $214.12 | P&L: $14.12 (7.06%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:38:59,053 [BTC] [INFO] Precio: $74241.7100 | USDT: $200.76 | Asset: 0.000180 | Total: $214.12 | P&L: $14.12 (7.06%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:40:00,695 [BTC] [INFO] Precio: $74187.5300 | USDT: $200.76 | Asset: 0.000180 | Total: $214.11 | P&L: $14.11 (7.05%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:41:02,817 [BTC] [INFO] Precio: $74220.9400 | USDT: $200.76 | Asset: 0.000180 | Total: $214.11 | P&L: $14.11 (7.06%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:42:04,467 [BTC] [INFO] Precio: $74411.9500 | USDT: $200.76 | Asset: 0.000180 | Total: $214.15 | P&L: $14.15 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:43:06,146 [BTC] [INFO] Precio: $74394.4000 | USDT: $200.76 | Asset: 0.000180 | Total: $214.15 | P&L: $14.15 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:44:07,771 [BTC] [INFO] Precio: $74424.3900 | USDT: $200.76 | Asset: 0.000180 | Total: $214.15 | P&L: $14.15 (7.08%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:45:09,489 [BTC] [INFO] Precio: $74383.7300 | USDT: $200.76 | Asset: 0.000180 | Total: $214.14 | P&L: $14.14 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:46:11,156 [BTC] [INFO] Precio: $74405.2800 | USDT: $200.76 | Asset: 0.000180 | Total: $214.15 | P&L: $14.15 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:47:13,236 [BTC] [INFO] Precio: $74419.0900 | USDT: $200.76 | Asset: 0.000180 | Total: $214.15 | P&L: $14.15 (7.08%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:48:15,078 [BTC] [INFO] Precio: $74388.3400 | USDT: $200.76 | Asset: 0.000180 | Total: $214.14 | P&L: $14.14 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:49:16,696 [BTC] [INFO] Precio: $74406.7900 | USDT: $200.76 | Asset: 0.000180 | Total: $214.15 | P&L: $14.15 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:50:18,327 [BTC] [INFO] Precio: $74402.2000 | USDT: $200.76 | Asset: 0.000180 | Total: $214.15 | P&L: $14.15 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:51:19,989 [BTC] [INFO] Precio: $74384.6600 | USDT: $200.76 | Asset: 0.000180 | Total: $214.14 | P&L: $14.14 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:52:21,691 [BTC] [INFO] Precio: $74364.8700 | USDT: $200.76 | Asset: 0.000180 | Total: $214.14 | P&L: $14.14 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:53:23,425 [BTC] [INFO] Precio: $74345.2300 | USDT: $200.76 | Asset: 0.000180 | Total: $214.14 | P&L: $14.14 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:54:25,427 [BTC] [INFO] Precio: $74319.5900 | USDT: $200.76 | Asset: 0.000180 | Total: $214.13 | P&L: $14.13 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:55:27,047 [BTC] [INFO] Precio: $74331.9400 | USDT: $200.76 | Asset: 0.000180 | Total: $214.13 | P&L: $14.13 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:56:28,703 [BTC] [INFO] Precio: $74340.4500 | USDT: $200.76 | Asset: 0.000180 | Total: $214.14 | P&L: $14.14 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:57:30,341 [BTC] [INFO] Precio: $74330.9700 | USDT: $200.76 | Asset: 0.000180 | Total: $214.13 | P&L: $14.13 (7.07%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:58:32,055 [BTC] [INFO] Precio: $74159.0000 | USDT: $200.76 | Asset: 0.000180 | Total: $214.10 | P&L: $14.10 (7.05%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 05:59:33,833 [BTC] [INFO] Precio: $74160.0000 | USDT: $200.76 | Asset: 0.000180 | Total: $214.10 | P&L: $14.10 (7.05%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 06:00:35,465 [BTC] [INFO] Precio: $74162.4100 | USDT: $200.76 | Asset: 0.000180 | Total: $214.10 | P&L: $14.10 (7.05%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 06:01:37,175 [BTC] [INFO] Precio: $74185.8800 | USDT: $200.76 | Asset: 0.000180 | Total: $214.11 | P&L: $14.11 (7.05%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 06:02:39,237 [BTC] [INFO] Precio: $74240.2700 | USDT: $200.76 | Asset: 0.000180 | Total: $214.12 | P&L: $14.12 (7.06%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 06:03:40,930 [BTC] [INFO] Precio: $74216.2800 | USDT: $200.76 | Asset: 0.000180 | Total: $214.11 | P&L: $14.11 (7.06%) [SL: -15%] | Trades: 289 | Realizado: $15.3557
+2026-03-17 06:04:32,278 [BTC] [INFO] [COMPRA] Nivel 6 | $73558.7900 | 0.000181 | Costo: $13.33
+2026-03-17 06:04:43,325 [BTC] [INFO] Precio: $74100.0100 | USDT: $187.43 | Asset: 0.000361 | Total: $214.19 | P&L: $14.19 (7.10%) [SL: -15%] | Trades: 290 | Realizado: $15.3557
+2026-03-17 06:05:44,963 [BTC] [INFO] Precio: $74111.0900 | USDT: $187.43 | Asset: 0.000361 | Total: $214.19 | P&L: $14.19 (7.10%) [SL: -15%] | Trades: 290 | Realizado: $15.3557
+2026-03-17 06:06:46,631 [BTC] [INFO] Precio: $74043.6800 | USDT: $187.43 | Asset: 0.000361 | Total: $214.17 | P&L: $14.17 (7.09%) [SL: -15%] | Trades: 290 | Realizado: $15.3557
+2026-03-17 06:07:48,247 [BTC] [INFO] Precio: $74083.5400 | USDT: $187.43 | Asset: 0.000361 | Total: $214.19 | P&L: $14.19 (7.09%) [SL: -15%] | Trades: 290 | Realizado: $15.3557
+2026-03-17 06:08:49,938 [BTC] [INFO] Precio: $74099.2900 | USDT: $187.43 | Asset: 0.000361 | Total: $214.19 | P&L: $14.19 (7.10%) [SL: -15%] | Trades: 290 | Realizado: $15.3557
+2026-03-17 06:09:10,520 [BTC] [INFO] [VENTA] Nivel 6 | $74117.6567 | Compra: $73558.7900 | 0.000181 | Ganancia: $0.1013
+2026-03-17 06:09:31,806 [BTC] [INFO] [COMPRA] Nivel 6 | $73558.7900 | 0.000181 | Costo: $13.33
+2026-03-17 06:09:42,789 [BTC] [INFO] [VENTA] Nivel 6 | $74117.6567 | Compra: $73558.7900 | 0.000181 | Ganancia: $0.1013
+2026-03-17 06:09:53,760 [BTC] [INFO] [COMPRA] Nivel 6 | $73558.7900 | 0.000181 | Costo: $13.33
+2026-03-17 06:09:54,409 [BTC] [INFO] Precio: $74116.6700 | USDT: $187.63 | Asset: 0.000361 | Total: $214.40 | P&L: $14.40 (7.20%) [SL: -15%] | Trades: 294 | Realizado: $15.5583
+2026-03-17 06:10:56,008 [BTC] [INFO] Precio: $74076.0800 | USDT: $187.63 | Asset: 0.000361 | Total: $214.38 | P&L: $14.38 (7.19%) [SL: -15%] | Trades: 294 | Realizado: $15.5583
+2026-03-17 06:11:57,776 [BTC] [INFO] Precio: $74061.9300 | USDT: $187.63 | Asset: 0.000361 | Total: $214.38 | P&L: $14.38 (7.19%) [SL: -15%] | Trades: 294 | Realizado: $15.5583
+2026-03-17 06:12:59,488 [BTC] [INFO] Precio: $74077.8700 | USDT: $187.63 | Asset: 0.000361 | Total: $214.39 | P&L: $14.39 (7.19%) [SL: -15%] | Trades: 294 | Realizado: $15.5583
+2026-03-17 06:14:01,131 [BTC] [INFO] Precio: $74069.9900 | USDT: $187.63 | Asset: 0.000361 | Total: $214.38 | P&L: $14.38 (7.19%) [SL: -15%] | Trades: 294 | Realizado: $15.5583
+2026-03-17 06:15:02,879 [BTC] [INFO] Precio: $74059.6700 | USDT: $187.63 | Asset: 0.000361 | Total: $214.38 | P&L: $14.38 (7.19%) [SL: -15%] | Trades: 294 | Realizado: $15.5583
+2026-03-17 06:16:04,541 [BTC] [INFO] Precio: $74035.3800 | USDT: $187.63 | Asset: 0.000361 | Total: $214.37 | P&L: $14.37 (7.19%) [SL: -15%] | Trades: 294 | Realizado: $15.5583
+2026-03-17 06:17:06,254 [BTC] [INFO] Precio: $74044.3400 | USDT: $187.63 | Asset: 0.000361 | Total: $214.37 | P&L: $14.37 (7.19%) [SL: -15%] | Trades: 294 | Realizado: $15.5583
+2026-03-17 06:18:07,927 [BTC] [INFO] Precio: $74025.5900 | USDT: $187.63 | Asset: 0.000361 | Total: $214.37 | P&L: $14.37 (7.18%) [SL: -15%] | Trades: 294 | Realizado: $15.5583
+2026-03-17 06:19:09,739 [BTC] [INFO] Precio: $74006.0800 | USDT: $187.63 | Asset: 0.000361 | Total: $214.36 | P&L: $14.36 (7.18%) [SL: -15%] | Trades: 294 | Realizado: $15.5583
+2026-03-17 06:20:11,488 [BTC] [INFO] [VENTA] Nivel 6 | $74117.6567 | Compra: $73558.7900 | 0.000181 | Ganancia: $0.1013
+2026-03-17 06:20:12,166 [BTC] [INFO] Precio: $74138.7100 | USDT: $201.07 | Asset: 0.000180 | Total: $214.40 | P&L: $14.40 (7.20%) [SL: -15%] | Trades: 295 | Realizado: $15.6596
+2026-03-17 06:21:13,870 [BTC] [INFO] Precio: $74148.5300 | USDT: $201.07 | Asset: 0.000180 | Total: $214.41 | P&L: $14.41 (7.20%) [SL: -15%] | Trades: 295 | Realizado: $15.6596
+2026-03-17 06:22:15,556 [BTC] [INFO] Precio: $74176.7000 | USDT: $201.07 | Asset: 0.000180 | Total: $214.41 | P&L: $14.41 (7.21%) [SL: -15%] | Trades: 295 | Realizado: $15.6596
+2026-03-17 06:23:17,282 [BTC] [INFO] Precio: $74124.8200 | USDT: $201.07 | Asset: 0.000180 | Total: $214.40 | P&L: $14.40 (7.20%) [SL: -15%] | Trades: 295 | Realizado: $15.6596
+2026-03-17 06:24:18,992 [BTC] [INFO] Precio: $74179.0300 | USDT: $201.07 | Asset: 0.000180 | Total: $214.41 | P&L: $14.41 (7.21%) [SL: -15%] | Trades: 295 | Realizado: $15.6596
+2026-03-17 06:25:20,719 [BTC] [INFO] Precio: $74210.3500 | USDT: $201.07 | Asset: 0.000180 | Total: $214.42 | P&L: $14.42 (7.21%) [SL: -15%] | Trades: 295 | Realizado: $15.6596
+2026-03-17 06:26:22,432 [BTC] [INFO] Precio: $74360.0100 | USDT: $201.07 | Asset: 0.000180 | Total: $214.44 | P&L: $14.44 (7.22%) [SL: -15%] | Trades: 295 | Realizado: $15.6596
+2026-03-17 06:27:24,010 [BTC] [INFO] Precio: $74247.6800 | USDT: $201.07 | Asset: 0.000180 | Total: $214.42 | P&L: $14.42 (7.21%) [SL: -15%] | Trades: 295 | Realizado: $15.6596
+2026-03-17 06:28:25,680 [BTC] [INFO] Precio: $74220.9000 | USDT: $201.07 | Asset: 0.000180 | Total: $214.42 | P&L: $14.42 (7.21%) [SL: -15%] | Trades: 295 | Realizado: $15.6596
+2026-03-17 06:29:27,373 [BTC] [INFO] Precio: $74289.3400 | USDT: $201.07 | Asset: 0.000180 | Total: $214.43 | P&L: $14.43 (7.22%) [SL: -15%] | Trades: 295 | Realizado: $15.6596
+2026-03-17 06:30:29,114 [BTC] [INFO] Precio: $74278.1900 | USDT: $201.07 | Asset: 0.000180 | Total: $214.43 | P&L: $14.43 (7.21%) [SL: -15%] | Trades: 295 | Realizado: $15.6596
+2026-03-17 06:31:30,944 [BTC] [INFO] Precio: $74282.9100 | USDT: $201.07 | Asset: 0.000180 | Total: $214.43 | P&L: $14.43 (7.21%) [SL: -15%] | Trades: 295 | Realizado: $15.6596
+2026-03-17 06:32:32,631 [BTC] [INFO] Precio: $74268.3900 | USDT: $201.07 | Asset: 0.000180 | Total: $214.43 | P&L: $14.43 (7.21%) [SL: -15%] | Trades: 295 | Realizado: $15.6596
+2026-03-17 06:33:34,337 [BTC] [INFO] Precio: $74266.6700 | USDT: $201.07 | Asset: 0.000180 | Total: $214.43 | P&L: $14.43 (7.21%) [SL: -15%] | Trades: 295 | Realizado: $15.6596
+2026-03-17 06:34:36,007 [BTC] [INFO] Precio: $74200.0100 | USDT: $201.07 | Asset: 0.000180 | Total: $214.41 | P&L: $14.41 (7.21%) [SL: -15%] | Trades: 295 | Realizado: $15.6596
+2026-03-17 06:35:37,695 [BTC] [INFO] Precio: $74169.7000 | USDT: $201.07 | Asset: 0.000180 | Total: $214.41 | P&L: $14.41 (7.20%) [SL: -15%] | Trades: 295 | Realizado: $15.6596
+2026-03-17 06:36:39,511 [BTC] [INFO] Precio: $74182.8100 | USDT: $201.07 | Asset: 0.000180 | Total: $214.41 | P&L: $14.41 (7.21%) [SL: -15%] | Trades: 295 | Realizado: $15.6596
+2026-03-17 06:37:41,105 [BTC] [INFO] Precio: $74242.5600 | USDT: $201.07 | Asset: 0.000180 | Total: $214.42 | P&L: $14.42 (7.21%) [SL: -15%] | Trades: 295 | Realizado: $15.6596
+2026-03-17 06:38:42,818 [BTC] [INFO] Precio: $74212.9600 | USDT: $201.07 | Asset: 0.000180 | Total: $214.42 | P&L: $14.42 (7.21%) [SL: -15%] | Trades: 295 | Realizado: $15.6596
+2026-03-17 06:39:44,378 [BTC] [INFO] Precio: $74244.0000 | USDT: $201.07 | Asset: 0.000180 | Total: $214.42 | P&L: $14.42 (7.21%) [SL: -15%] | Trades: 295 | Realizado: $15.6596
+2026-03-17 06:40:46,101 [BTC] [INFO] Precio: $74229.2900 | USDT: $201.07 | Asset: 0.000180 | Total: $214.42 | P&L: $14.42 (7.21%) [SL: -15%] | Trades: 295 | Realizado: $15.6596
+2026-03-17 06:41:47,740 [BTC] [INFO] Precio: $74249.1900 | USDT: $201.07 | Asset: 0.000180 | Total: $214.42 | P&L: $14.42 (7.21%) [SL: -15%] | Trades: 295 | Realizado: $15.6596
+2026-03-17 06:42:49,470 [BTC] [INFO] Precio: $74145.0100 | USDT: $201.07 | Asset: 0.000180 | Total: $214.40 | P&L: $14.40 (7.20%) [SL: -15%] | Trades: 295 | Realizado: $15.6596
+2026-03-17 06:43:51,100 [BTC] [INFO] Precio: $74155.9700 | USDT: $201.07 | Asset: 0.000180 | Total: $214.41 | P&L: $14.41 (7.20%) [SL: -15%] | Trades: 295 | Realizado: $15.6596
+2026-03-17 06:44:52,770 [BTC] [INFO] Precio: $74168.3800 | USDT: $201.07 | Asset: 0.000180 | Total: $214.41 | P&L: $14.41 (7.20%) [SL: -15%] | Trades: 295 | Realizado: $15.6596
+2026-03-17 06:45:54,356 [BTC] [INFO] Precio: $74149.6700 | USDT: $201.07 | Asset: 0.000180 | Total: $214.41 | P&L: $14.41 (7.20%) [SL: -15%] | Trades: 295 | Realizado: $15.6596
+2026-03-17 06:46:55,881 [BTC] [INFO] Precio: $74143.1100 | USDT: $201.07 | Asset: 0.000180 | Total: $214.40 | P&L: $14.40 (7.20%) [SL: -15%] | Trades: 295 | Realizado: $15.6596
+2026-03-17 06:47:57,497 [BTC] [INFO] Precio: $74143.0900 | USDT: $201.07 | Asset: 0.000180 | Total: $214.40 | P&L: $14.40 (7.20%) [SL: -15%] | Trades: 295 | Realizado: $15.6596
+2026-03-17 06:48:59,056 [BTC] [INFO] Precio: $74177.3000 | USDT: $201.07 | Asset: 0.000180 | Total: $214.41 | P&L: $14.41 (7.21%) [SL: -15%] | Trades: 295 | Realizado: $15.6596
+2026-03-17 06:50:00,639 [BTC] [INFO] Precio: $74129.6900 | USDT: $201.07 | Asset: 0.000180 | Total: $214.40 | P&L: $14.40 (7.20%) [SL: -15%] | Trades: 295 | Realizado: $15.6596
+2026-03-17 06:51:02,360 [BTC] [INFO] Precio: $74171.7200 | USDT: $201.07 | Asset: 0.000180 | Total: $214.41 | P&L: $14.41 (7.20%) [SL: -15%] | Trades: 295 | Realizado: $15.6596
+2026-03-17 06:52:04,039 [BTC] [INFO] [COMPRA] Nivel 6 | $73558.7900 | 0.000181 | Costo: $13.33
+2026-03-17 06:52:04,749 [BTC] [INFO] Precio: $74106.8100 | USDT: $187.73 | Asset: 0.000361 | Total: $214.50 | P&L: $14.50 (7.25%) [SL: -15%] | Trades: 296 | Realizado: $15.6596
+2026-03-17 06:52:15,070 [BTC] [INFO] [VENTA] Nivel 6 | $74117.6567 | Compra: $73558.7900 | 0.000181 | Ganancia: $0.1013
+2026-03-17 06:52:46,641 [BTC] [INFO] [COMPRA] Nivel 6 | $73558.7900 | 0.000181 | Costo: $13.33
+2026-03-17 06:53:07,887 [BTC] [INFO] Precio: $74072.2300 | USDT: $187.83 | Asset: 0.000361 | Total: $214.59 | P&L: $14.59 (7.29%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 06:54:09,857 [BTC] [INFO] Precio: $74024.6600 | USDT: $187.83 | Asset: 0.000361 | Total: $214.57 | P&L: $14.57 (7.28%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 06:55:11,564 [BTC] [INFO] Precio: $73989.8700 | USDT: $187.83 | Asset: 0.000361 | Total: $214.56 | P&L: $14.56 (7.28%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 06:56:13,224 [BTC] [INFO] Precio: $73860.0200 | USDT: $187.83 | Asset: 0.000361 | Total: $214.51 | P&L: $14.51 (7.25%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 06:57:14,891 [BTC] [INFO] Precio: $73866.1600 | USDT: $187.83 | Asset: 0.000361 | Total: $214.51 | P&L: $14.51 (7.26%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 06:58:16,678 [BTC] [INFO] Precio: $73905.9400 | USDT: $187.83 | Asset: 0.000361 | Total: $214.53 | P&L: $14.53 (7.26%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 06:59:18,460 [BTC] [INFO] Precio: $73938.5800 | USDT: $187.83 | Asset: 0.000361 | Total: $214.54 | P&L: $14.54 (7.27%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:00:20,223 [BTC] [INFO] Precio: $73937.1600 | USDT: $187.83 | Asset: 0.000361 | Total: $214.54 | P&L: $14.54 (7.27%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:01:22,003 [BTC] [INFO] Precio: $73915.0000 | USDT: $187.83 | Asset: 0.000361 | Total: $214.53 | P&L: $14.53 (7.26%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:02:23,785 [BTC] [INFO] Precio: $73919.4000 | USDT: $187.83 | Asset: 0.000361 | Total: $214.53 | P&L: $14.53 (7.27%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:03:25,539 [BTC] [INFO] Precio: $73926.2100 | USDT: $187.83 | Asset: 0.000361 | Total: $214.53 | P&L: $14.53 (7.27%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:04:27,348 [BTC] [INFO] Precio: $73948.9200 | USDT: $187.83 | Asset: 0.000361 | Total: $214.54 | P&L: $14.54 (7.27%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:05:28,991 [BTC] [INFO] Precio: $73907.1600 | USDT: $187.83 | Asset: 0.000361 | Total: $214.53 | P&L: $14.53 (7.26%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:06:30,745 [BTC] [INFO] Precio: $73866.3300 | USDT: $187.83 | Asset: 0.000361 | Total: $214.51 | P&L: $14.51 (7.26%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:07:32,441 [BTC] [INFO] Precio: $73673.2400 | USDT: $187.83 | Asset: 0.000361 | Total: $214.44 | P&L: $14.44 (7.22%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:08:34,229 [BTC] [INFO] Precio: $73725.0500 | USDT: $187.83 | Asset: 0.000361 | Total: $214.46 | P&L: $14.46 (7.23%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:09:35,944 [BTC] [INFO] Precio: $73662.5700 | USDT: $187.83 | Asset: 0.000361 | Total: $214.44 | P&L: $14.44 (7.22%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:10:37,641 [BTC] [INFO] Precio: $73644.0500 | USDT: $187.83 | Asset: 0.000361 | Total: $214.43 | P&L: $14.43 (7.22%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:11:39,307 [BTC] [INFO] Precio: $73674.0000 | USDT: $187.83 | Asset: 0.000361 | Total: $214.44 | P&L: $14.44 (7.22%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:12:41,011 [BTC] [INFO] Precio: $73738.7200 | USDT: $187.83 | Asset: 0.000361 | Total: $214.47 | P&L: $14.47 (7.23%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:13:42,872 [BTC] [INFO] Precio: $73707.6400 | USDT: $187.83 | Asset: 0.000361 | Total: $214.45 | P&L: $14.45 (7.23%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:14:44,775 [BTC] [INFO] Precio: $73689.9800 | USDT: $187.83 | Asset: 0.000361 | Total: $214.45 | P&L: $14.45 (7.22%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:15:46,835 [BTC] [INFO] Precio: $73652.5100 | USDT: $187.83 | Asset: 0.000361 | Total: $214.43 | P&L: $14.43 (7.22%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:16:48,594 [BTC] [INFO] Precio: $73717.0100 | USDT: $187.83 | Asset: 0.000361 | Total: $214.46 | P&L: $14.46 (7.23%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:17:50,390 [BTC] [INFO] Precio: $73644.1000 | USDT: $187.83 | Asset: 0.000361 | Total: $214.43 | P&L: $14.43 (7.22%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:18:52,130 [BTC] [INFO] Precio: $73681.9900 | USDT: $187.83 | Asset: 0.000361 | Total: $214.45 | P&L: $14.45 (7.22%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:19:53,955 [BTC] [INFO] Precio: $73736.6100 | USDT: $187.83 | Asset: 0.000361 | Total: $214.46 | P&L: $14.46 (7.23%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:20:55,586 [BTC] [INFO] Precio: $73740.3300 | USDT: $187.83 | Asset: 0.000361 | Total: $214.47 | P&L: $14.47 (7.23%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:21:57,285 [BTC] [INFO] Precio: $73748.2100 | USDT: $187.83 | Asset: 0.000361 | Total: $214.47 | P&L: $14.47 (7.23%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:22:59,337 [BTC] [INFO] Precio: $73756.0300 | USDT: $187.83 | Asset: 0.000361 | Total: $214.47 | P&L: $14.47 (7.24%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:24:01,009 [BTC] [INFO] Precio: $73740.0100 | USDT: $187.83 | Asset: 0.000361 | Total: $214.47 | P&L: $14.47 (7.23%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:25:02,705 [BTC] [INFO] Precio: $73741.2300 | USDT: $187.83 | Asset: 0.000361 | Total: $214.47 | P&L: $14.47 (7.23%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:26:04,456 [BTC] [INFO] Precio: $73763.3200 | USDT: $187.83 | Asset: 0.000361 | Total: $214.47 | P&L: $14.47 (7.24%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:27:06,111 [BTC] [INFO] Precio: $73808.3600 | USDT: $187.83 | Asset: 0.000361 | Total: $214.49 | P&L: $14.49 (7.25%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:28:07,884 [BTC] [INFO] Precio: $73776.5500 | USDT: $187.83 | Asset: 0.000361 | Total: $214.48 | P&L: $14.48 (7.24%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:29:09,663 [BTC] [INFO] Precio: $73776.5400 | USDT: $187.83 | Asset: 0.000361 | Total: $214.48 | P&L: $14.48 (7.24%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:30:11,317 [BTC] [INFO] Precio: $73750.0100 | USDT: $187.83 | Asset: 0.000361 | Total: $214.47 | P&L: $14.47 (7.23%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:31:13,041 [BTC] [INFO] Precio: $73731.9300 | USDT: $187.83 | Asset: 0.000361 | Total: $214.46 | P&L: $14.46 (7.23%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:32:14,723 [BTC] [INFO] Precio: $73692.2600 | USDT: $187.83 | Asset: 0.000361 | Total: $214.45 | P&L: $14.45 (7.22%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:33:16,438 [BTC] [INFO] Precio: $73691.3000 | USDT: $187.83 | Asset: 0.000361 | Total: $214.45 | P&L: $14.45 (7.22%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:34:18,139 [BTC] [INFO] Precio: $73632.5800 | USDT: $187.83 | Asset: 0.000361 | Total: $214.43 | P&L: $14.43 (7.21%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:35:19,861 [BTC] [INFO] Precio: $73730.5300 | USDT: $187.83 | Asset: 0.000361 | Total: $214.46 | P&L: $14.46 (7.23%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:36:21,625 [BTC] [INFO] Precio: $73725.4300 | USDT: $187.83 | Asset: 0.000361 | Total: $214.46 | P&L: $14.46 (7.23%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:37:23,230 [BTC] [INFO] Precio: $73739.0200 | USDT: $187.83 | Asset: 0.000361 | Total: $214.47 | P&L: $14.47 (7.23%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:38:24,930 [BTC] [INFO] Precio: $73700.4000 | USDT: $187.83 | Asset: 0.000361 | Total: $214.45 | P&L: $14.45 (7.23%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:39:26,998 [BTC] [INFO] Precio: $73672.6700 | USDT: $187.83 | Asset: 0.000361 | Total: $214.44 | P&L: $14.44 (7.22%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:40:28,715 [BTC] [INFO] Precio: $73732.0800 | USDT: $187.83 | Asset: 0.000361 | Total: $214.46 | P&L: $14.46 (7.23%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:41:30,532 [BTC] [INFO] Precio: $73723.6900 | USDT: $187.83 | Asset: 0.000361 | Total: $214.46 | P&L: $14.46 (7.23%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:42:32,226 [BTC] [INFO] Precio: $73689.1700 | USDT: $187.83 | Asset: 0.000361 | Total: $214.45 | P&L: $14.45 (7.22%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:43:33,985 [BTC] [INFO] Precio: $73658.4200 | USDT: $187.83 | Asset: 0.000361 | Total: $214.44 | P&L: $14.44 (7.22%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:44:35,747 [BTC] [INFO] Precio: $73687.5700 | USDT: $187.83 | Asset: 0.000361 | Total: $214.45 | P&L: $14.45 (7.22%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:45:37,555 [BTC] [INFO] Precio: $73733.4600 | USDT: $187.83 | Asset: 0.000361 | Total: $214.46 | P&L: $14.46 (7.23%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:46:39,557 [BTC] [INFO] Precio: $73774.3600 | USDT: $187.83 | Asset: 0.000361 | Total: $214.48 | P&L: $14.48 (7.24%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:47:41,334 [BTC] [INFO] Precio: $73729.4600 | USDT: $187.83 | Asset: 0.000361 | Total: $214.46 | P&L: $14.46 (7.23%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:48:43,093 [BTC] [INFO] Precio: $73749.2100 | USDT: $187.83 | Asset: 0.000361 | Total: $214.47 | P&L: $14.47 (7.23%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:49:44,822 [BTC] [INFO] Precio: $73717.0200 | USDT: $187.83 | Asset: 0.000361 | Total: $214.46 | P&L: $14.46 (7.23%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:50:46,619 [BTC] [INFO] Precio: $73664.0100 | USDT: $187.83 | Asset: 0.000361 | Total: $214.44 | P&L: $14.44 (7.22%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:51:48,405 [BTC] [INFO] Precio: $73663.2000 | USDT: $187.83 | Asset: 0.000361 | Total: $214.44 | P&L: $14.44 (7.22%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:52:50,441 [BTC] [INFO] Precio: $73664.1800 | USDT: $187.83 | Asset: 0.000361 | Total: $214.44 | P&L: $14.44 (7.22%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:53:52,105 [BTC] [INFO] Precio: $73680.3700 | USDT: $187.83 | Asset: 0.000361 | Total: $214.44 | P&L: $14.44 (7.22%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:54:53,899 [BTC] [INFO] Precio: $73716.0300 | USDT: $187.83 | Asset: 0.000361 | Total: $214.46 | P&L: $14.46 (7.23%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:55:55,582 [BTC] [INFO] Precio: $73751.5600 | USDT: $187.83 | Asset: 0.000361 | Total: $214.47 | P&L: $14.47 (7.24%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:56:57,276 [BTC] [INFO] Precio: $73748.6400 | USDT: $187.83 | Asset: 0.000361 | Total: $214.47 | P&L: $14.47 (7.23%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:57:59,029 [BTC] [INFO] Precio: $73706.6500 | USDT: $187.83 | Asset: 0.000361 | Total: $214.45 | P&L: $14.45 (7.23%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 07:59:00,677 [BTC] [INFO] Precio: $73717.9500 | USDT: $187.83 | Asset: 0.000361 | Total: $214.46 | P&L: $14.46 (7.23%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 08:00:02,427 [BTC] [INFO] Precio: $73724.6200 | USDT: $187.83 | Asset: 0.000361 | Total: $214.46 | P&L: $14.46 (7.23%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 08:01:04,166 [BTC] [INFO] Precio: $73730.2500 | USDT: $187.83 | Asset: 0.000361 | Total: $214.46 | P&L: $14.46 (7.23%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 08:02:05,837 [BTC] [INFO] Precio: $73735.1400 | USDT: $187.83 | Asset: 0.000361 | Total: $214.46 | P&L: $14.46 (7.23%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 08:03:07,457 [BTC] [INFO] Precio: $73728.0000 | USDT: $187.83 | Asset: 0.000361 | Total: $214.46 | P&L: $14.46 (7.23%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 08:04:09,098 [BTC] [INFO] Precio: $73769.5000 | USDT: $187.83 | Asset: 0.000361 | Total: $214.48 | P&L: $14.48 (7.24%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 08:05:10,841 [BTC] [INFO] Precio: $73774.4200 | USDT: $187.83 | Asset: 0.000361 | Total: $214.48 | P&L: $14.48 (7.24%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 08:06:12,824 [BTC] [INFO] Precio: $73863.3200 | USDT: $187.83 | Asset: 0.000361 | Total: $214.51 | P&L: $14.51 (7.26%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 08:07:14,574 [BTC] [INFO] Precio: $73892.9500 | USDT: $187.83 | Asset: 0.000361 | Total: $214.52 | P&L: $14.52 (7.26%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 08:08:16,257 [BTC] [INFO] Precio: $73892.6200 | USDT: $187.83 | Asset: 0.000361 | Total: $214.52 | P&L: $14.52 (7.26%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 08:09:18,029 [BTC] [INFO] Precio: $73894.2400 | USDT: $187.83 | Asset: 0.000361 | Total: $214.52 | P&L: $14.52 (7.26%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 08:10:19,612 [BTC] [INFO] Precio: $73921.7600 | USDT: $187.83 | Asset: 0.000361 | Total: $214.53 | P&L: $14.53 (7.27%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 08:11:21,269 [BTC] [INFO] Precio: $73909.6400 | USDT: $187.83 | Asset: 0.000361 | Total: $214.53 | P&L: $14.53 (7.26%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 08:12:22,961 [BTC] [INFO] Precio: $73938.2800 | USDT: $187.83 | Asset: 0.000361 | Total: $214.54 | P&L: $14.54 (7.27%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 08:13:24,668 [BTC] [INFO] Precio: $73929.2200 | USDT: $187.83 | Asset: 0.000361 | Total: $214.53 | P&L: $14.53 (7.27%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 08:14:26,347 [BTC] [INFO] Precio: $73910.0900 | USDT: $187.83 | Asset: 0.000361 | Total: $214.53 | P&L: $14.53 (7.26%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 08:15:28,003 [BTC] [INFO] Precio: $73948.4900 | USDT: $187.83 | Asset: 0.000361 | Total: $214.54 | P&L: $14.54 (7.27%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 08:16:29,825 [BTC] [INFO] Precio: $73938.2700 | USDT: $187.83 | Asset: 0.000361 | Total: $214.54 | P&L: $14.54 (7.27%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 08:17:31,470 [BTC] [INFO] Precio: $73906.8400 | USDT: $187.83 | Asset: 0.000361 | Total: $214.53 | P&L: $14.53 (7.26%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 08:18:33,187 [BTC] [INFO] Precio: $73946.1100 | USDT: $187.83 | Asset: 0.000361 | Total: $214.54 | P&L: $14.54 (7.27%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 08:19:34,822 [BTC] [INFO] Precio: $73949.2800 | USDT: $187.83 | Asset: 0.000361 | Total: $214.54 | P&L: $14.54 (7.27%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 08:20:36,464 [BTC] [INFO] Precio: $73989.9600 | USDT: $187.83 | Asset: 0.000361 | Total: $214.56 | P&L: $14.56 (7.28%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 08:21:38,242 [BTC] [INFO] Precio: $73922.9500 | USDT: $187.83 | Asset: 0.000361 | Total: $214.53 | P&L: $14.53 (7.27%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 08:22:39,922 [BTC] [INFO] Precio: $73960.1600 | USDT: $187.83 | Asset: 0.000361 | Total: $214.55 | P&L: $14.55 (7.27%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 08:23:41,691 [BTC] [INFO] Precio: $73960.1600 | USDT: $187.83 | Asset: 0.000361 | Total: $214.55 | P&L: $14.55 (7.27%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 08:24:43,693 [BTC] [INFO] Precio: $73978.5900 | USDT: $187.83 | Asset: 0.000361 | Total: $214.55 | P&L: $14.55 (7.28%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 08:25:45,420 [BTC] [INFO] Precio: $73990.5900 | USDT: $187.83 | Asset: 0.000361 | Total: $214.56 | P&L: $14.56 (7.28%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 08:26:47,120 [BTC] [INFO] Precio: $74002.2900 | USDT: $187.83 | Asset: 0.000361 | Total: $214.56 | P&L: $14.56 (7.28%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 08:27:48,731 [BTC] [INFO] Precio: $74055.8400 | USDT: $187.83 | Asset: 0.000361 | Total: $214.58 | P&L: $14.58 (7.29%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 08:28:50,343 [BTC] [INFO] Precio: $74042.8800 | USDT: $187.83 | Asset: 0.000361 | Total: $214.58 | P&L: $14.58 (7.29%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 08:29:51,920 [BTC] [INFO] Precio: $74000.0100 | USDT: $187.83 | Asset: 0.000361 | Total: $214.56 | P&L: $14.56 (7.28%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 08:30:53,537 [BTC] [INFO] Precio: $74025.0800 | USDT: $187.83 | Asset: 0.000361 | Total: $214.57 | P&L: $14.57 (7.28%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 08:31:55,221 [BTC] [INFO] Precio: $73966.0100 | USDT: $187.83 | Asset: 0.000361 | Total: $214.55 | P&L: $14.55 (7.27%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 08:32:56,903 [BTC] [INFO] Precio: $74002.2400 | USDT: $187.83 | Asset: 0.000361 | Total: $214.56 | P&L: $14.56 (7.28%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 08:33:58,618 [BTC] [INFO] Precio: $73966.8900 | USDT: $187.83 | Asset: 0.000361 | Total: $214.55 | P&L: $14.55 (7.27%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 08:35:00,313 [BTC] [INFO] Precio: $74035.9900 | USDT: $187.83 | Asset: 0.000361 | Total: $214.57 | P&L: $14.57 (7.29%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 08:36:02,062 [BTC] [INFO] Precio: $74008.5900 | USDT: $187.83 | Asset: 0.000361 | Total: $214.56 | P&L: $14.56 (7.28%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 08:37:03,694 [BTC] [INFO] Precio: $74069.3600 | USDT: $187.83 | Asset: 0.000361 | Total: $214.59 | P&L: $14.59 (7.29%) [SL: -15%] | Trades: 298 | Realizado: $15.7609
+2026-03-17 08:37:34,547 [BTC] [INFO] [VENTA] Nivel 6 | $74117.6567 | Compra: $73558.7900 | 0.000181 | Ganancia: $0.1013
+2026-03-17 08:37:45,604 [BTC] [INFO] [COMPRA] Nivel 6 | $73558.7900 | 0.000181 | Costo: $13.33
+2026-03-17 08:38:06,912 [BTC] [INFO] Precio: $74115.2000 | USDT: $187.94 | Asset: 0.000361 | Total: $214.70 | P&L: $14.70 (7.35%) [SL: -15%] | Trades: 300 | Realizado: $15.8622
+2026-03-17 08:39:08,617 [BTC] [INFO] Precio: $74107.8700 | USDT: $187.94 | Asset: 0.000361 | Total: $214.70 | P&L: $14.70 (7.35%) [SL: -15%] | Trades: 300 | Realizado: $15.8622
+2026-03-17 08:39:18,883 [BTC] [INFO] [VENTA] Nivel 6 | $74117.6567 | Compra: $73558.7900 | 0.000181 | Ganancia: $0.1013
+2026-03-17 08:39:40,141 [BTC] [INFO] [COMPRA] Nivel 6 | $73558.7900 | 0.000181 | Costo: $13.33
+2026-03-17 08:40:11,693 [BTC] [INFO] [VENTA] Nivel 6 | $74117.6567 | Compra: $73558.7900 | 0.000181 | Ganancia: $0.1013
+2026-03-17 08:40:12,358 [BTC] [INFO] Precio: $74119.0600 | USDT: $201.47 | Asset: 0.000180 | Total: $214.81 | P&L: $14.81 (7.40%) [SL: -15%] | Trades: 303 | Realizado: $16.0648
+2026-03-17 08:40:22,620 [BTC] [INFO] [COMPRA] Nivel 6 | $73558.7900 | 0.000181 | Costo: $13.33
+2026-03-17 08:40:43,935 [BTC] [INFO] [VENTA] Nivel 6 | $74117.6567 | Compra: $73558.7900 | 0.000181 | Ganancia: $0.1013
+2026-03-17 08:40:54,865 [BTC] [INFO] [COMPRA] Nivel 6 | $73558.7900 | 0.000181 | Costo: $13.33
+2026-03-17 08:41:16,304 [BTC] [INFO] Precio: $74104.6800 | USDT: $188.24 | Asset: 0.000361 | Total: $215.00 | P&L: $15.00 (7.50%) [SL: -15%] | Trades: 306 | Realizado: $16.1661
+2026-03-17 08:41:47,112 [BTC] [INFO] [VENTA] Nivel 6 | $74117.6567 | Compra: $73558.7900 | 0.000181 | Ganancia: $0.1013
+2026-03-17 08:42:18,594 [BTC] [INFO] [COMPRA] Nivel 6 | $73558.7900 | 0.000181 | Costo: $13.33
+2026-03-17 08:42:19,279 [BTC] [INFO] Precio: $74104.4800 | USDT: $188.34 | Asset: 0.000361 | Total: $215.10 | P&L: $15.10 (7.55%) [SL: -15%] | Trades: 308 | Realizado: $16.2674
+2026-03-17 08:43:20,997 [BTC] [INFO] Precio: $74101.3900 | USDT: $188.34 | Asset: 0.000361 | Total: $215.10 | P&L: $15.10 (7.55%) [SL: -15%] | Trades: 308 | Realizado: $16.2674
+2026-03-17 08:43:41,566 [BTC] [INFO] [VENTA] Nivel 6 | $74117.6567 | Compra: $73558.7900 | 0.000181 | Ganancia: $0.1013
+2026-03-17 08:44:02,834 [BTC] [INFO] [COMPRA] Nivel 6 | $73558.7900 | 0.000181 | Costo: $13.33
+2026-03-17 08:44:24,041 [BTC] [INFO] Precio: $74106.7100 | USDT: $188.44 | Asset: 0.000361 | Total: $215.21 | P&L: $15.21 (7.60%) [SL: -15%] | Trades: 310 | Realizado: $16.3687
+2026-03-17 08:45:25,702 [BTC] [INFO] Precio: $74111.2300 | USDT: $188.44 | Asset: 0.000361 | Total: $215.21 | P&L: $15.21 (7.60%) [SL: -15%] | Trades: 310 | Realizado: $16.3687
+2026-03-17 08:45:35,988 [BTC] [INFO] [VENTA] Nivel 6 | $74117.6567 | Compra: $73558.7900 | 0.000181 | Ganancia: $0.1013
+2026-03-17 08:46:28,068 [BTC] [INFO] Precio: $74123.4700 | USDT: $201.88 | Asset: 0.000180 | Total: $215.21 | P&L: $15.21 (7.61%) [SL: -15%] | Trades: 311 | Realizado: $16.4700
+2026-03-17 08:46:38,405 [BTC] [INFO] [COMPRA] Nivel 6 | $73558.7900 | 0.000181 | Costo: $13.33
+2026-03-17 08:47:09,876 [BTC] [INFO] [VENTA] Nivel 6 | $74117.6567 | Compra: $73558.7900 | 0.000181 | Ganancia: $0.1013
+2026-03-17 08:47:20,820 [BTC] [INFO] [COMPRA] Nivel 6 | $73558.7900 | 0.000181 | Costo: $13.33
+2026-03-17 08:47:31,760 [BTC] [INFO] Precio: $74101.9200 | USDT: $188.64 | Asset: 0.000361 | Total: $215.41 | P&L: $15.41 (7.70%) [SL: -15%] | Trades: 314 | Realizado: $16.5713
+2026-03-17 08:48:12,996 [BTC] [INFO] [VENTA] Nivel 6 | $74117.6567 | Compra: $73558.7900 | 0.000181 | Ganancia: $0.1013
+2026-03-17 08:48:34,221 [BTC] [INFO] Precio: $74139.2700 | USDT: $202.08 | Asset: 0.000180 | Total: $215.42 | P&L: $15.42 (7.71%) [SL: -15%] | Trades: 315 | Realizado: $16.6726
+2026-03-17 08:49:35,966 [BTC] [INFO] Precio: $74144.7800 | USDT: $202.08 | Asset: 0.000180 | Total: $215.42 | P&L: $15.42 (7.71%) [SL: -15%] | Trades: 315 | Realizado: $16.6726
+2026-03-17 08:50:37,765 [BTC] [INFO] Precio: $74169.8600 | USDT: $202.08 | Asset: 0.000180 | Total: $215.42 | P&L: $15.42 (7.71%) [SL: -15%] | Trades: 315 | Realizado: $16.6726
+2026-03-17 08:51:39,481 [BTC] [INFO] Precio: $74143.7100 | USDT: $202.08 | Asset: 0.000180 | Total: $215.42 | P&L: $15.42 (7.71%) [SL: -15%] | Trades: 315 | Realizado: $16.6726
+2026-03-17 08:52:41,141 [BTC] [INFO] Precio: $74165.4800 | USDT: $202.08 | Asset: 0.000180 | Total: $215.42 | P&L: $15.42 (7.71%) [SL: -15%] | Trades: 315 | Realizado: $16.6726
+2026-03-17 08:53:42,875 [BTC] [INFO] Precio: $74167.9000 | USDT: $202.08 | Asset: 0.000180 | Total: $215.42 | P&L: $15.42 (7.71%) [SL: -15%] | Trades: 315 | Realizado: $16.6726
+2026-03-17 08:54:44,614 [BTC] [INFO] Precio: $74132.3700 | USDT: $202.08 | Asset: 0.000180 | Total: $215.42 | P&L: $15.42 (7.71%) [SL: -15%] | Trades: 315 | Realizado: $16.6726
+2026-03-17 08:55:46,355 [BTC] [INFO] Precio: $74120.0100 | USDT: $202.08 | Asset: 0.000180 | Total: $215.41 | P&L: $15.41 (7.71%) [SL: -15%] | Trades: 315 | Realizado: $16.6726
+2026-03-17 08:56:06,919 [BTC] [INFO] [COMPRA] Nivel 6 | $73558.7900 | 0.000181 | Costo: $13.33
+2026-03-17 08:56:17,878 [BTC] [INFO] [VENTA] Nivel 6 | $74117.6567 | Compra: $73558.7900 | 0.000181 | Ganancia: $0.1013
+2026-03-17 08:56:39,184 [BTC] [INFO] [COMPRA] Nivel 6 | $73558.7900 | 0.000181 | Costo: $13.33
+2026-03-17 08:56:50,127 [BTC] [INFO] Precio: $74100.0100 | USDT: $188.85 | Asset: 0.000361 | Total: $215.61 | P&L: $15.61 (7.80%) [SL: -15%] | Trades: 318 | Realizado: $16.7739
+2026-03-17 08:57:51,834 [BTC] [INFO] Precio: $74025.1500 | USDT: $188.85 | Asset: 0.000361 | Total: $215.58 | P&L: $15.58 (7.79%) [SL: -15%] | Trades: 318 | Realizado: $16.7739
+2026-03-17 08:58:53,434 [BTC] [INFO] Precio: $74048.6900 | USDT: $188.85 | Asset: 0.000361 | Total: $215.59 | P&L: $15.59 (7.80%) [SL: -15%] | Trades: 318 | Realizado: $16.7739
+2026-03-17 08:59:55,101 [BTC] [INFO] Precio: $74034.9700 | USDT: $188.85 | Asset: 0.000361 | Total: $215.59 | P&L: $15.59 (7.79%) [SL: -15%] | Trades: 318 | Realizado: $16.7739
+2026-03-17 09:00:56,635 [BTC] [INFO] Precio: $74049.9900 | USDT: $188.85 | Asset: 0.000361 | Total: $215.59 | P&L: $15.59 (7.80%) [SL: -15%] | Trades: 318 | Realizado: $16.7739
+2026-03-17 09:01:58,232 [BTC] [INFO] Precio: $74026.9100 | USDT: $188.85 | Asset: 0.000361 | Total: $215.58 | P&L: $15.58 (7.79%) [SL: -15%] | Trades: 318 | Realizado: $16.7739
+2026-03-17 09:02:59,902 [BTC] [INFO] Precio: $74041.7100 | USDT: $188.85 | Asset: 0.000361 | Total: $215.59 | P&L: $15.59 (7.79%) [SL: -15%] | Trades: 318 | Realizado: $16.7739
+2026-03-17 09:04:01,496 [BTC] [INFO] Precio: $74070.6500 | USDT: $188.85 | Asset: 0.000361 | Total: $215.60 | P&L: $15.60 (7.80%) [SL: -15%] | Trades: 318 | Realizado: $16.7739
+2026-03-17 09:05:03,230 [BTC] [INFO] Precio: $74055.4400 | USDT: $188.85 | Asset: 0.000361 | Total: $215.59 | P&L: $15.59 (7.80%) [SL: -15%] | Trades: 318 | Realizado: $16.7739
+2026-03-17 09:06:05,002 [BTC] [INFO] Precio: $74062.3800 | USDT: $188.85 | Asset: 0.000361 | Total: $215.60 | P&L: $15.60 (7.80%) [SL: -15%] | Trades: 318 | Realizado: $16.7739
+2026-03-17 09:07:06,711 [BTC] [INFO] Precio: $74041.7000 | USDT: $188.85 | Asset: 0.000361 | Total: $215.59 | P&L: $15.59 (7.79%) [SL: -15%] | Trades: 318 | Realizado: $16.7739
+2026-03-17 09:08:08,452 [BTC] [INFO] Precio: $74085.1800 | USDT: $188.85 | Asset: 0.000361 | Total: $215.60 | P&L: $15.60 (7.80%) [SL: -15%] | Trades: 318 | Realizado: $16.7739
+2026-03-17 09:09:10,182 [BTC] [INFO] [VENTA] Nivel 6 | $74117.6567 | Compra: $73558.7900 | 0.000181 | Ganancia: $0.1013
+2026-03-17 09:09:10,941 [BTC] [INFO] Precio: $74122.9900 | USDT: $202.28 | Asset: 0.000180 | Total: $215.62 | P&L: $15.62 (7.81%) [SL: -15%] | Trades: 319 | Realizado: $16.8752
+2026-03-17 09:10:12,985 [BTC] [INFO] Precio: $74143.4500 | USDT: $202.28 | Asset: 0.000180 | Total: $215.62 | P&L: $15.62 (7.81%) [SL: -15%] | Trades: 319 | Realizado: $16.8752
+2026-03-17 09:11:14,695 [BTC] [INFO] Precio: $74138.1500 | USDT: $202.28 | Asset: 0.000180 | Total: $215.62 | P&L: $15.62 (7.81%) [SL: -15%] | Trades: 319 | Realizado: $16.8752
+2026-03-17 09:11:55,835 [BTC] [INFO] [COMPRA] Nivel 6 | $73558.7900 | 0.000181 | Costo: $13.33
+2026-03-17 09:12:17,073 [BTC] [INFO] Precio: $74112.1700 | USDT: $188.95 | Asset: 0.000361 | Total: $215.71 | P&L: $15.71 (7.86%) [SL: -15%] | Trades: 320 | Realizado: $16.8752
+2026-03-17 09:12:37,725 [BTC] [INFO] [VENTA] Nivel 6 | $74117.6567 | Compra: $73558.7900 | 0.000181 | Ganancia: $0.1013
+2026-03-17 09:12:48,677 [BTC] [INFO] [COMPRA] Nivel 6 | $73558.7900 | 0.000181 | Costo: $13.33
+2026-03-17 09:13:20,264 [BTC] [INFO] Precio: $74048.4500 | USDT: $189.05 | Asset: 0.000361 | Total: $215.79 | P&L: $15.79 (7.90%) [SL: -15%] | Trades: 322 | Realizado: $16.9765
+2026-03-17 09:14:21,937 [BTC] [INFO] Precio: $74061.9300 | USDT: $189.05 | Asset: 0.000361 | Total: $215.80 | P&L: $15.80 (7.90%) [SL: -15%] | Trades: 322 | Realizado: $16.9765
+2026-03-17 09:15:23,639 [BTC] [INFO] Precio: $74068.7200 | USDT: $189.05 | Asset: 0.000361 | Total: $215.80 | P&L: $15.80 (7.90%) [SL: -15%] | Trades: 322 | Realizado: $16.9765
+2026-03-17 09:16:25,361 [BTC] [INFO] Precio: $74000.0000 | USDT: $189.05 | Asset: 0.000361 | Total: $215.78 | P&L: $15.78 (7.89%) [SL: -15%] | Trades: 322 | Realizado: $16.9765
+2026-03-17 09:17:27,037 [BTC] [INFO] Precio: $73977.3000 | USDT: $189.05 | Asset: 0.000361 | Total: $215.77 | P&L: $15.77 (7.88%) [SL: -15%] | Trades: 322 | Realizado: $16.9765
+2026-03-17 09:18:28,728 [BTC] [INFO] Precio: $73960.5300 | USDT: $189.05 | Asset: 0.000361 | Total: $215.76 | P&L: $15.76 (7.88%) [SL: -15%] | Trades: 322 | Realizado: $16.9765
+2026-03-17 09:19:30,345 [BTC] [INFO] Precio: $73962.6600 | USDT: $189.05 | Asset: 0.000361 | Total: $215.76 | P&L: $15.76 (7.88%) [SL: -15%] | Trades: 322 | Realizado: $16.9765
+2026-03-17 09:20:32,050 [BTC] [INFO] Precio: $74075.1600 | USDT: $189.05 | Asset: 0.000361 | Total: $215.80 | P&L: $15.80 (7.90%) [SL: -15%] | Trades: 322 | Realizado: $16.9765
+2026-03-17 09:21:13,161 [BTC] [INFO] [VENTA] Nivel 6 | $74117.6567 | Compra: $73558.7900 | 0.000181 | Ganancia: $0.1013
+2026-03-17 09:21:24,117 [BTC] [INFO] [COMPRA] Nivel 6 | $73558.7900 | 0.000181 | Costo: $13.33
+2026-03-17 09:21:35,044 [BTC] [INFO] Precio: $74082.9900 | USDT: $189.15 | Asset: 0.000361 | Total: $215.91 | P&L: $15.91 (7.95%) [SL: -15%] | Trades: 324 | Realizado: $17.0778
+2026-03-17 09:22:36,830 [BTC] [INFO] Precio: $73991.1100 | USDT: $189.15 | Asset: 0.000361 | Total: $215.87 | P&L: $15.87 (7.94%) [SL: -15%] | Trades: 324 | Realizado: $17.0778
+2026-03-17 09:23:38,848 [BTC] [INFO] Precio: $74056.5500 | USDT: $189.15 | Asset: 0.000361 | Total: $215.90 | P&L: $15.90 (7.95%) [SL: -15%] | Trades: 324 | Realizado: $17.0778
+2026-03-17 09:24:40,576 [BTC] [INFO] Precio: $74016.0900 | USDT: $189.15 | Asset: 0.000361 | Total: $215.88 | P&L: $15.88 (7.94%) [SL: -15%] | Trades: 324 | Realizado: $17.0778
+2026-03-17 09:25:42,240 [BTC] [INFO] Precio: $73926.3200 | USDT: $189.15 | Asset: 0.000361 | Total: $215.85 | P&L: $15.85 (7.93%) [SL: -15%] | Trades: 324 | Realizado: $17.0778
+2026-03-17 09:26:43,824 [BTC] [INFO] Precio: $73874.0700 | USDT: $189.15 | Asset: 0.000361 | Total: $215.83 | P&L: $15.83 (7.92%) [SL: -15%] | Trades: 324 | Realizado: $17.0778
+2026-03-17 09:27:45,905 [BTC] [INFO] Precio: $73818.2500 | USDT: $189.15 | Asset: 0.000361 | Total: $215.81 | P&L: $15.81 (7.91%) [SL: -15%] | Trades: 324 | Realizado: $17.0778
+2026-03-17 09:28:47,500 [BTC] [INFO] Precio: $73836.9000 | USDT: $189.15 | Asset: 0.000361 | Total: $215.82 | P&L: $15.82 (7.91%) [SL: -15%] | Trades: 324 | Realizado: $17.0778
+2026-03-17 09:29:49,201 [BTC] [INFO] Precio: $73788.6200 | USDT: $189.15 | Asset: 0.000361 | Total: $215.80 | P&L: $15.80 (7.90%) [SL: -15%] | Trades: 324 | Realizado: $17.0778
+2026-03-17 09:30:50,854 [BTC] [INFO] Precio: $73775.6700 | USDT: $189.15 | Asset: 0.000361 | Total: $215.80 | P&L: $15.80 (7.90%) [SL: -15%] | Trades: 324 | Realizado: $17.0778
+2026-03-17 09:31:52,622 [BTC] [INFO] Precio: $73807.6000 | USDT: $189.15 | Asset: 0.000361 | Total: $215.81 | P&L: $15.81 (7.90%) [SL: -15%] | Trades: 324 | Realizado: $17.0778
+2026-03-17 09:32:54,326 [BTC] [INFO] Precio: $73811.2600 | USDT: $189.15 | Asset: 0.000361 | Total: $215.81 | P&L: $15.81 (7.90%) [SL: -15%] | Trades: 324 | Realizado: $17.0778
+2026-03-17 09:33:55,987 [BTC] [INFO] Precio: $73841.7500 | USDT: $189.15 | Asset: 0.000361 | Total: $215.82 | P&L: $15.82 (7.91%) [SL: -15%] | Trades: 324 | Realizado: $17.0778
+2026-03-17 09:34:57,630 [BTC] [INFO] Precio: $73858.2900 | USDT: $189.15 | Asset: 0.000361 | Total: $215.83 | P&L: $15.83 (7.91%) [SL: -15%] | Trades: 324 | Realizado: $17.0778
+2026-03-17 09:35:59,285 [BTC] [INFO] Precio: $73774.1700 | USDT: $189.15 | Asset: 0.000361 | Total: $215.80 | P&L: $15.80 (7.90%) [SL: -15%] | Trades: 324 | Realizado: $17.0778
+2026-03-17 09:37:01,015 [BTC] [INFO] Precio: $73738.3300 | USDT: $189.15 | Asset: 0.000361 | Total: $215.78 | P&L: $15.78 (7.89%) [SL: -15%] | Trades: 324 | Realizado: $17.0778
+2026-03-17 09:38:02,687 [BTC] [INFO] Precio: $73744.4000 | USDT: $189.15 | Asset: 0.000361 | Total: $215.78 | P&L: $15.78 (7.89%) [SL: -15%] | Trades: 324 | Realizado: $17.0778
+2026-03-17 09:39:04,315 [BTC] [INFO] Precio: $73830.3100 | USDT: $189.15 | Asset: 0.000361 | Total: $215.82 | P&L: $15.82 (7.91%) [SL: -15%] | Trades: 324 | Realizado: $17.0778
+2026-03-17 09:40:06,324 [BTC] [INFO] Precio: $73905.2700 | USDT: $189.15 | Asset: 0.000361 | Total: $215.84 | P&L: $15.84 (7.92%) [SL: -15%] | Trades: 324 | Realizado: $17.0778
+2026-03-17 09:41:08,009 [BTC] [INFO] Precio: $73859.3700 | USDT: $189.15 | Asset: 0.000361 | Total: $215.83 | P&L: $15.83 (7.91%) [SL: -15%] | Trades: 324 | Realizado: $17.0778
+2026-03-17 09:42:09,688 [BTC] [INFO] Precio: $73866.8700 | USDT: $189.15 | Asset: 0.000361 | Total: $215.83 | P&L: $15.83 (7.91%) [SL: -15%] | Trades: 324 | Realizado: $17.0778
+2026-03-17 09:43:11,405 [BTC] [INFO] Precio: $73898.0800 | USDT: $189.15 | Asset: 0.000361 | Total: $215.84 | P&L: $15.84 (7.92%) [SL: -15%] | Trades: 324 | Realizado: $17.0778
+2026-03-17 09:44:13,111 [BTC] [INFO] Precio: $73843.6300 | USDT: $189.15 | Asset: 0.000361 | Total: $215.82 | P&L: $15.82 (7.91%) [SL: -15%] | Trades: 324 | Realizado: $17.0778
+2026-03-17 09:45:14,919 [BTC] [INFO] Precio: $73837.3900 | USDT: $189.15 | Asset: 0.000361 | Total: $215.82 | P&L: $15.82 (7.91%) [SL: -15%] | Trades: 324 | Realizado: $17.0778
+2026-03-17 09:46:16,611 [BTC] [INFO] Precio: $73816.4900 | USDT: $189.15 | Asset: 0.000361 | Total: $215.81 | P&L: $15.81 (7.91%) [SL: -15%] | Trades: 324 | Realizado: $17.0778
+2026-03-17 09:47:18,371 [BTC] [INFO] Precio: $73788.9200 | USDT: $189.15 | Asset: 0.000361 | Total: $215.80 | P&L: $15.80 (7.90%) [SL: -15%] | Trades: 324 | Realizado: $17.0778
+2026-03-17 09:48:19,991 [BTC] [INFO] Precio: $73774.7000 | USDT: $189.15 | Asset: 0.000361 | Total: $215.80 | P&L: $15.80 (7.90%) [SL: -15%] | Trades: 324 | Realizado: $17.0778
+2026-03-17 09:49:22,215 [BTC] [INFO] Precio: $73758.5800 | USDT: $189.15 | Asset: 0.000361 | Total: $215.79 | P&L: $15.79 (7.89%) [SL: -15%] | Trades: 324 | Realizado: $17.0778
