@@ -40,6 +40,9 @@ CHECK_INTERVAL_SECONDS = 10
 # --- Stop-loss global ---
 STOP_LOSS_PCT = 15.0
 
+# --- Comision por operacion (Binance spot: 0.1%, con BNB: 0.075%) ---
+TRADING_FEE_PCT = 0.1
+
 # --- Rango dinamico ---
 GRID_RECENTER_THRESHOLD = 0.15
 GRID_RECENTER_INTERVAL  = 30

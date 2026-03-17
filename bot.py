@@ -9,7 +9,8 @@ import requests
 from datetime import datetime, timedelta
 from config import (
     PAPER_TRADING, CHECK_INTERVAL_SECONDS,
-    STOP_LOSS_PCT, GRID_RECENTER_THRESHOLD, GRID_RECENTER_INTERVAL
+    STOP_LOSS_PCT, GRID_RECENTER_THRESHOLD, GRID_RECENTER_INTERVAL,
+    TRADING_FEE_PCT
 )
 import database as db
 import telegram_notify as tg
@@ -231,6 +232,8 @@ class GridBot:
             self.log.warning(f"Sin USDT para comprar en nivel {level_idx}")
             return
         qty = cost / price
+        fee_qty = qty * TRADING_FEE_PCT / 100
+        qty -= fee_qty
         self.usdt_balance  -= cost
         self.asset_balance += qty
         existing = self.positions.get(level_idx)
@@ -259,6 +262,8 @@ class GridBot:
         qty       = pos["qty"]
         buy_price = pos["price"]
         revenue   = qty * price
+        fee       = revenue * TRADING_FEE_PCT / 100
+        revenue  -= fee
         profit    = revenue - (qty * buy_price)
         self.usdt_balance  += revenue
         self.asset_balance = max(0, self.asset_balance - qty)
