@@ -7,10 +7,12 @@ import time
 import logging
 import requests
 from datetime import datetime, timedelta
+from collections import deque
 from config import (
     PAPER_TRADING, CHECK_INTERVAL_SECONDS,
     STOP_LOSS_PCT, GRID_RECENTER_THRESHOLD, GRID_RECENTER_INTERVAL,
-    TRADING_FEE_PCT
+    TRADING_FEE_PCT,
+    CIRCUIT_BREAKER_PCT, CIRCUIT_BREAKER_WINDOW, CIRCUIT_BREAKER_COOLDOWN,
 )
 import database as db
 import telegram_notify as tg
@@ -55,6 +57,8 @@ class GridBot:
             os.environ.get("TELEGRAM_CHAT_ID", "")
         )
         self.last_recenter_check = datetime.now()
+        self.price_history = deque()          # (datetime, price) para circuit breaker
+        self.circuit_breaker_until = None     # datetime hasta cuando esta pausado
 
         # Registrar config inicial en BD (solo si no existe)
         db.upsert_bot(
@@ -185,6 +189,58 @@ class GridBot:
             return True
         return False
 
+    # ---- CIRCUIT BREAKER ----
+    def check_circuit_breaker(self, price: float) -> bool:
+        """Retorna True si el bot debe pausar por movimiento brusco."""
+        now = datetime.now()
+
+        # Si estamos en cooldown, verificar si ya paso
+        if self.circuit_breaker_until:
+            if now < self.circuit_breaker_until:
+                return True
+            # Cooldown terminado, reactivar
+            self.log.info("[CIRCUIT BREAKER] Cooldown terminado. Reactivando bot.")
+            tg.send(
+                f"✅ <b>[{self.bot_name}] CIRCUIT BREAKER DESACTIVADO</b>\n"
+                f"Cooldown de {CIRCUIT_BREAKER_COOLDOWN}min completado. Bot reactivado.",
+            )
+            self.circuit_breaker_until = None
+            self.price_history.clear()
+
+        # Registrar precio actual
+        self.price_history.append((now, price))
+
+        # Limpiar precios fuera de la ventana
+        cutoff = now - timedelta(minutes=CIRCUIT_BREAKER_WINDOW)
+        while self.price_history and self.price_history[0][0] < cutoff:
+            self.price_history.popleft()
+
+        if len(self.price_history) < 2:
+            return False
+
+        # Comparar precio mas viejo en la ventana con el actual
+        oldest_price = self.price_history[0][1]
+        change_pct = abs(price - oldest_price) / oldest_price * 100
+
+        if change_pct >= CIRCUIT_BREAKER_PCT:
+            direction = "CAIDA" if price < oldest_price else "SUBIDA"
+            self.circuit_breaker_until = now + timedelta(minutes=CIRCUIT_BREAKER_COOLDOWN)
+            msg = (
+                f"[CIRCUIT BREAKER] {direction} de {change_pct:.1f}% en {CIRCUIT_BREAKER_WINDOW}min "
+                f"(${oldest_price:.4f} -> ${price:.4f}). "
+                f"Pausando {CIRCUIT_BREAKER_COOLDOWN}min hasta {self.circuit_breaker_until:%H:%M:%S}."
+            )
+            self.log.warning(msg)
+            tg.send(
+                f"🛑 <b>[{self.bot_name}] CIRCUIT BREAKER ACTIVADO</b>\n"
+                f"{direction} de {change_pct:.1f}% en {CIRCUIT_BREAKER_WINDOW}min\n"
+                f"${oldest_price:.4f} → ${price:.4f}\n"
+                f"Pausa hasta {self.circuit_breaker_until:%H:%M:%S}",
+            )
+            return True
+
+        return False
+
     # ---- RANGO DINAMICO ----
     def check_recenter(self, price: float) -> bool:
         """Retorna True si se recentró el grid (el tick debe abortar)."""
@@ -303,11 +359,15 @@ class GridBot:
         if self.check_stop_loss(price):
             return
 
-        # 2. Chequeo recentrado — si recentró, abortar este tick
+        # 2. Circuit breaker — pausar si hay movimiento brusco
+        if self.check_circuit_breaker(price):
+            return
+
+        # 3. Chequeo recentrado — si recentró, abortar este tick
         if self.check_recenter(price):
             return
 
-        # 3. Lógica grid normal
+        # 4. Lógica grid normal
         if price < self.grid_lower or price > self.grid_upper:
             self.log.warning(f"Precio ${price:.4f} fuera del rango. Sin accion.")
             self.last_price = price

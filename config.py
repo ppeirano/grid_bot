@@ -43,6 +43,11 @@ STOP_LOSS_PCT = 15.0
 # --- Comision por operacion (Binance spot: 0.1%, con BNB: 0.075%) ---
 TRADING_FEE_PCT = 0.1
 
+# --- Circuit breaker (proteccion flash crash) ---
+CIRCUIT_BREAKER_PCT      = 8.0    # % de movimiento en la ventana que activa el breaker
+CIRCUIT_BREAKER_WINDOW   = 5      # ventana en minutos para detectar el movimiento
+CIRCUIT_BREAKER_COOLDOWN = 15     # minutos de pausa despues de activarse
+
 # --- Rango dinamico ---
 GRID_RECENTER_THRESHOLD = 0.15
 GRID_RECENTER_INTERVAL  = 30
