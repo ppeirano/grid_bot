@@ -52,6 +52,12 @@ CIRCUIT_BREAKER_COOLDOWN = 15     # minutos de pausa despues de activarse
 GRID_RECENTER_THRESHOLD = 0.15
 GRID_RECENTER_INTERVAL  = 30
 
+# --- Anti-churning (segundos minimos entre trades del mismo nivel) ---
+LEVEL_COOLDOWN_SECONDS = 60
+
+# --- Recenter al arrancar: skip si la ultima ejecucion fue hace menos de X minutos ---
+STARTUP_RECENTER_SKIP_MINUTES = 30
+
 # --- Configuraciones por bot ---
 BOT_CONFIGS = {
     "XRP": {

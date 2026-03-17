@@ -7,12 +7,13 @@ import time
 import logging
 import requests
 from datetime import datetime, timedelta
-from collections import deque
+from collections import deque, defaultdict
 from config import (
     PAPER_TRADING, CHECK_INTERVAL_SECONDS,
     STOP_LOSS_PCT, GRID_RECENTER_THRESHOLD, GRID_RECENTER_INTERVAL,
     TRADING_FEE_PCT,
     CIRCUIT_BREAKER_PCT, CIRCUIT_BREAKER_WINDOW, CIRCUIT_BREAKER_COOLDOWN,
+    LEVEL_COOLDOWN_SECONDS, STARTUP_RECENTER_SKIP_MINUTES,
 )
 import database as db
 import telegram_notify as tg
@@ -59,6 +60,7 @@ class GridBot:
         self.last_recenter_check = datetime.now()
         self.price_history = deque()          # (datetime, price) para circuit breaker
         self.circuit_breaker_until = None     # datetime hasta cuando esta pausado
+        self.level_last_trade = {}            # {level_idx: datetime} anti-churning cooldown
 
         # Registrar config inicial en BD (solo si no existe)
         db.upsert_bot(
@@ -108,32 +110,54 @@ class GridBot:
                 self.positions[k] = {"qty": float(v), "price": self.grid[k] if k < len(self.grid) else 0}
         self._log_grid_info()
 
-        # Al arrancar: recentrar siempre + comprar en nivel actual
+        # Al arrancar: recentrar solo si es necesario
         try:
             current_price = get_price(self.symbol)
             rng = self.grid_upper - self.grid_lower
 
-            # Liquidar posiciones abiertas si las hay
-            if self.positions:
-                self.log.info(f"Liquidando {len(self.positions)} posiciones previas al recentrar...")
-                for level_idx in list(self.positions.keys()):
-                    self.sell(level_idx, current_price, forced=True)
+            # Decidir si recentrar o reusar el grid existente
+            should_recenter = True
+            if saved and saved.get("updated_at"):
+                try:
+                    last_update = saved["updated_at"]
+                    if isinstance(last_update, str):
+                        last_update = datetime.strptime(last_update, "%Y-%m-%d %H:%M:%S")
+                    minutes_since = (datetime.now() - last_update).total_seconds() / 60
+                    in_range = self.grid_lower <= current_price <= self.grid_upper
+                    if minutes_since < STARTUP_RECENTER_SKIP_MINUTES and in_range:
+                        should_recenter = False
+                        self.log.info(
+                            f"Ultima ejecucion hace {minutes_since:.0f}min. "
+                            f"Precio ${current_price:.4f} dentro del rango. Reutilizando grid."
+                        )
+                except Exception:
+                    pass  # si falla el chequeo, recentrar normalmente
 
-            # Recentrar grid alrededor del precio actual
-            half = rng / 2
-            self.grid_lower = round(current_price - half, 8)
-            self.grid_upper = round(current_price + half, 8)
-            self.grid = build_grid(self.grid_lower, self.grid_upper, self.grid_levels)
-            self.last_price = current_price
-            self._save()
-            self._log_grid_info()
-            self.log.info(f"Grid recentrado en ${current_price:.4f}")
+            if should_recenter:
+                # Liquidar posiciones abiertas si las hay
+                if self.positions:
+                    self.log.info(f"Liquidando {len(self.positions)} posiciones previas al recentrar...")
+                    for level_idx in list(self.positions.keys()):
+                        self.sell(level_idx, current_price, forced=True)
 
-            # Comprar en el nivel actual (primera posicion)
-            level = self.get_level(current_price)
-            if level >= 0:
-                self.buy(level, current_price)
-                self.log.info(f"Posicion inicial abierta en nivel {level} | ${current_price:.4f}")
+                # Recentrar grid alrededor del precio actual
+                half = rng / 2
+                self.grid_lower = round(current_price - half, 8)
+                self.grid_upper = round(current_price + half, 8)
+                self.grid = build_grid(self.grid_lower, self.grid_upper, self.grid_levels)
+                self.last_price = current_price
+                self._save()
+                self._log_grid_info()
+                self.log.info(f"Grid recentrado en ${current_price:.4f}")
+
+                # Comprar en el nivel actual (primera posicion)
+                level = self.get_level(current_price)
+                if level >= 0:
+                    self.buy(level, current_price)
+                    self.log.info(f"Posicion inicial abierta en nivel {level} | ${current_price:.4f}")
+            else:
+                self.last_price = current_price
+                self._save()
 
         except Exception as e:
             self.log.warning(f"No se pudo inicializar al arrancar: {e}")
@@ -348,6 +372,17 @@ class GridBot:
                 silent=True
             )
 
+    # ---- ANTI-CHURNING ----
+    def _check_cooldown(self, level_idx: int) -> bool:
+        """Retorna True si el nivel esta en cooldown (no se debe operar)."""
+        last = self.level_last_trade.get(level_idx)
+        if last and (datetime.now() - last).total_seconds() < LEVEL_COOLDOWN_SECONDS:
+            return True
+        return False
+
+    def _record_trade_time(self, level_idx: int):
+        self.level_last_trade[level_idx] = datetime.now()
+
     # ---- TICK PRINCIPAL ----
     def tick(self, price: float):
         if self.stopped:
@@ -386,12 +421,14 @@ class GridBot:
 
         if level < last_level:
             for i in range(level, last_level):
-                if i not in self.positions:
-                    self.buy(i, self.grid[i])
+                if i not in self.positions and not self._check_cooldown(i):
+                    self.buy(i, price)
+                    self._record_trade_time(i)
         elif level > last_level:
             for i in range(last_level, level):
-                if i in self.positions:
-                    self.sell(i, self.grid[i + 1])
+                if i in self.positions and not self._check_cooldown(i):
+                    self.sell(i, price)
+                    self._record_trade_time(i)
 
         self.last_price = price
         self._save()
