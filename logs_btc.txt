@@ -247,3 +247,4 @@
 2026-03-16 13:31:47,650 [BTC] [INFO] Precio: $73435.3700 | USDT: $184.69 | Asset: 0.000363 | Total: $211.35 | P&L: $11.35 (5.68%) [SL: -15%] | Trades: 234 | Realizado: $12.6117
 2026-03-16 13:32:36,224 [BTC] [INFO] Bot detenido por usuario.
 2026-03-16 13:32:36,462 [BTC] [INFO] Precio: $73508.5700 | USDT: $184.69 | Asset: 0.000363 | Total: $211.38 | P&L: $11.38 (5.69%) [SL: -15%] | Trades: 234 | Realizado: $12.6117
+2026-03-17 10:00:00 [BTC] [INFO] Test de upload_logs.py
